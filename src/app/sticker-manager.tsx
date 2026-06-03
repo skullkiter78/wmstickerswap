@@ -207,7 +207,11 @@ export function StickerManager({ userId, onChanged }: StickerManagerProps) {
                 key={sticker.code}
                 type="button"
                 onClick={() => selectSticker(sticker)}
-                className="min-h-14 rounded-lg border border-[#dbe7ff] bg-white px-4 py-3 text-left shadow-sm"
+                className={`min-h-14 rounded-lg border px-4 py-3 text-left shadow-sm ${
+                  selectedSticker?.code === sticker.code
+                    ? "border-[#e44533] bg-[#fff3f1] ring-2 ring-[#f7c948]"
+                    : "border-[#dbe7ff] bg-white"
+                }`}
               >
                 <span className="block text-sm font-black text-[#132a74]">
                   {stickerLabel(sticker)}
