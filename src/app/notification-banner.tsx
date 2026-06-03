@@ -47,6 +47,33 @@ export function NotificationBanner({
     loadNotifications();
   }, [userId, refreshKey]);
 
+  useEffect(() => {
+    const channel = supabase
+      .channel(`notifications-${userId}`)
+      .on(
+        "postgres_changes",
+        {
+          event: "INSERT",
+          schema: "public",
+          table: "notifications",
+          filter: `user_id=eq.${userId}`,
+        },
+        (payload) => {
+          setNotifications((current) => [
+            payload.new as Notification,
+            ...current.filter(
+              (notification) => notification.id !== payload.new.id,
+            ),
+          ].slice(0, 5));
+        },
+      )
+      .subscribe();
+
+    return () => {
+      supabase.removeChannel(channel);
+    };
+  }, [userId]);
+
   async function markAsRead() {
     const ids = notifications.map((notification) => notification.id);
 

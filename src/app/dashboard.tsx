@@ -44,6 +44,25 @@ export function Dashboard({ session, onLogout }: DashboardProps) {
     loadProfile();
   }, [session.user.id]);
 
+  useEffect(() => {
+    const channel = supabase
+      .channel("dashboard-sticker-updates")
+      .on(
+        "postgres_changes",
+        {
+          event: "*",
+          schema: "public",
+          table: "user_stickers",
+        },
+        () => setRefreshKey((current) => current + 1),
+      )
+      .subscribe();
+
+    return () => {
+      supabase.removeChannel(channel);
+    };
+  }, []);
+
   async function handleLogout() {
     await supabase.auth.signOut();
     onLogout();
@@ -107,8 +126,6 @@ export function Dashboard({ session, onLogout }: DashboardProps) {
 
         <NotificationBanner userId={session.user.id} refreshKey={refreshKey} />
 
-        <VoucherBanner />
-
         <section className="grid overflow-hidden rounded-lg bg-white shadow-sm ring-1 ring-[#dbe7ff] md:grid-cols-[0.95fr_1.05fr]">
           <div className="p-5">
             <p className="text-sm font-bold text-[#e44533]">
@@ -146,6 +163,8 @@ export function Dashboard({ session, onLogout }: DashboardProps) {
           userId={session.user.id}
           onAccountDeleted={onLogout}
         />
+
+        <VoucherBanner />
 
         <SponsorCard />
       </main>
