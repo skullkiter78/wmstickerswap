@@ -1,0 +1,8831 @@
+{
+  "meta": {
+    "titel": "Panini FIFA WM 2026 – Sticker-Katalog",
+    "anzahl_sticker": 980,
+    "anzahl_teams": 48,
+    "hinweis": "Codes folgen dem Muster 'MEX 11'. Spielernamen sind nicht enthalten (für die Tauschfunktion nicht nötig) und können bei Bedarf ergänzt werden.",
+    "struktur": "Pro Team 20 Sticker: Nr.1 = Wappen, Nr.13 = Mannschaftsfoto, übrige = Spieler. Plus 20 Spezial-Sticker (00, FWC1–FWC19)."
+  },
+  "sticker": [
+    {
+      "code": "00",
+      "anzeige_code": "00",
+      "team_code": "FWC",
+      "team_name": "Specials / Eröffnung",
+      "nummer": 0,
+      "typ": "Spezial",
+      "name": "Panini-Logo"
+    },
+    {
+      "code": "FWC1",
+      "anzeige_code": "FWC 1",
+      "team_code": "FWC",
+      "team_name": "Specials / Eröffnung",
+      "nummer": 1,
+      "typ": "Spezial",
+      "name": ""
+    },
+    {
+      "code": "FWC2",
+      "anzeige_code": "FWC 2",
+      "team_code": "FWC",
+      "team_name": "Specials / Eröffnung",
+      "nummer": 2,
+      "typ": "Spezial",
+      "name": ""
+    },
+    {
+      "code": "FWC3",
+      "anzeige_code": "FWC 3",
+      "team_code": "FWC",
+      "team_name": "Specials / Eröffnung",
+      "nummer": 3,
+      "typ": "Spezial",
+      "name": ""
+    },
+    {
+      "code": "FWC4",
+      "anzeige_code": "FWC 4",
+      "team_code": "FWC",
+      "team_name": "Specials / Eröffnung",
+      "nummer": 4,
+      "typ": "Spezial",
+      "name": ""
+    },
+    {
+      "code": "FWC5",
+      "anzeige_code": "FWC 5",
+      "team_code": "FWC",
+      "team_name": "Specials / Eröffnung",
+      "nummer": 5,
+      "typ": "Spezial",
+      "name": ""
+    },
+    {
+      "code": "FWC6",
+      "anzeige_code": "FWC 6",
+      "team_code": "FWC",
+      "team_name": "Specials / Eröffnung",
+      "nummer": 6,
+      "typ": "Spezial",
+      "name": ""
+    },
+    {
+      "code": "FWC7",
+      "anzeige_code": "FWC 7",
+      "team_code": "FWC",
+      "team_name": "Specials / Eröffnung",
+      "nummer": 7,
+      "typ": "Spezial",
+      "name": ""
+    },
+    {
+      "code": "FWC8",
+      "anzeige_code": "FWC 8",
+      "team_code": "FWC",
+      "team_name": "Specials / Eröffnung",
+      "nummer": 8,
+      "typ": "Spezial",
+      "name": ""
+    },
+    {
+      "code": "FWC9",
+      "anzeige_code": "FWC 9",
+      "team_code": "FWC",
+      "team_name": "Specials / Eröffnung",
+      "nummer": 9,
+      "typ": "Spezial",
+      "name": ""
+    },
+    {
+      "code": "FWC10",
+      "anzeige_code": "FWC 10",
+      "team_code": "FWC",
+      "team_name": "Specials / Eröffnung",
+      "nummer": 10,
+      "typ": "Spezial",
+      "name": ""
+    },
+    {
+      "code": "FWC11",
+      "anzeige_code": "FWC 11",
+      "team_code": "FWC",
+      "team_name": "Specials / Eröffnung",
+      "nummer": 11,
+      "typ": "Spezial",
+      "name": ""
+    },
+    {
+      "code": "FWC12",
+      "anzeige_code": "FWC 12",
+      "team_code": "FWC",
+      "team_name": "Specials / Eröffnung",
+      "nummer": 12,
+      "typ": "Spezial",
+      "name": ""
+    },
+    {
+      "code": "FWC13",
+      "anzeige_code": "FWC 13",
+      "team_code": "FWC",
+      "team_name": "Specials / Eröffnung",
+      "nummer": 13,
+      "typ": "Spezial",
+      "name": ""
+    },
+    {
+      "code": "FWC14",
+      "anzeige_code": "FWC 14",
+      "team_code": "FWC",
+      "team_name": "Specials / Eröffnung",
+      "nummer": 14,
+      "typ": "Spezial",
+      "name": ""
+    },
+    {
+      "code": "FWC15",
+      "anzeige_code": "FWC 15",
+      "team_code": "FWC",
+      "team_name": "Specials / Eröffnung",
+      "nummer": 15,
+      "typ": "Spezial",
+      "name": ""
+    },
+    {
+      "code": "FWC16",
+      "anzeige_code": "FWC 16",
+      "team_code": "FWC",
+      "team_name": "Specials / Eröffnung",
+      "nummer": 16,
+      "typ": "Spezial",
+      "name": ""
+    },
+    {
+      "code": "FWC17",
+      "anzeige_code": "FWC 17",
+      "team_code": "FWC",
+      "team_name": "Specials / Eröffnung",
+      "nummer": 17,
+      "typ": "Spezial",
+      "name": ""
+    },
+    {
+      "code": "FWC18",
+      "anzeige_code": "FWC 18",
+      "team_code": "FWC",
+      "team_name": "Specials / Eröffnung",
+      "nummer": 18,
+      "typ": "Spezial",
+      "name": ""
+    },
+    {
+      "code": "FWC19",
+      "anzeige_code": "FWC 19",
+      "team_code": "FWC",
+      "team_name": "Specials / Eröffnung",
+      "nummer": 19,
+      "typ": "Spezial",
+      "name": ""
+    },
+    {
+      "code": "MEX1",
+      "anzeige_code": "MEX 1",
+      "team_code": "MEX",
+      "team_name": "Mexiko",
+      "nummer": 1,
+      "typ": "Wappen",
+      "name": "Team-Wappen"
+    },
+    {
+      "code": "MEX2",
+      "anzeige_code": "MEX 2",
+      "team_code": "MEX",
+      "team_name": "Mexiko",
+      "nummer": 2,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "MEX3",
+      "anzeige_code": "MEX 3",
+      "team_code": "MEX",
+      "team_name": "Mexiko",
+      "nummer": 3,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "MEX4",
+      "anzeige_code": "MEX 4",
+      "team_code": "MEX",
+      "team_name": "Mexiko",
+      "nummer": 4,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "MEX5",
+      "anzeige_code": "MEX 5",
+      "team_code": "MEX",
+      "team_name": "Mexiko",
+      "nummer": 5,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "MEX6",
+      "anzeige_code": "MEX 6",
+      "team_code": "MEX",
+      "team_name": "Mexiko",
+      "nummer": 6,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "MEX7",
+      "anzeige_code": "MEX 7",
+      "team_code": "MEX",
+      "team_name": "Mexiko",
+      "nummer": 7,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "MEX8",
+      "anzeige_code": "MEX 8",
+      "team_code": "MEX",
+      "team_name": "Mexiko",
+      "nummer": 8,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "MEX9",
+      "anzeige_code": "MEX 9",
+      "team_code": "MEX",
+      "team_name": "Mexiko",
+      "nummer": 9,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "MEX10",
+      "anzeige_code": "MEX 10",
+      "team_code": "MEX",
+      "team_name": "Mexiko",
+      "nummer": 10,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "MEX11",
+      "anzeige_code": "MEX 11",
+      "team_code": "MEX",
+      "team_name": "Mexiko",
+      "nummer": 11,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "MEX12",
+      "anzeige_code": "MEX 12",
+      "team_code": "MEX",
+      "team_name": "Mexiko",
+      "nummer": 12,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "MEX13",
+      "anzeige_code": "MEX 13",
+      "team_code": "MEX",
+      "team_name": "Mexiko",
+      "nummer": 13,
+      "typ": "Mannschaftsfoto",
+      "name": "Mannschaftsfoto"
+    },
+    {
+      "code": "MEX14",
+      "anzeige_code": "MEX 14",
+      "team_code": "MEX",
+      "team_name": "Mexiko",
+      "nummer": 14,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "MEX15",
+      "anzeige_code": "MEX 15",
+      "team_code": "MEX",
+      "team_name": "Mexiko",
+      "nummer": 15,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "MEX16",
+      "anzeige_code": "MEX 16",
+      "team_code": "MEX",
+      "team_name": "Mexiko",
+      "nummer": 16,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "MEX17",
+      "anzeige_code": "MEX 17",
+      "team_code": "MEX",
+      "team_name": "Mexiko",
+      "nummer": 17,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "MEX18",
+      "anzeige_code": "MEX 18",
+      "team_code": "MEX",
+      "team_name": "Mexiko",
+      "nummer": 18,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "MEX19",
+      "anzeige_code": "MEX 19",
+      "team_code": "MEX",
+      "team_name": "Mexiko",
+      "nummer": 19,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "MEX20",
+      "anzeige_code": "MEX 20",
+      "team_code": "MEX",
+      "team_name": "Mexiko",
+      "nummer": 20,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "USA1",
+      "anzeige_code": "USA 1",
+      "team_code": "USA",
+      "team_name": "USA",
+      "nummer": 1,
+      "typ": "Wappen",
+      "name": "Team-Wappen"
+    },
+    {
+      "code": "USA2",
+      "anzeige_code": "USA 2",
+      "team_code": "USA",
+      "team_name": "USA",
+      "nummer": 2,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "USA3",
+      "anzeige_code": "USA 3",
+      "team_code": "USA",
+      "team_name": "USA",
+      "nummer": 3,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "USA4",
+      "anzeige_code": "USA 4",
+      "team_code": "USA",
+      "team_name": "USA",
+      "nummer": 4,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "USA5",
+      "anzeige_code": "USA 5",
+      "team_code": "USA",
+      "team_name": "USA",
+      "nummer": 5,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "USA6",
+      "anzeige_code": "USA 6",
+      "team_code": "USA",
+      "team_name": "USA",
+      "nummer": 6,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "USA7",
+      "anzeige_code": "USA 7",
+      "team_code": "USA",
+      "team_name": "USA",
+      "nummer": 7,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "USA8",
+      "anzeige_code": "USA 8",
+      "team_code": "USA",
+      "team_name": "USA",
+      "nummer": 8,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "USA9",
+      "anzeige_code": "USA 9",
+      "team_code": "USA",
+      "team_name": "USA",
+      "nummer": 9,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "USA10",
+      "anzeige_code": "USA 10",
+      "team_code": "USA",
+      "team_name": "USA",
+      "nummer": 10,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "USA11",
+      "anzeige_code": "USA 11",
+      "team_code": "USA",
+      "team_name": "USA",
+      "nummer": 11,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "USA12",
+      "anzeige_code": "USA 12",
+      "team_code": "USA",
+      "team_name": "USA",
+      "nummer": 12,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "USA13",
+      "anzeige_code": "USA 13",
+      "team_code": "USA",
+      "team_name": "USA",
+      "nummer": 13,
+      "typ": "Mannschaftsfoto",
+      "name": "Mannschaftsfoto"
+    },
+    {
+      "code": "USA14",
+      "anzeige_code": "USA 14",
+      "team_code": "USA",
+      "team_name": "USA",
+      "nummer": 14,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "USA15",
+      "anzeige_code": "USA 15",
+      "team_code": "USA",
+      "team_name": "USA",
+      "nummer": 15,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "USA16",
+      "anzeige_code": "USA 16",
+      "team_code": "USA",
+      "team_name": "USA",
+      "nummer": 16,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "USA17",
+      "anzeige_code": "USA 17",
+      "team_code": "USA",
+      "team_name": "USA",
+      "nummer": 17,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "USA18",
+      "anzeige_code": "USA 18",
+      "team_code": "USA",
+      "team_name": "USA",
+      "nummer": 18,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "USA19",
+      "anzeige_code": "USA 19",
+      "team_code": "USA",
+      "team_name": "USA",
+      "nummer": 19,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "USA20",
+      "anzeige_code": "USA 20",
+      "team_code": "USA",
+      "team_name": "USA",
+      "nummer": 20,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CAN1",
+      "anzeige_code": "CAN 1",
+      "team_code": "CAN",
+      "team_name": "Kanada",
+      "nummer": 1,
+      "typ": "Wappen",
+      "name": "Team-Wappen"
+    },
+    {
+      "code": "CAN2",
+      "anzeige_code": "CAN 2",
+      "team_code": "CAN",
+      "team_name": "Kanada",
+      "nummer": 2,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CAN3",
+      "anzeige_code": "CAN 3",
+      "team_code": "CAN",
+      "team_name": "Kanada",
+      "nummer": 3,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CAN4",
+      "anzeige_code": "CAN 4",
+      "team_code": "CAN",
+      "team_name": "Kanada",
+      "nummer": 4,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CAN5",
+      "anzeige_code": "CAN 5",
+      "team_code": "CAN",
+      "team_name": "Kanada",
+      "nummer": 5,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CAN6",
+      "anzeige_code": "CAN 6",
+      "team_code": "CAN",
+      "team_name": "Kanada",
+      "nummer": 6,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CAN7",
+      "anzeige_code": "CAN 7",
+      "team_code": "CAN",
+      "team_name": "Kanada",
+      "nummer": 7,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CAN8",
+      "anzeige_code": "CAN 8",
+      "team_code": "CAN",
+      "team_name": "Kanada",
+      "nummer": 8,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CAN9",
+      "anzeige_code": "CAN 9",
+      "team_code": "CAN",
+      "team_name": "Kanada",
+      "nummer": 9,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CAN10",
+      "anzeige_code": "CAN 10",
+      "team_code": "CAN",
+      "team_name": "Kanada",
+      "nummer": 10,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CAN11",
+      "anzeige_code": "CAN 11",
+      "team_code": "CAN",
+      "team_name": "Kanada",
+      "nummer": 11,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CAN12",
+      "anzeige_code": "CAN 12",
+      "team_code": "CAN",
+      "team_name": "Kanada",
+      "nummer": 12,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CAN13",
+      "anzeige_code": "CAN 13",
+      "team_code": "CAN",
+      "team_name": "Kanada",
+      "nummer": 13,
+      "typ": "Mannschaftsfoto",
+      "name": "Mannschaftsfoto"
+    },
+    {
+      "code": "CAN14",
+      "anzeige_code": "CAN 14",
+      "team_code": "CAN",
+      "team_name": "Kanada",
+      "nummer": 14,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CAN15",
+      "anzeige_code": "CAN 15",
+      "team_code": "CAN",
+      "team_name": "Kanada",
+      "nummer": 15,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CAN16",
+      "anzeige_code": "CAN 16",
+      "team_code": "CAN",
+      "team_name": "Kanada",
+      "nummer": 16,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CAN17",
+      "anzeige_code": "CAN 17",
+      "team_code": "CAN",
+      "team_name": "Kanada",
+      "nummer": 17,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CAN18",
+      "anzeige_code": "CAN 18",
+      "team_code": "CAN",
+      "team_name": "Kanada",
+      "nummer": 18,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CAN19",
+      "anzeige_code": "CAN 19",
+      "team_code": "CAN",
+      "team_name": "Kanada",
+      "nummer": 19,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CAN20",
+      "anzeige_code": "CAN 20",
+      "team_code": "CAN",
+      "team_name": "Kanada",
+      "nummer": 20,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ARG1",
+      "anzeige_code": "ARG 1",
+      "team_code": "ARG",
+      "team_name": "Argentinien",
+      "nummer": 1,
+      "typ": "Wappen",
+      "name": "Team-Wappen"
+    },
+    {
+      "code": "ARG2",
+      "anzeige_code": "ARG 2",
+      "team_code": "ARG",
+      "team_name": "Argentinien",
+      "nummer": 2,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ARG3",
+      "anzeige_code": "ARG 3",
+      "team_code": "ARG",
+      "team_name": "Argentinien",
+      "nummer": 3,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ARG4",
+      "anzeige_code": "ARG 4",
+      "team_code": "ARG",
+      "team_name": "Argentinien",
+      "nummer": 4,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ARG5",
+      "anzeige_code": "ARG 5",
+      "team_code": "ARG",
+      "team_name": "Argentinien",
+      "nummer": 5,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ARG6",
+      "anzeige_code": "ARG 6",
+      "team_code": "ARG",
+      "team_name": "Argentinien",
+      "nummer": 6,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ARG7",
+      "anzeige_code": "ARG 7",
+      "team_code": "ARG",
+      "team_name": "Argentinien",
+      "nummer": 7,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ARG8",
+      "anzeige_code": "ARG 8",
+      "team_code": "ARG",
+      "team_name": "Argentinien",
+      "nummer": 8,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ARG9",
+      "anzeige_code": "ARG 9",
+      "team_code": "ARG",
+      "team_name": "Argentinien",
+      "nummer": 9,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ARG10",
+      "anzeige_code": "ARG 10",
+      "team_code": "ARG",
+      "team_name": "Argentinien",
+      "nummer": 10,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ARG11",
+      "anzeige_code": "ARG 11",
+      "team_code": "ARG",
+      "team_name": "Argentinien",
+      "nummer": 11,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ARG12",
+      "anzeige_code": "ARG 12",
+      "team_code": "ARG",
+      "team_name": "Argentinien",
+      "nummer": 12,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ARG13",
+      "anzeige_code": "ARG 13",
+      "team_code": "ARG",
+      "team_name": "Argentinien",
+      "nummer": 13,
+      "typ": "Mannschaftsfoto",
+      "name": "Mannschaftsfoto"
+    },
+    {
+      "code": "ARG14",
+      "anzeige_code": "ARG 14",
+      "team_code": "ARG",
+      "team_name": "Argentinien",
+      "nummer": 14,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ARG15",
+      "anzeige_code": "ARG 15",
+      "team_code": "ARG",
+      "team_name": "Argentinien",
+      "nummer": 15,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ARG16",
+      "anzeige_code": "ARG 16",
+      "team_code": "ARG",
+      "team_name": "Argentinien",
+      "nummer": 16,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ARG17",
+      "anzeige_code": "ARG 17",
+      "team_code": "ARG",
+      "team_name": "Argentinien",
+      "nummer": 17,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ARG18",
+      "anzeige_code": "ARG 18",
+      "team_code": "ARG",
+      "team_name": "Argentinien",
+      "nummer": 18,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ARG19",
+      "anzeige_code": "ARG 19",
+      "team_code": "ARG",
+      "team_name": "Argentinien",
+      "nummer": 19,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ARG20",
+      "anzeige_code": "ARG 20",
+      "team_code": "ARG",
+      "team_name": "Argentinien",
+      "nummer": 20,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "BRA1",
+      "anzeige_code": "BRA 1",
+      "team_code": "BRA",
+      "team_name": "Brasilien",
+      "nummer": 1,
+      "typ": "Wappen",
+      "name": "Team-Wappen"
+    },
+    {
+      "code": "BRA2",
+      "anzeige_code": "BRA 2",
+      "team_code": "BRA",
+      "team_name": "Brasilien",
+      "nummer": 2,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "BRA3",
+      "anzeige_code": "BRA 3",
+      "team_code": "BRA",
+      "team_name": "Brasilien",
+      "nummer": 3,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "BRA4",
+      "anzeige_code": "BRA 4",
+      "team_code": "BRA",
+      "team_name": "Brasilien",
+      "nummer": 4,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "BRA5",
+      "anzeige_code": "BRA 5",
+      "team_code": "BRA",
+      "team_name": "Brasilien",
+      "nummer": 5,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "BRA6",
+      "anzeige_code": "BRA 6",
+      "team_code": "BRA",
+      "team_name": "Brasilien",
+      "nummer": 6,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "BRA7",
+      "anzeige_code": "BRA 7",
+      "team_code": "BRA",
+      "team_name": "Brasilien",
+      "nummer": 7,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "BRA8",
+      "anzeige_code": "BRA 8",
+      "team_code": "BRA",
+      "team_name": "Brasilien",
+      "nummer": 8,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "BRA9",
+      "anzeige_code": "BRA 9",
+      "team_code": "BRA",
+      "team_name": "Brasilien",
+      "nummer": 9,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "BRA10",
+      "anzeige_code": "BRA 10",
+      "team_code": "BRA",
+      "team_name": "Brasilien",
+      "nummer": 10,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "BRA11",
+      "anzeige_code": "BRA 11",
+      "team_code": "BRA",
+      "team_name": "Brasilien",
+      "nummer": 11,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "BRA12",
+      "anzeige_code": "BRA 12",
+      "team_code": "BRA",
+      "team_name": "Brasilien",
+      "nummer": 12,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "BRA13",
+      "anzeige_code": "BRA 13",
+      "team_code": "BRA",
+      "team_name": "Brasilien",
+      "nummer": 13,
+      "typ": "Mannschaftsfoto",
+      "name": "Mannschaftsfoto"
+    },
+    {
+      "code": "BRA14",
+      "anzeige_code": "BRA 14",
+      "team_code": "BRA",
+      "team_name": "Brasilien",
+      "nummer": 14,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "BRA15",
+      "anzeige_code": "BRA 15",
+      "team_code": "BRA",
+      "team_name": "Brasilien",
+      "nummer": 15,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "BRA16",
+      "anzeige_code": "BRA 16",
+      "team_code": "BRA",
+      "team_name": "Brasilien",
+      "nummer": 16,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "BRA17",
+      "anzeige_code": "BRA 17",
+      "team_code": "BRA",
+      "team_name": "Brasilien",
+      "nummer": 17,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "BRA18",
+      "anzeige_code": "BRA 18",
+      "team_code": "BRA",
+      "team_name": "Brasilien",
+      "nummer": 18,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "BRA19",
+      "anzeige_code": "BRA 19",
+      "team_code": "BRA",
+      "team_name": "Brasilien",
+      "nummer": 19,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "BRA20",
+      "anzeige_code": "BRA 20",
+      "team_code": "BRA",
+      "team_name": "Brasilien",
+      "nummer": 20,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "URU1",
+      "anzeige_code": "URU 1",
+      "team_code": "URU",
+      "team_name": "Uruguay",
+      "nummer": 1,
+      "typ": "Wappen",
+      "name": "Team-Wappen"
+    },
+    {
+      "code": "URU2",
+      "anzeige_code": "URU 2",
+      "team_code": "URU",
+      "team_name": "Uruguay",
+      "nummer": 2,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "URU3",
+      "anzeige_code": "URU 3",
+      "team_code": "URU",
+      "team_name": "Uruguay",
+      "nummer": 3,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "URU4",
+      "anzeige_code": "URU 4",
+      "team_code": "URU",
+      "team_name": "Uruguay",
+      "nummer": 4,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "URU5",
+      "anzeige_code": "URU 5",
+      "team_code": "URU",
+      "team_name": "Uruguay",
+      "nummer": 5,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "URU6",
+      "anzeige_code": "URU 6",
+      "team_code": "URU",
+      "team_name": "Uruguay",
+      "nummer": 6,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "URU7",
+      "anzeige_code": "URU 7",
+      "team_code": "URU",
+      "team_name": "Uruguay",
+      "nummer": 7,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "URU8",
+      "anzeige_code": "URU 8",
+      "team_code": "URU",
+      "team_name": "Uruguay",
+      "nummer": 8,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "URU9",
+      "anzeige_code": "URU 9",
+      "team_code": "URU",
+      "team_name": "Uruguay",
+      "nummer": 9,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "URU10",
+      "anzeige_code": "URU 10",
+      "team_code": "URU",
+      "team_name": "Uruguay",
+      "nummer": 10,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "URU11",
+      "anzeige_code": "URU 11",
+      "team_code": "URU",
+      "team_name": "Uruguay",
+      "nummer": 11,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "URU12",
+      "anzeige_code": "URU 12",
+      "team_code": "URU",
+      "team_name": "Uruguay",
+      "nummer": 12,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "URU13",
+      "anzeige_code": "URU 13",
+      "team_code": "URU",
+      "team_name": "Uruguay",
+      "nummer": 13,
+      "typ": "Mannschaftsfoto",
+      "name": "Mannschaftsfoto"
+    },
+    {
+      "code": "URU14",
+      "anzeige_code": "URU 14",
+      "team_code": "URU",
+      "team_name": "Uruguay",
+      "nummer": 14,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "URU15",
+      "anzeige_code": "URU 15",
+      "team_code": "URU",
+      "team_name": "Uruguay",
+      "nummer": 15,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "URU16",
+      "anzeige_code": "URU 16",
+      "team_code": "URU",
+      "team_name": "Uruguay",
+      "nummer": 16,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "URU17",
+      "anzeige_code": "URU 17",
+      "team_code": "URU",
+      "team_name": "Uruguay",
+      "nummer": 17,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "URU18",
+      "anzeige_code": "URU 18",
+      "team_code": "URU",
+      "team_name": "Uruguay",
+      "nummer": 18,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "URU19",
+      "anzeige_code": "URU 19",
+      "team_code": "URU",
+      "team_name": "Uruguay",
+      "nummer": 19,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "URU20",
+      "anzeige_code": "URU 20",
+      "team_code": "URU",
+      "team_name": "Uruguay",
+      "nummer": 20,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "COL1",
+      "anzeige_code": "COL 1",
+      "team_code": "COL",
+      "team_name": "Kolumbien",
+      "nummer": 1,
+      "typ": "Wappen",
+      "name": "Team-Wappen"
+    },
+    {
+      "code": "COL2",
+      "anzeige_code": "COL 2",
+      "team_code": "COL",
+      "team_name": "Kolumbien",
+      "nummer": 2,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "COL3",
+      "anzeige_code": "COL 3",
+      "team_code": "COL",
+      "team_name": "Kolumbien",
+      "nummer": 3,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "COL4",
+      "anzeige_code": "COL 4",
+      "team_code": "COL",
+      "team_name": "Kolumbien",
+      "nummer": 4,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "COL5",
+      "anzeige_code": "COL 5",
+      "team_code": "COL",
+      "team_name": "Kolumbien",
+      "nummer": 5,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "COL6",
+      "anzeige_code": "COL 6",
+      "team_code": "COL",
+      "team_name": "Kolumbien",
+      "nummer": 6,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "COL7",
+      "anzeige_code": "COL 7",
+      "team_code": "COL",
+      "team_name": "Kolumbien",
+      "nummer": 7,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "COL8",
+      "anzeige_code": "COL 8",
+      "team_code": "COL",
+      "team_name": "Kolumbien",
+      "nummer": 8,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "COL9",
+      "anzeige_code": "COL 9",
+      "team_code": "COL",
+      "team_name": "Kolumbien",
+      "nummer": 9,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "COL10",
+      "anzeige_code": "COL 10",
+      "team_code": "COL",
+      "team_name": "Kolumbien",
+      "nummer": 10,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "COL11",
+      "anzeige_code": "COL 11",
+      "team_code": "COL",
+      "team_name": "Kolumbien",
+      "nummer": 11,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "COL12",
+      "anzeige_code": "COL 12",
+      "team_code": "COL",
+      "team_name": "Kolumbien",
+      "nummer": 12,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "COL13",
+      "anzeige_code": "COL 13",
+      "team_code": "COL",
+      "team_name": "Kolumbien",
+      "nummer": 13,
+      "typ": "Mannschaftsfoto",
+      "name": "Mannschaftsfoto"
+    },
+    {
+      "code": "COL14",
+      "anzeige_code": "COL 14",
+      "team_code": "COL",
+      "team_name": "Kolumbien",
+      "nummer": 14,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "COL15",
+      "anzeige_code": "COL 15",
+      "team_code": "COL",
+      "team_name": "Kolumbien",
+      "nummer": 15,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "COL16",
+      "anzeige_code": "COL 16",
+      "team_code": "COL",
+      "team_name": "Kolumbien",
+      "nummer": 16,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "COL17",
+      "anzeige_code": "COL 17",
+      "team_code": "COL",
+      "team_name": "Kolumbien",
+      "nummer": 17,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "COL18",
+      "anzeige_code": "COL 18",
+      "team_code": "COL",
+      "team_name": "Kolumbien",
+      "nummer": 18,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "COL19",
+      "anzeige_code": "COL 19",
+      "team_code": "COL",
+      "team_name": "Kolumbien",
+      "nummer": 19,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "COL20",
+      "anzeige_code": "COL 20",
+      "team_code": "COL",
+      "team_name": "Kolumbien",
+      "nummer": 20,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "PAR1",
+      "anzeige_code": "PAR 1",
+      "team_code": "PAR",
+      "team_name": "Paraguay",
+      "nummer": 1,
+      "typ": "Wappen",
+      "name": "Team-Wappen"
+    },
+    {
+      "code": "PAR2",
+      "anzeige_code": "PAR 2",
+      "team_code": "PAR",
+      "team_name": "Paraguay",
+      "nummer": 2,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "PAR3",
+      "anzeige_code": "PAR 3",
+      "team_code": "PAR",
+      "team_name": "Paraguay",
+      "nummer": 3,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "PAR4",
+      "anzeige_code": "PAR 4",
+      "team_code": "PAR",
+      "team_name": "Paraguay",
+      "nummer": 4,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "PAR5",
+      "anzeige_code": "PAR 5",
+      "team_code": "PAR",
+      "team_name": "Paraguay",
+      "nummer": 5,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "PAR6",
+      "anzeige_code": "PAR 6",
+      "team_code": "PAR",
+      "team_name": "Paraguay",
+      "nummer": 6,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "PAR7",
+      "anzeige_code": "PAR 7",
+      "team_code": "PAR",
+      "team_name": "Paraguay",
+      "nummer": 7,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "PAR8",
+      "anzeige_code": "PAR 8",
+      "team_code": "PAR",
+      "team_name": "Paraguay",
+      "nummer": 8,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "PAR9",
+      "anzeige_code": "PAR 9",
+      "team_code": "PAR",
+      "team_name": "Paraguay",
+      "nummer": 9,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "PAR10",
+      "anzeige_code": "PAR 10",
+      "team_code": "PAR",
+      "team_name": "Paraguay",
+      "nummer": 10,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "PAR11",
+      "anzeige_code": "PAR 11",
+      "team_code": "PAR",
+      "team_name": "Paraguay",
+      "nummer": 11,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "PAR12",
+      "anzeige_code": "PAR 12",
+      "team_code": "PAR",
+      "team_name": "Paraguay",
+      "nummer": 12,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "PAR13",
+      "anzeige_code": "PAR 13",
+      "team_code": "PAR",
+      "team_name": "Paraguay",
+      "nummer": 13,
+      "typ": "Mannschaftsfoto",
+      "name": "Mannschaftsfoto"
+    },
+    {
+      "code": "PAR14",
+      "anzeige_code": "PAR 14",
+      "team_code": "PAR",
+      "team_name": "Paraguay",
+      "nummer": 14,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "PAR15",
+      "anzeige_code": "PAR 15",
+      "team_code": "PAR",
+      "team_name": "Paraguay",
+      "nummer": 15,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "PAR16",
+      "anzeige_code": "PAR 16",
+      "team_code": "PAR",
+      "team_name": "Paraguay",
+      "nummer": 16,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "PAR17",
+      "anzeige_code": "PAR 17",
+      "team_code": "PAR",
+      "team_name": "Paraguay",
+      "nummer": 17,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "PAR18",
+      "anzeige_code": "PAR 18",
+      "team_code": "PAR",
+      "team_name": "Paraguay",
+      "nummer": 18,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "PAR19",
+      "anzeige_code": "PAR 19",
+      "team_code": "PAR",
+      "team_name": "Paraguay",
+      "nummer": 19,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "PAR20",
+      "anzeige_code": "PAR 20",
+      "team_code": "PAR",
+      "team_name": "Paraguay",
+      "nummer": 20,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ECU1",
+      "anzeige_code": "ECU 1",
+      "team_code": "ECU",
+      "team_name": "Ecuador",
+      "nummer": 1,
+      "typ": "Wappen",
+      "name": "Team-Wappen"
+    },
+    {
+      "code": "ECU2",
+      "anzeige_code": "ECU 2",
+      "team_code": "ECU",
+      "team_name": "Ecuador",
+      "nummer": 2,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ECU3",
+      "anzeige_code": "ECU 3",
+      "team_code": "ECU",
+      "team_name": "Ecuador",
+      "nummer": 3,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ECU4",
+      "anzeige_code": "ECU 4",
+      "team_code": "ECU",
+      "team_name": "Ecuador",
+      "nummer": 4,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ECU5",
+      "anzeige_code": "ECU 5",
+      "team_code": "ECU",
+      "team_name": "Ecuador",
+      "nummer": 5,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ECU6",
+      "anzeige_code": "ECU 6",
+      "team_code": "ECU",
+      "team_name": "Ecuador",
+      "nummer": 6,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ECU7",
+      "anzeige_code": "ECU 7",
+      "team_code": "ECU",
+      "team_name": "Ecuador",
+      "nummer": 7,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ECU8",
+      "anzeige_code": "ECU 8",
+      "team_code": "ECU",
+      "team_name": "Ecuador",
+      "nummer": 8,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ECU9",
+      "anzeige_code": "ECU 9",
+      "team_code": "ECU",
+      "team_name": "Ecuador",
+      "nummer": 9,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ECU10",
+      "anzeige_code": "ECU 10",
+      "team_code": "ECU",
+      "team_name": "Ecuador",
+      "nummer": 10,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ECU11",
+      "anzeige_code": "ECU 11",
+      "team_code": "ECU",
+      "team_name": "Ecuador",
+      "nummer": 11,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ECU12",
+      "anzeige_code": "ECU 12",
+      "team_code": "ECU",
+      "team_name": "Ecuador",
+      "nummer": 12,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ECU13",
+      "anzeige_code": "ECU 13",
+      "team_code": "ECU",
+      "team_name": "Ecuador",
+      "nummer": 13,
+      "typ": "Mannschaftsfoto",
+      "name": "Mannschaftsfoto"
+    },
+    {
+      "code": "ECU14",
+      "anzeige_code": "ECU 14",
+      "team_code": "ECU",
+      "team_name": "Ecuador",
+      "nummer": 14,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ECU15",
+      "anzeige_code": "ECU 15",
+      "team_code": "ECU",
+      "team_name": "Ecuador",
+      "nummer": 15,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ECU16",
+      "anzeige_code": "ECU 16",
+      "team_code": "ECU",
+      "team_name": "Ecuador",
+      "nummer": 16,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ECU17",
+      "anzeige_code": "ECU 17",
+      "team_code": "ECU",
+      "team_name": "Ecuador",
+      "nummer": 17,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ECU18",
+      "anzeige_code": "ECU 18",
+      "team_code": "ECU",
+      "team_name": "Ecuador",
+      "nummer": 18,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ECU19",
+      "anzeige_code": "ECU 19",
+      "team_code": "ECU",
+      "team_name": "Ecuador",
+      "nummer": 19,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ECU20",
+      "anzeige_code": "ECU 20",
+      "team_code": "ECU",
+      "team_name": "Ecuador",
+      "nummer": 20,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ENG1",
+      "anzeige_code": "ENG 1",
+      "team_code": "ENG",
+      "team_name": "England",
+      "nummer": 1,
+      "typ": "Wappen",
+      "name": "Team-Wappen"
+    },
+    {
+      "code": "ENG2",
+      "anzeige_code": "ENG 2",
+      "team_code": "ENG",
+      "team_name": "England",
+      "nummer": 2,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ENG3",
+      "anzeige_code": "ENG 3",
+      "team_code": "ENG",
+      "team_name": "England",
+      "nummer": 3,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ENG4",
+      "anzeige_code": "ENG 4",
+      "team_code": "ENG",
+      "team_name": "England",
+      "nummer": 4,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ENG5",
+      "anzeige_code": "ENG 5",
+      "team_code": "ENG",
+      "team_name": "England",
+      "nummer": 5,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ENG6",
+      "anzeige_code": "ENG 6",
+      "team_code": "ENG",
+      "team_name": "England",
+      "nummer": 6,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ENG7",
+      "anzeige_code": "ENG 7",
+      "team_code": "ENG",
+      "team_name": "England",
+      "nummer": 7,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ENG8",
+      "anzeige_code": "ENG 8",
+      "team_code": "ENG",
+      "team_name": "England",
+      "nummer": 8,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ENG9",
+      "anzeige_code": "ENG 9",
+      "team_code": "ENG",
+      "team_name": "England",
+      "nummer": 9,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ENG10",
+      "anzeige_code": "ENG 10",
+      "team_code": "ENG",
+      "team_name": "England",
+      "nummer": 10,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ENG11",
+      "anzeige_code": "ENG 11",
+      "team_code": "ENG",
+      "team_name": "England",
+      "nummer": 11,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ENG12",
+      "anzeige_code": "ENG 12",
+      "team_code": "ENG",
+      "team_name": "England",
+      "nummer": 12,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ENG13",
+      "anzeige_code": "ENG 13",
+      "team_code": "ENG",
+      "team_name": "England",
+      "nummer": 13,
+      "typ": "Mannschaftsfoto",
+      "name": "Mannschaftsfoto"
+    },
+    {
+      "code": "ENG14",
+      "anzeige_code": "ENG 14",
+      "team_code": "ENG",
+      "team_name": "England",
+      "nummer": 14,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ENG15",
+      "anzeige_code": "ENG 15",
+      "team_code": "ENG",
+      "team_name": "England",
+      "nummer": 15,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ENG16",
+      "anzeige_code": "ENG 16",
+      "team_code": "ENG",
+      "team_name": "England",
+      "nummer": 16,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ENG17",
+      "anzeige_code": "ENG 17",
+      "team_code": "ENG",
+      "team_name": "England",
+      "nummer": 17,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ENG18",
+      "anzeige_code": "ENG 18",
+      "team_code": "ENG",
+      "team_name": "England",
+      "nummer": 18,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ENG19",
+      "anzeige_code": "ENG 19",
+      "team_code": "ENG",
+      "team_name": "England",
+      "nummer": 19,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ENG20",
+      "anzeige_code": "ENG 20",
+      "team_code": "ENG",
+      "team_name": "England",
+      "nummer": 20,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "FRA1",
+      "anzeige_code": "FRA 1",
+      "team_code": "FRA",
+      "team_name": "Frankreich",
+      "nummer": 1,
+      "typ": "Wappen",
+      "name": "Team-Wappen"
+    },
+    {
+      "code": "FRA2",
+      "anzeige_code": "FRA 2",
+      "team_code": "FRA",
+      "team_name": "Frankreich",
+      "nummer": 2,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "FRA3",
+      "anzeige_code": "FRA 3",
+      "team_code": "FRA",
+      "team_name": "Frankreich",
+      "nummer": 3,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "FRA4",
+      "anzeige_code": "FRA 4",
+      "team_code": "FRA",
+      "team_name": "Frankreich",
+      "nummer": 4,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "FRA5",
+      "anzeige_code": "FRA 5",
+      "team_code": "FRA",
+      "team_name": "Frankreich",
+      "nummer": 5,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "FRA6",
+      "anzeige_code": "FRA 6",
+      "team_code": "FRA",
+      "team_name": "Frankreich",
+      "nummer": 6,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "FRA7",
+      "anzeige_code": "FRA 7",
+      "team_code": "FRA",
+      "team_name": "Frankreich",
+      "nummer": 7,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "FRA8",
+      "anzeige_code": "FRA 8",
+      "team_code": "FRA",
+      "team_name": "Frankreich",
+      "nummer": 8,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "FRA9",
+      "anzeige_code": "FRA 9",
+      "team_code": "FRA",
+      "team_name": "Frankreich",
+      "nummer": 9,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "FRA10",
+      "anzeige_code": "FRA 10",
+      "team_code": "FRA",
+      "team_name": "Frankreich",
+      "nummer": 10,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "FRA11",
+      "anzeige_code": "FRA 11",
+      "team_code": "FRA",
+      "team_name": "Frankreich",
+      "nummer": 11,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "FRA12",
+      "anzeige_code": "FRA 12",
+      "team_code": "FRA",
+      "team_name": "Frankreich",
+      "nummer": 12,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "FRA13",
+      "anzeige_code": "FRA 13",
+      "team_code": "FRA",
+      "team_name": "Frankreich",
+      "nummer": 13,
+      "typ": "Mannschaftsfoto",
+      "name": "Mannschaftsfoto"
+    },
+    {
+      "code": "FRA14",
+      "anzeige_code": "FRA 14",
+      "team_code": "FRA",
+      "team_name": "Frankreich",
+      "nummer": 14,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "FRA15",
+      "anzeige_code": "FRA 15",
+      "team_code": "FRA",
+      "team_name": "Frankreich",
+      "nummer": 15,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "FRA16",
+      "anzeige_code": "FRA 16",
+      "team_code": "FRA",
+      "team_name": "Frankreich",
+      "nummer": 16,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "FRA17",
+      "anzeige_code": "FRA 17",
+      "team_code": "FRA",
+      "team_name": "Frankreich",
+      "nummer": 17,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "FRA18",
+      "anzeige_code": "FRA 18",
+      "team_code": "FRA",
+      "team_name": "Frankreich",
+      "nummer": 18,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "FRA19",
+      "anzeige_code": "FRA 19",
+      "team_code": "FRA",
+      "team_name": "Frankreich",
+      "nummer": 19,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "FRA20",
+      "anzeige_code": "FRA 20",
+      "team_code": "FRA",
+      "team_name": "Frankreich",
+      "nummer": 20,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CRO1",
+      "anzeige_code": "CRO 1",
+      "team_code": "CRO",
+      "team_name": "Kroatien",
+      "nummer": 1,
+      "typ": "Wappen",
+      "name": "Team-Wappen"
+    },
+    {
+      "code": "CRO2",
+      "anzeige_code": "CRO 2",
+      "team_code": "CRO",
+      "team_name": "Kroatien",
+      "nummer": 2,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CRO3",
+      "anzeige_code": "CRO 3",
+      "team_code": "CRO",
+      "team_name": "Kroatien",
+      "nummer": 3,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CRO4",
+      "anzeige_code": "CRO 4",
+      "team_code": "CRO",
+      "team_name": "Kroatien",
+      "nummer": 4,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CRO5",
+      "anzeige_code": "CRO 5",
+      "team_code": "CRO",
+      "team_name": "Kroatien",
+      "nummer": 5,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CRO6",
+      "anzeige_code": "CRO 6",
+      "team_code": "CRO",
+      "team_name": "Kroatien",
+      "nummer": 6,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CRO7",
+      "anzeige_code": "CRO 7",
+      "team_code": "CRO",
+      "team_name": "Kroatien",
+      "nummer": 7,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CRO8",
+      "anzeige_code": "CRO 8",
+      "team_code": "CRO",
+      "team_name": "Kroatien",
+      "nummer": 8,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CRO9",
+      "anzeige_code": "CRO 9",
+      "team_code": "CRO",
+      "team_name": "Kroatien",
+      "nummer": 9,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CRO10",
+      "anzeige_code": "CRO 10",
+      "team_code": "CRO",
+      "team_name": "Kroatien",
+      "nummer": 10,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CRO11",
+      "anzeige_code": "CRO 11",
+      "team_code": "CRO",
+      "team_name": "Kroatien",
+      "nummer": 11,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CRO12",
+      "anzeige_code": "CRO 12",
+      "team_code": "CRO",
+      "team_name": "Kroatien",
+      "nummer": 12,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CRO13",
+      "anzeige_code": "CRO 13",
+      "team_code": "CRO",
+      "team_name": "Kroatien",
+      "nummer": 13,
+      "typ": "Mannschaftsfoto",
+      "name": "Mannschaftsfoto"
+    },
+    {
+      "code": "CRO14",
+      "anzeige_code": "CRO 14",
+      "team_code": "CRO",
+      "team_name": "Kroatien",
+      "nummer": 14,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CRO15",
+      "anzeige_code": "CRO 15",
+      "team_code": "CRO",
+      "team_name": "Kroatien",
+      "nummer": 15,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CRO16",
+      "anzeige_code": "CRO 16",
+      "team_code": "CRO",
+      "team_name": "Kroatien",
+      "nummer": 16,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CRO17",
+      "anzeige_code": "CRO 17",
+      "team_code": "CRO",
+      "team_name": "Kroatien",
+      "nummer": 17,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CRO18",
+      "anzeige_code": "CRO 18",
+      "team_code": "CRO",
+      "team_name": "Kroatien",
+      "nummer": 18,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CRO19",
+      "anzeige_code": "CRO 19",
+      "team_code": "CRO",
+      "team_name": "Kroatien",
+      "nummer": 19,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CRO20",
+      "anzeige_code": "CRO 20",
+      "team_code": "CRO",
+      "team_name": "Kroatien",
+      "nummer": 20,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "NOR1",
+      "anzeige_code": "NOR 1",
+      "team_code": "NOR",
+      "team_name": "Norwegen",
+      "nummer": 1,
+      "typ": "Wappen",
+      "name": "Team-Wappen"
+    },
+    {
+      "code": "NOR2",
+      "anzeige_code": "NOR 2",
+      "team_code": "NOR",
+      "team_name": "Norwegen",
+      "nummer": 2,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "NOR3",
+      "anzeige_code": "NOR 3",
+      "team_code": "NOR",
+      "team_name": "Norwegen",
+      "nummer": 3,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "NOR4",
+      "anzeige_code": "NOR 4",
+      "team_code": "NOR",
+      "team_name": "Norwegen",
+      "nummer": 4,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "NOR5",
+      "anzeige_code": "NOR 5",
+      "team_code": "NOR",
+      "team_name": "Norwegen",
+      "nummer": 5,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "NOR6",
+      "anzeige_code": "NOR 6",
+      "team_code": "NOR",
+      "team_name": "Norwegen",
+      "nummer": 6,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "NOR7",
+      "anzeige_code": "NOR 7",
+      "team_code": "NOR",
+      "team_name": "Norwegen",
+      "nummer": 7,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "NOR8",
+      "anzeige_code": "NOR 8",
+      "team_code": "NOR",
+      "team_name": "Norwegen",
+      "nummer": 8,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "NOR9",
+      "anzeige_code": "NOR 9",
+      "team_code": "NOR",
+      "team_name": "Norwegen",
+      "nummer": 9,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "NOR10",
+      "anzeige_code": "NOR 10",
+      "team_code": "NOR",
+      "team_name": "Norwegen",
+      "nummer": 10,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "NOR11",
+      "anzeige_code": "NOR 11",
+      "team_code": "NOR",
+      "team_name": "Norwegen",
+      "nummer": 11,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "NOR12",
+      "anzeige_code": "NOR 12",
+      "team_code": "NOR",
+      "team_name": "Norwegen",
+      "nummer": 12,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "NOR13",
+      "anzeige_code": "NOR 13",
+      "team_code": "NOR",
+      "team_name": "Norwegen",
+      "nummer": 13,
+      "typ": "Mannschaftsfoto",
+      "name": "Mannschaftsfoto"
+    },
+    {
+      "code": "NOR14",
+      "anzeige_code": "NOR 14",
+      "team_code": "NOR",
+      "team_name": "Norwegen",
+      "nummer": 14,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "NOR15",
+      "anzeige_code": "NOR 15",
+      "team_code": "NOR",
+      "team_name": "Norwegen",
+      "nummer": 15,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "NOR16",
+      "anzeige_code": "NOR 16",
+      "team_code": "NOR",
+      "team_name": "Norwegen",
+      "nummer": 16,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "NOR17",
+      "anzeige_code": "NOR 17",
+      "team_code": "NOR",
+      "team_name": "Norwegen",
+      "nummer": 17,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "NOR18",
+      "anzeige_code": "NOR 18",
+      "team_code": "NOR",
+      "team_name": "Norwegen",
+      "nummer": 18,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "NOR19",
+      "anzeige_code": "NOR 19",
+      "team_code": "NOR",
+      "team_name": "Norwegen",
+      "nummer": 19,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "NOR20",
+      "anzeige_code": "NOR 20",
+      "team_code": "NOR",
+      "team_name": "Norwegen",
+      "nummer": 20,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "POR1",
+      "anzeige_code": "POR 1",
+      "team_code": "POR",
+      "team_name": "Portugal",
+      "nummer": 1,
+      "typ": "Wappen",
+      "name": "Team-Wappen"
+    },
+    {
+      "code": "POR2",
+      "anzeige_code": "POR 2",
+      "team_code": "POR",
+      "team_name": "Portugal",
+      "nummer": 2,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "POR3",
+      "anzeige_code": "POR 3",
+      "team_code": "POR",
+      "team_name": "Portugal",
+      "nummer": 3,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "POR4",
+      "anzeige_code": "POR 4",
+      "team_code": "POR",
+      "team_name": "Portugal",
+      "nummer": 4,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "POR5",
+      "anzeige_code": "POR 5",
+      "team_code": "POR",
+      "team_name": "Portugal",
+      "nummer": 5,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "POR6",
+      "anzeige_code": "POR 6",
+      "team_code": "POR",
+      "team_name": "Portugal",
+      "nummer": 6,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "POR7",
+      "anzeige_code": "POR 7",
+      "team_code": "POR",
+      "team_name": "Portugal",
+      "nummer": 7,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "POR8",
+      "anzeige_code": "POR 8",
+      "team_code": "POR",
+      "team_name": "Portugal",
+      "nummer": 8,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "POR9",
+      "anzeige_code": "POR 9",
+      "team_code": "POR",
+      "team_name": "Portugal",
+      "nummer": 9,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "POR10",
+      "anzeige_code": "POR 10",
+      "team_code": "POR",
+      "team_name": "Portugal",
+      "nummer": 10,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "POR11",
+      "anzeige_code": "POR 11",
+      "team_code": "POR",
+      "team_name": "Portugal",
+      "nummer": 11,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "POR12",
+      "anzeige_code": "POR 12",
+      "team_code": "POR",
+      "team_name": "Portugal",
+      "nummer": 12,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "POR13",
+      "anzeige_code": "POR 13",
+      "team_code": "POR",
+      "team_name": "Portugal",
+      "nummer": 13,
+      "typ": "Mannschaftsfoto",
+      "name": "Mannschaftsfoto"
+    },
+    {
+      "code": "POR14",
+      "anzeige_code": "POR 14",
+      "team_code": "POR",
+      "team_name": "Portugal",
+      "nummer": 14,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "POR15",
+      "anzeige_code": "POR 15",
+      "team_code": "POR",
+      "team_name": "Portugal",
+      "nummer": 15,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "POR16",
+      "anzeige_code": "POR 16",
+      "team_code": "POR",
+      "team_name": "Portugal",
+      "nummer": 16,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "POR17",
+      "anzeige_code": "POR 17",
+      "team_code": "POR",
+      "team_name": "Portugal",
+      "nummer": 17,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "POR18",
+      "anzeige_code": "POR 18",
+      "team_code": "POR",
+      "team_name": "Portugal",
+      "nummer": 18,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "POR19",
+      "anzeige_code": "POR 19",
+      "team_code": "POR",
+      "team_name": "Portugal",
+      "nummer": 19,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "POR20",
+      "anzeige_code": "POR 20",
+      "team_code": "POR",
+      "team_name": "Portugal",
+      "nummer": 20,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "GER1",
+      "anzeige_code": "GER 1",
+      "team_code": "GER",
+      "team_name": "Deutschland",
+      "nummer": 1,
+      "typ": "Wappen",
+      "name": "Team-Wappen"
+    },
+    {
+      "code": "GER2",
+      "anzeige_code": "GER 2",
+      "team_code": "GER",
+      "team_name": "Deutschland",
+      "nummer": 2,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "GER3",
+      "anzeige_code": "GER 3",
+      "team_code": "GER",
+      "team_name": "Deutschland",
+      "nummer": 3,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "GER4",
+      "anzeige_code": "GER 4",
+      "team_code": "GER",
+      "team_name": "Deutschland",
+      "nummer": 4,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "GER5",
+      "anzeige_code": "GER 5",
+      "team_code": "GER",
+      "team_name": "Deutschland",
+      "nummer": 5,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "GER6",
+      "anzeige_code": "GER 6",
+      "team_code": "GER",
+      "team_name": "Deutschland",
+      "nummer": 6,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "GER7",
+      "anzeige_code": "GER 7",
+      "team_code": "GER",
+      "team_name": "Deutschland",
+      "nummer": 7,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "GER8",
+      "anzeige_code": "GER 8",
+      "team_code": "GER",
+      "team_name": "Deutschland",
+      "nummer": 8,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "GER9",
+      "anzeige_code": "GER 9",
+      "team_code": "GER",
+      "team_name": "Deutschland",
+      "nummer": 9,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "GER10",
+      "anzeige_code": "GER 10",
+      "team_code": "GER",
+      "team_name": "Deutschland",
+      "nummer": 10,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "GER11",
+      "anzeige_code": "GER 11",
+      "team_code": "GER",
+      "team_name": "Deutschland",
+      "nummer": 11,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "GER12",
+      "anzeige_code": "GER 12",
+      "team_code": "GER",
+      "team_name": "Deutschland",
+      "nummer": 12,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "GER13",
+      "anzeige_code": "GER 13",
+      "team_code": "GER",
+      "team_name": "Deutschland",
+      "nummer": 13,
+      "typ": "Mannschaftsfoto",
+      "name": "Mannschaftsfoto"
+    },
+    {
+      "code": "GER14",
+      "anzeige_code": "GER 14",
+      "team_code": "GER",
+      "team_name": "Deutschland",
+      "nummer": 14,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "GER15",
+      "anzeige_code": "GER 15",
+      "team_code": "GER",
+      "team_name": "Deutschland",
+      "nummer": 15,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "GER16",
+      "anzeige_code": "GER 16",
+      "team_code": "GER",
+      "team_name": "Deutschland",
+      "nummer": 16,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "GER17",
+      "anzeige_code": "GER 17",
+      "team_code": "GER",
+      "team_name": "Deutschland",
+      "nummer": 17,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "GER18",
+      "anzeige_code": "GER 18",
+      "team_code": "GER",
+      "team_name": "Deutschland",
+      "nummer": 18,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "GER19",
+      "anzeige_code": "GER 19",
+      "team_code": "GER",
+      "team_name": "Deutschland",
+      "nummer": 19,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "GER20",
+      "anzeige_code": "GER 20",
+      "team_code": "GER",
+      "team_name": "Deutschland",
+      "nummer": 20,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "NED1",
+      "anzeige_code": "NED 1",
+      "team_code": "NED",
+      "team_name": "Niederlande",
+      "nummer": 1,
+      "typ": "Wappen",
+      "name": "Team-Wappen"
+    },
+    {
+      "code": "NED2",
+      "anzeige_code": "NED 2",
+      "team_code": "NED",
+      "team_name": "Niederlande",
+      "nummer": 2,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "NED3",
+      "anzeige_code": "NED 3",
+      "team_code": "NED",
+      "team_name": "Niederlande",
+      "nummer": 3,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "NED4",
+      "anzeige_code": "NED 4",
+      "team_code": "NED",
+      "team_name": "Niederlande",
+      "nummer": 4,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "NED5",
+      "anzeige_code": "NED 5",
+      "team_code": "NED",
+      "team_name": "Niederlande",
+      "nummer": 5,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "NED6",
+      "anzeige_code": "NED 6",
+      "team_code": "NED",
+      "team_name": "Niederlande",
+      "nummer": 6,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "NED7",
+      "anzeige_code": "NED 7",
+      "team_code": "NED",
+      "team_name": "Niederlande",
+      "nummer": 7,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "NED8",
+      "anzeige_code": "NED 8",
+      "team_code": "NED",
+      "team_name": "Niederlande",
+      "nummer": 8,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "NED9",
+      "anzeige_code": "NED 9",
+      "team_code": "NED",
+      "team_name": "Niederlande",
+      "nummer": 9,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "NED10",
+      "anzeige_code": "NED 10",
+      "team_code": "NED",
+      "team_name": "Niederlande",
+      "nummer": 10,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "NED11",
+      "anzeige_code": "NED 11",
+      "team_code": "NED",
+      "team_name": "Niederlande",
+      "nummer": 11,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "NED12",
+      "anzeige_code": "NED 12",
+      "team_code": "NED",
+      "team_name": "Niederlande",
+      "nummer": 12,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "NED13",
+      "anzeige_code": "NED 13",
+      "team_code": "NED",
+      "team_name": "Niederlande",
+      "nummer": 13,
+      "typ": "Mannschaftsfoto",
+      "name": "Mannschaftsfoto"
+    },
+    {
+      "code": "NED14",
+      "anzeige_code": "NED 14",
+      "team_code": "NED",
+      "team_name": "Niederlande",
+      "nummer": 14,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "NED15",
+      "anzeige_code": "NED 15",
+      "team_code": "NED",
+      "team_name": "Niederlande",
+      "nummer": 15,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "NED16",
+      "anzeige_code": "NED 16",
+      "team_code": "NED",
+      "team_name": "Niederlande",
+      "nummer": 16,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "NED17",
+      "anzeige_code": "NED 17",
+      "team_code": "NED",
+      "team_name": "Niederlande",
+      "nummer": 17,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "NED18",
+      "anzeige_code": "NED 18",
+      "team_code": "NED",
+      "team_name": "Niederlande",
+      "nummer": 18,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "NED19",
+      "anzeige_code": "NED 19",
+      "team_code": "NED",
+      "team_name": "Niederlande",
+      "nummer": 19,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "NED20",
+      "anzeige_code": "NED 20",
+      "team_code": "NED",
+      "team_name": "Niederlande",
+      "nummer": 20,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SUI1",
+      "anzeige_code": "SUI 1",
+      "team_code": "SUI",
+      "team_name": "Schweiz",
+      "nummer": 1,
+      "typ": "Wappen",
+      "name": "Team-Wappen"
+    },
+    {
+      "code": "SUI2",
+      "anzeige_code": "SUI 2",
+      "team_code": "SUI",
+      "team_name": "Schweiz",
+      "nummer": 2,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SUI3",
+      "anzeige_code": "SUI 3",
+      "team_code": "SUI",
+      "team_name": "Schweiz",
+      "nummer": 3,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SUI4",
+      "anzeige_code": "SUI 4",
+      "team_code": "SUI",
+      "team_name": "Schweiz",
+      "nummer": 4,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SUI5",
+      "anzeige_code": "SUI 5",
+      "team_code": "SUI",
+      "team_name": "Schweiz",
+      "nummer": 5,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SUI6",
+      "anzeige_code": "SUI 6",
+      "team_code": "SUI",
+      "team_name": "Schweiz",
+      "nummer": 6,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SUI7",
+      "anzeige_code": "SUI 7",
+      "team_code": "SUI",
+      "team_name": "Schweiz",
+      "nummer": 7,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SUI8",
+      "anzeige_code": "SUI 8",
+      "team_code": "SUI",
+      "team_name": "Schweiz",
+      "nummer": 8,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SUI9",
+      "anzeige_code": "SUI 9",
+      "team_code": "SUI",
+      "team_name": "Schweiz",
+      "nummer": 9,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SUI10",
+      "anzeige_code": "SUI 10",
+      "team_code": "SUI",
+      "team_name": "Schweiz",
+      "nummer": 10,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SUI11",
+      "anzeige_code": "SUI 11",
+      "team_code": "SUI",
+      "team_name": "Schweiz",
+      "nummer": 11,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SUI12",
+      "anzeige_code": "SUI 12",
+      "team_code": "SUI",
+      "team_name": "Schweiz",
+      "nummer": 12,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SUI13",
+      "anzeige_code": "SUI 13",
+      "team_code": "SUI",
+      "team_name": "Schweiz",
+      "nummer": 13,
+      "typ": "Mannschaftsfoto",
+      "name": "Mannschaftsfoto"
+    },
+    {
+      "code": "SUI14",
+      "anzeige_code": "SUI 14",
+      "team_code": "SUI",
+      "team_name": "Schweiz",
+      "nummer": 14,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SUI15",
+      "anzeige_code": "SUI 15",
+      "team_code": "SUI",
+      "team_name": "Schweiz",
+      "nummer": 15,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SUI16",
+      "anzeige_code": "SUI 16",
+      "team_code": "SUI",
+      "team_name": "Schweiz",
+      "nummer": 16,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SUI17",
+      "anzeige_code": "SUI 17",
+      "team_code": "SUI",
+      "team_name": "Schweiz",
+      "nummer": 17,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SUI18",
+      "anzeige_code": "SUI 18",
+      "team_code": "SUI",
+      "team_name": "Schweiz",
+      "nummer": 18,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SUI19",
+      "anzeige_code": "SUI 19",
+      "team_code": "SUI",
+      "team_name": "Schweiz",
+      "nummer": 19,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SUI20",
+      "anzeige_code": "SUI 20",
+      "team_code": "SUI",
+      "team_name": "Schweiz",
+      "nummer": 20,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SCO1",
+      "anzeige_code": "SCO 1",
+      "team_code": "SCO",
+      "team_name": "Schottland",
+      "nummer": 1,
+      "typ": "Wappen",
+      "name": "Team-Wappen"
+    },
+    {
+      "code": "SCO2",
+      "anzeige_code": "SCO 2",
+      "team_code": "SCO",
+      "team_name": "Schottland",
+      "nummer": 2,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SCO3",
+      "anzeige_code": "SCO 3",
+      "team_code": "SCO",
+      "team_name": "Schottland",
+      "nummer": 3,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SCO4",
+      "anzeige_code": "SCO 4",
+      "team_code": "SCO",
+      "team_name": "Schottland",
+      "nummer": 4,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SCO5",
+      "anzeige_code": "SCO 5",
+      "team_code": "SCO",
+      "team_name": "Schottland",
+      "nummer": 5,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SCO6",
+      "anzeige_code": "SCO 6",
+      "team_code": "SCO",
+      "team_name": "Schottland",
+      "nummer": 6,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SCO7",
+      "anzeige_code": "SCO 7",
+      "team_code": "SCO",
+      "team_name": "Schottland",
+      "nummer": 7,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SCO8",
+      "anzeige_code": "SCO 8",
+      "team_code": "SCO",
+      "team_name": "Schottland",
+      "nummer": 8,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SCO9",
+      "anzeige_code": "SCO 9",
+      "team_code": "SCO",
+      "team_name": "Schottland",
+      "nummer": 9,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SCO10",
+      "anzeige_code": "SCO 10",
+      "team_code": "SCO",
+      "team_name": "Schottland",
+      "nummer": 10,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SCO11",
+      "anzeige_code": "SCO 11",
+      "team_code": "SCO",
+      "team_name": "Schottland",
+      "nummer": 11,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SCO12",
+      "anzeige_code": "SCO 12",
+      "team_code": "SCO",
+      "team_name": "Schottland",
+      "nummer": 12,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SCO13",
+      "anzeige_code": "SCO 13",
+      "team_code": "SCO",
+      "team_name": "Schottland",
+      "nummer": 13,
+      "typ": "Mannschaftsfoto",
+      "name": "Mannschaftsfoto"
+    },
+    {
+      "code": "SCO14",
+      "anzeige_code": "SCO 14",
+      "team_code": "SCO",
+      "team_name": "Schottland",
+      "nummer": 14,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SCO15",
+      "anzeige_code": "SCO 15",
+      "team_code": "SCO",
+      "team_name": "Schottland",
+      "nummer": 15,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SCO16",
+      "anzeige_code": "SCO 16",
+      "team_code": "SCO",
+      "team_name": "Schottland",
+      "nummer": 16,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SCO17",
+      "anzeige_code": "SCO 17",
+      "team_code": "SCO",
+      "team_name": "Schottland",
+      "nummer": 17,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SCO18",
+      "anzeige_code": "SCO 18",
+      "team_code": "SCO",
+      "team_name": "Schottland",
+      "nummer": 18,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SCO19",
+      "anzeige_code": "SCO 19",
+      "team_code": "SCO",
+      "team_name": "Schottland",
+      "nummer": 19,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SCO20",
+      "anzeige_code": "SCO 20",
+      "team_code": "SCO",
+      "team_name": "Schottland",
+      "nummer": 20,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ESP1",
+      "anzeige_code": "ESP 1",
+      "team_code": "ESP",
+      "team_name": "Spanien",
+      "nummer": 1,
+      "typ": "Wappen",
+      "name": "Team-Wappen"
+    },
+    {
+      "code": "ESP2",
+      "anzeige_code": "ESP 2",
+      "team_code": "ESP",
+      "team_name": "Spanien",
+      "nummer": 2,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ESP3",
+      "anzeige_code": "ESP 3",
+      "team_code": "ESP",
+      "team_name": "Spanien",
+      "nummer": 3,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ESP4",
+      "anzeige_code": "ESP 4",
+      "team_code": "ESP",
+      "team_name": "Spanien",
+      "nummer": 4,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ESP5",
+      "anzeige_code": "ESP 5",
+      "team_code": "ESP",
+      "team_name": "Spanien",
+      "nummer": 5,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ESP6",
+      "anzeige_code": "ESP 6",
+      "team_code": "ESP",
+      "team_name": "Spanien",
+      "nummer": 6,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ESP7",
+      "anzeige_code": "ESP 7",
+      "team_code": "ESP",
+      "team_name": "Spanien",
+      "nummer": 7,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ESP8",
+      "anzeige_code": "ESP 8",
+      "team_code": "ESP",
+      "team_name": "Spanien",
+      "nummer": 8,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ESP9",
+      "anzeige_code": "ESP 9",
+      "team_code": "ESP",
+      "team_name": "Spanien",
+      "nummer": 9,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ESP10",
+      "anzeige_code": "ESP 10",
+      "team_code": "ESP",
+      "team_name": "Spanien",
+      "nummer": 10,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ESP11",
+      "anzeige_code": "ESP 11",
+      "team_code": "ESP",
+      "team_name": "Spanien",
+      "nummer": 11,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ESP12",
+      "anzeige_code": "ESP 12",
+      "team_code": "ESP",
+      "team_name": "Spanien",
+      "nummer": 12,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ESP13",
+      "anzeige_code": "ESP 13",
+      "team_code": "ESP",
+      "team_name": "Spanien",
+      "nummer": 13,
+      "typ": "Mannschaftsfoto",
+      "name": "Mannschaftsfoto"
+    },
+    {
+      "code": "ESP14",
+      "anzeige_code": "ESP 14",
+      "team_code": "ESP",
+      "team_name": "Spanien",
+      "nummer": 14,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ESP15",
+      "anzeige_code": "ESP 15",
+      "team_code": "ESP",
+      "team_name": "Spanien",
+      "nummer": 15,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ESP16",
+      "anzeige_code": "ESP 16",
+      "team_code": "ESP",
+      "team_name": "Spanien",
+      "nummer": 16,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ESP17",
+      "anzeige_code": "ESP 17",
+      "team_code": "ESP",
+      "team_name": "Spanien",
+      "nummer": 17,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ESP18",
+      "anzeige_code": "ESP 18",
+      "team_code": "ESP",
+      "team_name": "Spanien",
+      "nummer": 18,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ESP19",
+      "anzeige_code": "ESP 19",
+      "team_code": "ESP",
+      "team_name": "Spanien",
+      "nummer": 19,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ESP20",
+      "anzeige_code": "ESP 20",
+      "team_code": "ESP",
+      "team_name": "Spanien",
+      "nummer": 20,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "AUT1",
+      "anzeige_code": "AUT 1",
+      "team_code": "AUT",
+      "team_name": "Österreich",
+      "nummer": 1,
+      "typ": "Wappen",
+      "name": "Team-Wappen"
+    },
+    {
+      "code": "AUT2",
+      "anzeige_code": "AUT 2",
+      "team_code": "AUT",
+      "team_name": "Österreich",
+      "nummer": 2,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "AUT3",
+      "anzeige_code": "AUT 3",
+      "team_code": "AUT",
+      "team_name": "Österreich",
+      "nummer": 3,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "AUT4",
+      "anzeige_code": "AUT 4",
+      "team_code": "AUT",
+      "team_name": "Österreich",
+      "nummer": 4,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "AUT5",
+      "anzeige_code": "AUT 5",
+      "team_code": "AUT",
+      "team_name": "Österreich",
+      "nummer": 5,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "AUT6",
+      "anzeige_code": "AUT 6",
+      "team_code": "AUT",
+      "team_name": "Österreich",
+      "nummer": 6,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "AUT7",
+      "anzeige_code": "AUT 7",
+      "team_code": "AUT",
+      "team_name": "Österreich",
+      "nummer": 7,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "AUT8",
+      "anzeige_code": "AUT 8",
+      "team_code": "AUT",
+      "team_name": "Österreich",
+      "nummer": 8,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "AUT9",
+      "anzeige_code": "AUT 9",
+      "team_code": "AUT",
+      "team_name": "Österreich",
+      "nummer": 9,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "AUT10",
+      "anzeige_code": "AUT 10",
+      "team_code": "AUT",
+      "team_name": "Österreich",
+      "nummer": 10,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "AUT11",
+      "anzeige_code": "AUT 11",
+      "team_code": "AUT",
+      "team_name": "Österreich",
+      "nummer": 11,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "AUT12",
+      "anzeige_code": "AUT 12",
+      "team_code": "AUT",
+      "team_name": "Österreich",
+      "nummer": 12,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "AUT13",
+      "anzeige_code": "AUT 13",
+      "team_code": "AUT",
+      "team_name": "Österreich",
+      "nummer": 13,
+      "typ": "Mannschaftsfoto",
+      "name": "Mannschaftsfoto"
+    },
+    {
+      "code": "AUT14",
+      "anzeige_code": "AUT 14",
+      "team_code": "AUT",
+      "team_name": "Österreich",
+      "nummer": 14,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "AUT15",
+      "anzeige_code": "AUT 15",
+      "team_code": "AUT",
+      "team_name": "Österreich",
+      "nummer": 15,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "AUT16",
+      "anzeige_code": "AUT 16",
+      "team_code": "AUT",
+      "team_name": "Österreich",
+      "nummer": 16,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "AUT17",
+      "anzeige_code": "AUT 17",
+      "team_code": "AUT",
+      "team_name": "Österreich",
+      "nummer": 17,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "AUT18",
+      "anzeige_code": "AUT 18",
+      "team_code": "AUT",
+      "team_name": "Österreich",
+      "nummer": 18,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "AUT19",
+      "anzeige_code": "AUT 19",
+      "team_code": "AUT",
+      "team_name": "Österreich",
+      "nummer": 19,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "AUT20",
+      "anzeige_code": "AUT 20",
+      "team_code": "AUT",
+      "team_name": "Österreich",
+      "nummer": 20,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "BEL1",
+      "anzeige_code": "BEL 1",
+      "team_code": "BEL",
+      "team_name": "Belgien",
+      "nummer": 1,
+      "typ": "Wappen",
+      "name": "Team-Wappen"
+    },
+    {
+      "code": "BEL2",
+      "anzeige_code": "BEL 2",
+      "team_code": "BEL",
+      "team_name": "Belgien",
+      "nummer": 2,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "BEL3",
+      "anzeige_code": "BEL 3",
+      "team_code": "BEL",
+      "team_name": "Belgien",
+      "nummer": 3,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "BEL4",
+      "anzeige_code": "BEL 4",
+      "team_code": "BEL",
+      "team_name": "Belgien",
+      "nummer": 4,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "BEL5",
+      "anzeige_code": "BEL 5",
+      "team_code": "BEL",
+      "team_name": "Belgien",
+      "nummer": 5,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "BEL6",
+      "anzeige_code": "BEL 6",
+      "team_code": "BEL",
+      "team_name": "Belgien",
+      "nummer": 6,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "BEL7",
+      "anzeige_code": "BEL 7",
+      "team_code": "BEL",
+      "team_name": "Belgien",
+      "nummer": 7,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "BEL8",
+      "anzeige_code": "BEL 8",
+      "team_code": "BEL",
+      "team_name": "Belgien",
+      "nummer": 8,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "BEL9",
+      "anzeige_code": "BEL 9",
+      "team_code": "BEL",
+      "team_name": "Belgien",
+      "nummer": 9,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "BEL10",
+      "anzeige_code": "BEL 10",
+      "team_code": "BEL",
+      "team_name": "Belgien",
+      "nummer": 10,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "BEL11",
+      "anzeige_code": "BEL 11",
+      "team_code": "BEL",
+      "team_name": "Belgien",
+      "nummer": 11,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "BEL12",
+      "anzeige_code": "BEL 12",
+      "team_code": "BEL",
+      "team_name": "Belgien",
+      "nummer": 12,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "BEL13",
+      "anzeige_code": "BEL 13",
+      "team_code": "BEL",
+      "team_name": "Belgien",
+      "nummer": 13,
+      "typ": "Mannschaftsfoto",
+      "name": "Mannschaftsfoto"
+    },
+    {
+      "code": "BEL14",
+      "anzeige_code": "BEL 14",
+      "team_code": "BEL",
+      "team_name": "Belgien",
+      "nummer": 14,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "BEL15",
+      "anzeige_code": "BEL 15",
+      "team_code": "BEL",
+      "team_name": "Belgien",
+      "nummer": 15,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "BEL16",
+      "anzeige_code": "BEL 16",
+      "team_code": "BEL",
+      "team_name": "Belgien",
+      "nummer": 16,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "BEL17",
+      "anzeige_code": "BEL 17",
+      "team_code": "BEL",
+      "team_name": "Belgien",
+      "nummer": 17,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "BEL18",
+      "anzeige_code": "BEL 18",
+      "team_code": "BEL",
+      "team_name": "Belgien",
+      "nummer": 18,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "BEL19",
+      "anzeige_code": "BEL 19",
+      "team_code": "BEL",
+      "team_name": "Belgien",
+      "nummer": 19,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "BEL20",
+      "anzeige_code": "BEL 20",
+      "team_code": "BEL",
+      "team_name": "Belgien",
+      "nummer": 20,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "BIH1",
+      "anzeige_code": "BIH 1",
+      "team_code": "BIH",
+      "team_name": "Bosnien und Herzegowina",
+      "nummer": 1,
+      "typ": "Wappen",
+      "name": "Team-Wappen"
+    },
+    {
+      "code": "BIH2",
+      "anzeige_code": "BIH 2",
+      "team_code": "BIH",
+      "team_name": "Bosnien und Herzegowina",
+      "nummer": 2,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "BIH3",
+      "anzeige_code": "BIH 3",
+      "team_code": "BIH",
+      "team_name": "Bosnien und Herzegowina",
+      "nummer": 3,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "BIH4",
+      "anzeige_code": "BIH 4",
+      "team_code": "BIH",
+      "team_name": "Bosnien und Herzegowina",
+      "nummer": 4,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "BIH5",
+      "anzeige_code": "BIH 5",
+      "team_code": "BIH",
+      "team_name": "Bosnien und Herzegowina",
+      "nummer": 5,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "BIH6",
+      "anzeige_code": "BIH 6",
+      "team_code": "BIH",
+      "team_name": "Bosnien und Herzegowina",
+      "nummer": 6,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "BIH7",
+      "anzeige_code": "BIH 7",
+      "team_code": "BIH",
+      "team_name": "Bosnien und Herzegowina",
+      "nummer": 7,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "BIH8",
+      "anzeige_code": "BIH 8",
+      "team_code": "BIH",
+      "team_name": "Bosnien und Herzegowina",
+      "nummer": 8,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "BIH9",
+      "anzeige_code": "BIH 9",
+      "team_code": "BIH",
+      "team_name": "Bosnien und Herzegowina",
+      "nummer": 9,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "BIH10",
+      "anzeige_code": "BIH 10",
+      "team_code": "BIH",
+      "team_name": "Bosnien und Herzegowina",
+      "nummer": 10,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "BIH11",
+      "anzeige_code": "BIH 11",
+      "team_code": "BIH",
+      "team_name": "Bosnien und Herzegowina",
+      "nummer": 11,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "BIH12",
+      "anzeige_code": "BIH 12",
+      "team_code": "BIH",
+      "team_name": "Bosnien und Herzegowina",
+      "nummer": 12,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "BIH13",
+      "anzeige_code": "BIH 13",
+      "team_code": "BIH",
+      "team_name": "Bosnien und Herzegowina",
+      "nummer": 13,
+      "typ": "Mannschaftsfoto",
+      "name": "Mannschaftsfoto"
+    },
+    {
+      "code": "BIH14",
+      "anzeige_code": "BIH 14",
+      "team_code": "BIH",
+      "team_name": "Bosnien und Herzegowina",
+      "nummer": 14,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "BIH15",
+      "anzeige_code": "BIH 15",
+      "team_code": "BIH",
+      "team_name": "Bosnien und Herzegowina",
+      "nummer": 15,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "BIH16",
+      "anzeige_code": "BIH 16",
+      "team_code": "BIH",
+      "team_name": "Bosnien und Herzegowina",
+      "nummer": 16,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "BIH17",
+      "anzeige_code": "BIH 17",
+      "team_code": "BIH",
+      "team_name": "Bosnien und Herzegowina",
+      "nummer": 17,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "BIH18",
+      "anzeige_code": "BIH 18",
+      "team_code": "BIH",
+      "team_name": "Bosnien und Herzegowina",
+      "nummer": 18,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "BIH19",
+      "anzeige_code": "BIH 19",
+      "team_code": "BIH",
+      "team_name": "Bosnien und Herzegowina",
+      "nummer": 19,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "BIH20",
+      "anzeige_code": "BIH 20",
+      "team_code": "BIH",
+      "team_name": "Bosnien und Herzegowina",
+      "nummer": 20,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SWE1",
+      "anzeige_code": "SWE 1",
+      "team_code": "SWE",
+      "team_name": "Schweden",
+      "nummer": 1,
+      "typ": "Wappen",
+      "name": "Team-Wappen"
+    },
+    {
+      "code": "SWE2",
+      "anzeige_code": "SWE 2",
+      "team_code": "SWE",
+      "team_name": "Schweden",
+      "nummer": 2,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SWE3",
+      "anzeige_code": "SWE 3",
+      "team_code": "SWE",
+      "team_name": "Schweden",
+      "nummer": 3,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SWE4",
+      "anzeige_code": "SWE 4",
+      "team_code": "SWE",
+      "team_name": "Schweden",
+      "nummer": 4,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SWE5",
+      "anzeige_code": "SWE 5",
+      "team_code": "SWE",
+      "team_name": "Schweden",
+      "nummer": 5,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SWE6",
+      "anzeige_code": "SWE 6",
+      "team_code": "SWE",
+      "team_name": "Schweden",
+      "nummer": 6,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SWE7",
+      "anzeige_code": "SWE 7",
+      "team_code": "SWE",
+      "team_name": "Schweden",
+      "nummer": 7,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SWE8",
+      "anzeige_code": "SWE 8",
+      "team_code": "SWE",
+      "team_name": "Schweden",
+      "nummer": 8,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SWE9",
+      "anzeige_code": "SWE 9",
+      "team_code": "SWE",
+      "team_name": "Schweden",
+      "nummer": 9,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SWE10",
+      "anzeige_code": "SWE 10",
+      "team_code": "SWE",
+      "team_name": "Schweden",
+      "nummer": 10,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SWE11",
+      "anzeige_code": "SWE 11",
+      "team_code": "SWE",
+      "team_name": "Schweden",
+      "nummer": 11,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SWE12",
+      "anzeige_code": "SWE 12",
+      "team_code": "SWE",
+      "team_name": "Schweden",
+      "nummer": 12,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SWE13",
+      "anzeige_code": "SWE 13",
+      "team_code": "SWE",
+      "team_name": "Schweden",
+      "nummer": 13,
+      "typ": "Mannschaftsfoto",
+      "name": "Mannschaftsfoto"
+    },
+    {
+      "code": "SWE14",
+      "anzeige_code": "SWE 14",
+      "team_code": "SWE",
+      "team_name": "Schweden",
+      "nummer": 14,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SWE15",
+      "anzeige_code": "SWE 15",
+      "team_code": "SWE",
+      "team_name": "Schweden",
+      "nummer": 15,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SWE16",
+      "anzeige_code": "SWE 16",
+      "team_code": "SWE",
+      "team_name": "Schweden",
+      "nummer": 16,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SWE17",
+      "anzeige_code": "SWE 17",
+      "team_code": "SWE",
+      "team_name": "Schweden",
+      "nummer": 17,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SWE18",
+      "anzeige_code": "SWE 18",
+      "team_code": "SWE",
+      "team_name": "Schweden",
+      "nummer": 18,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SWE19",
+      "anzeige_code": "SWE 19",
+      "team_code": "SWE",
+      "team_name": "Schweden",
+      "nummer": 19,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SWE20",
+      "anzeige_code": "SWE 20",
+      "team_code": "SWE",
+      "team_name": "Schweden",
+      "nummer": 20,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "TUR1",
+      "anzeige_code": "TUR 1",
+      "team_code": "TUR",
+      "team_name": "Türkei",
+      "nummer": 1,
+      "typ": "Wappen",
+      "name": "Team-Wappen"
+    },
+    {
+      "code": "TUR2",
+      "anzeige_code": "TUR 2",
+      "team_code": "TUR",
+      "team_name": "Türkei",
+      "nummer": 2,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "TUR3",
+      "anzeige_code": "TUR 3",
+      "team_code": "TUR",
+      "team_name": "Türkei",
+      "nummer": 3,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "TUR4",
+      "anzeige_code": "TUR 4",
+      "team_code": "TUR",
+      "team_name": "Türkei",
+      "nummer": 4,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "TUR5",
+      "anzeige_code": "TUR 5",
+      "team_code": "TUR",
+      "team_name": "Türkei",
+      "nummer": 5,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "TUR6",
+      "anzeige_code": "TUR 6",
+      "team_code": "TUR",
+      "team_name": "Türkei",
+      "nummer": 6,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "TUR7",
+      "anzeige_code": "TUR 7",
+      "team_code": "TUR",
+      "team_name": "Türkei",
+      "nummer": 7,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "TUR8",
+      "anzeige_code": "TUR 8",
+      "team_code": "TUR",
+      "team_name": "Türkei",
+      "nummer": 8,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "TUR9",
+      "anzeige_code": "TUR 9",
+      "team_code": "TUR",
+      "team_name": "Türkei",
+      "nummer": 9,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "TUR10",
+      "anzeige_code": "TUR 10",
+      "team_code": "TUR",
+      "team_name": "Türkei",
+      "nummer": 10,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "TUR11",
+      "anzeige_code": "TUR 11",
+      "team_code": "TUR",
+      "team_name": "Türkei",
+      "nummer": 11,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "TUR12",
+      "anzeige_code": "TUR 12",
+      "team_code": "TUR",
+      "team_name": "Türkei",
+      "nummer": 12,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "TUR13",
+      "anzeige_code": "TUR 13",
+      "team_code": "TUR",
+      "team_name": "Türkei",
+      "nummer": 13,
+      "typ": "Mannschaftsfoto",
+      "name": "Mannschaftsfoto"
+    },
+    {
+      "code": "TUR14",
+      "anzeige_code": "TUR 14",
+      "team_code": "TUR",
+      "team_name": "Türkei",
+      "nummer": 14,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "TUR15",
+      "anzeige_code": "TUR 15",
+      "team_code": "TUR",
+      "team_name": "Türkei",
+      "nummer": 15,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "TUR16",
+      "anzeige_code": "TUR 16",
+      "team_code": "TUR",
+      "team_name": "Türkei",
+      "nummer": 16,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "TUR17",
+      "anzeige_code": "TUR 17",
+      "team_code": "TUR",
+      "team_name": "Türkei",
+      "nummer": 17,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "TUR18",
+      "anzeige_code": "TUR 18",
+      "team_code": "TUR",
+      "team_name": "Türkei",
+      "nummer": 18,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "TUR19",
+      "anzeige_code": "TUR 19",
+      "team_code": "TUR",
+      "team_name": "Türkei",
+      "nummer": 19,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "TUR20",
+      "anzeige_code": "TUR 20",
+      "team_code": "TUR",
+      "team_name": "Türkei",
+      "nummer": 20,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CZE1",
+      "anzeige_code": "CZE 1",
+      "team_code": "CZE",
+      "team_name": "Tschechien",
+      "nummer": 1,
+      "typ": "Wappen",
+      "name": "Team-Wappen"
+    },
+    {
+      "code": "CZE2",
+      "anzeige_code": "CZE 2",
+      "team_code": "CZE",
+      "team_name": "Tschechien",
+      "nummer": 2,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CZE3",
+      "anzeige_code": "CZE 3",
+      "team_code": "CZE",
+      "team_name": "Tschechien",
+      "nummer": 3,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CZE4",
+      "anzeige_code": "CZE 4",
+      "team_code": "CZE",
+      "team_name": "Tschechien",
+      "nummer": 4,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CZE5",
+      "anzeige_code": "CZE 5",
+      "team_code": "CZE",
+      "team_name": "Tschechien",
+      "nummer": 5,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CZE6",
+      "anzeige_code": "CZE 6",
+      "team_code": "CZE",
+      "team_name": "Tschechien",
+      "nummer": 6,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CZE7",
+      "anzeige_code": "CZE 7",
+      "team_code": "CZE",
+      "team_name": "Tschechien",
+      "nummer": 7,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CZE8",
+      "anzeige_code": "CZE 8",
+      "team_code": "CZE",
+      "team_name": "Tschechien",
+      "nummer": 8,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CZE9",
+      "anzeige_code": "CZE 9",
+      "team_code": "CZE",
+      "team_name": "Tschechien",
+      "nummer": 9,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CZE10",
+      "anzeige_code": "CZE 10",
+      "team_code": "CZE",
+      "team_name": "Tschechien",
+      "nummer": 10,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CZE11",
+      "anzeige_code": "CZE 11",
+      "team_code": "CZE",
+      "team_name": "Tschechien",
+      "nummer": 11,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CZE12",
+      "anzeige_code": "CZE 12",
+      "team_code": "CZE",
+      "team_name": "Tschechien",
+      "nummer": 12,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CZE13",
+      "anzeige_code": "CZE 13",
+      "team_code": "CZE",
+      "team_name": "Tschechien",
+      "nummer": 13,
+      "typ": "Mannschaftsfoto",
+      "name": "Mannschaftsfoto"
+    },
+    {
+      "code": "CZE14",
+      "anzeige_code": "CZE 14",
+      "team_code": "CZE",
+      "team_name": "Tschechien",
+      "nummer": 14,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CZE15",
+      "anzeige_code": "CZE 15",
+      "team_code": "CZE",
+      "team_name": "Tschechien",
+      "nummer": 15,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CZE16",
+      "anzeige_code": "CZE 16",
+      "team_code": "CZE",
+      "team_name": "Tschechien",
+      "nummer": 16,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CZE17",
+      "anzeige_code": "CZE 17",
+      "team_code": "CZE",
+      "team_name": "Tschechien",
+      "nummer": 17,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CZE18",
+      "anzeige_code": "CZE 18",
+      "team_code": "CZE",
+      "team_name": "Tschechien",
+      "nummer": 18,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CZE19",
+      "anzeige_code": "CZE 19",
+      "team_code": "CZE",
+      "team_name": "Tschechien",
+      "nummer": 19,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CZE20",
+      "anzeige_code": "CZE 20",
+      "team_code": "CZE",
+      "team_name": "Tschechien",
+      "nummer": 20,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "AUS1",
+      "anzeige_code": "AUS 1",
+      "team_code": "AUS",
+      "team_name": "Australien",
+      "nummer": 1,
+      "typ": "Wappen",
+      "name": "Team-Wappen"
+    },
+    {
+      "code": "AUS2",
+      "anzeige_code": "AUS 2",
+      "team_code": "AUS",
+      "team_name": "Australien",
+      "nummer": 2,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "AUS3",
+      "anzeige_code": "AUS 3",
+      "team_code": "AUS",
+      "team_name": "Australien",
+      "nummer": 3,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "AUS4",
+      "anzeige_code": "AUS 4",
+      "team_code": "AUS",
+      "team_name": "Australien",
+      "nummer": 4,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "AUS5",
+      "anzeige_code": "AUS 5",
+      "team_code": "AUS",
+      "team_name": "Australien",
+      "nummer": 5,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "AUS6",
+      "anzeige_code": "AUS 6",
+      "team_code": "AUS",
+      "team_name": "Australien",
+      "nummer": 6,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "AUS7",
+      "anzeige_code": "AUS 7",
+      "team_code": "AUS",
+      "team_name": "Australien",
+      "nummer": 7,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "AUS8",
+      "anzeige_code": "AUS 8",
+      "team_code": "AUS",
+      "team_name": "Australien",
+      "nummer": 8,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "AUS9",
+      "anzeige_code": "AUS 9",
+      "team_code": "AUS",
+      "team_name": "Australien",
+      "nummer": 9,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "AUS10",
+      "anzeige_code": "AUS 10",
+      "team_code": "AUS",
+      "team_name": "Australien",
+      "nummer": 10,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "AUS11",
+      "anzeige_code": "AUS 11",
+      "team_code": "AUS",
+      "team_name": "Australien",
+      "nummer": 11,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "AUS12",
+      "anzeige_code": "AUS 12",
+      "team_code": "AUS",
+      "team_name": "Australien",
+      "nummer": 12,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "AUS13",
+      "anzeige_code": "AUS 13",
+      "team_code": "AUS",
+      "team_name": "Australien",
+      "nummer": 13,
+      "typ": "Mannschaftsfoto",
+      "name": "Mannschaftsfoto"
+    },
+    {
+      "code": "AUS14",
+      "anzeige_code": "AUS 14",
+      "team_code": "AUS",
+      "team_name": "Australien",
+      "nummer": 14,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "AUS15",
+      "anzeige_code": "AUS 15",
+      "team_code": "AUS",
+      "team_name": "Australien",
+      "nummer": 15,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "AUS16",
+      "anzeige_code": "AUS 16",
+      "team_code": "AUS",
+      "team_name": "Australien",
+      "nummer": 16,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "AUS17",
+      "anzeige_code": "AUS 17",
+      "team_code": "AUS",
+      "team_name": "Australien",
+      "nummer": 17,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "AUS18",
+      "anzeige_code": "AUS 18",
+      "team_code": "AUS",
+      "team_name": "Australien",
+      "nummer": 18,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "AUS19",
+      "anzeige_code": "AUS 19",
+      "team_code": "AUS",
+      "team_name": "Australien",
+      "nummer": 19,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "AUS20",
+      "anzeige_code": "AUS 20",
+      "team_code": "AUS",
+      "team_name": "Australien",
+      "nummer": 20,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "IRN1",
+      "anzeige_code": "IRN 1",
+      "team_code": "IRN",
+      "team_name": "Iran",
+      "nummer": 1,
+      "typ": "Wappen",
+      "name": "Team-Wappen"
+    },
+    {
+      "code": "IRN2",
+      "anzeige_code": "IRN 2",
+      "team_code": "IRN",
+      "team_name": "Iran",
+      "nummer": 2,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "IRN3",
+      "anzeige_code": "IRN 3",
+      "team_code": "IRN",
+      "team_name": "Iran",
+      "nummer": 3,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "IRN4",
+      "anzeige_code": "IRN 4",
+      "team_code": "IRN",
+      "team_name": "Iran",
+      "nummer": 4,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "IRN5",
+      "anzeige_code": "IRN 5",
+      "team_code": "IRN",
+      "team_name": "Iran",
+      "nummer": 5,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "IRN6",
+      "anzeige_code": "IRN 6",
+      "team_code": "IRN",
+      "team_name": "Iran",
+      "nummer": 6,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "IRN7",
+      "anzeige_code": "IRN 7",
+      "team_code": "IRN",
+      "team_name": "Iran",
+      "nummer": 7,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "IRN8",
+      "anzeige_code": "IRN 8",
+      "team_code": "IRN",
+      "team_name": "Iran",
+      "nummer": 8,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "IRN9",
+      "anzeige_code": "IRN 9",
+      "team_code": "IRN",
+      "team_name": "Iran",
+      "nummer": 9,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "IRN10",
+      "anzeige_code": "IRN 10",
+      "team_code": "IRN",
+      "team_name": "Iran",
+      "nummer": 10,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "IRN11",
+      "anzeige_code": "IRN 11",
+      "team_code": "IRN",
+      "team_name": "Iran",
+      "nummer": 11,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "IRN12",
+      "anzeige_code": "IRN 12",
+      "team_code": "IRN",
+      "team_name": "Iran",
+      "nummer": 12,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "IRN13",
+      "anzeige_code": "IRN 13",
+      "team_code": "IRN",
+      "team_name": "Iran",
+      "nummer": 13,
+      "typ": "Mannschaftsfoto",
+      "name": "Mannschaftsfoto"
+    },
+    {
+      "code": "IRN14",
+      "anzeige_code": "IRN 14",
+      "team_code": "IRN",
+      "team_name": "Iran",
+      "nummer": 14,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "IRN15",
+      "anzeige_code": "IRN 15",
+      "team_code": "IRN",
+      "team_name": "Iran",
+      "nummer": 15,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "IRN16",
+      "anzeige_code": "IRN 16",
+      "team_code": "IRN",
+      "team_name": "Iran",
+      "nummer": 16,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "IRN17",
+      "anzeige_code": "IRN 17",
+      "team_code": "IRN",
+      "team_name": "Iran",
+      "nummer": 17,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "IRN18",
+      "anzeige_code": "IRN 18",
+      "team_code": "IRN",
+      "team_name": "Iran",
+      "nummer": 18,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "IRN19",
+      "anzeige_code": "IRN 19",
+      "team_code": "IRN",
+      "team_name": "Iran",
+      "nummer": 19,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "IRN20",
+      "anzeige_code": "IRN 20",
+      "team_code": "IRN",
+      "team_name": "Iran",
+      "nummer": 20,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "JPN1",
+      "anzeige_code": "JPN 1",
+      "team_code": "JPN",
+      "team_name": "Japan",
+      "nummer": 1,
+      "typ": "Wappen",
+      "name": "Team-Wappen"
+    },
+    {
+      "code": "JPN2",
+      "anzeige_code": "JPN 2",
+      "team_code": "JPN",
+      "team_name": "Japan",
+      "nummer": 2,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "JPN3",
+      "anzeige_code": "JPN 3",
+      "team_code": "JPN",
+      "team_name": "Japan",
+      "nummer": 3,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "JPN4",
+      "anzeige_code": "JPN 4",
+      "team_code": "JPN",
+      "team_name": "Japan",
+      "nummer": 4,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "JPN5",
+      "anzeige_code": "JPN 5",
+      "team_code": "JPN",
+      "team_name": "Japan",
+      "nummer": 5,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "JPN6",
+      "anzeige_code": "JPN 6",
+      "team_code": "JPN",
+      "team_name": "Japan",
+      "nummer": 6,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "JPN7",
+      "anzeige_code": "JPN 7",
+      "team_code": "JPN",
+      "team_name": "Japan",
+      "nummer": 7,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "JPN8",
+      "anzeige_code": "JPN 8",
+      "team_code": "JPN",
+      "team_name": "Japan",
+      "nummer": 8,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "JPN9",
+      "anzeige_code": "JPN 9",
+      "team_code": "JPN",
+      "team_name": "Japan",
+      "nummer": 9,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "JPN10",
+      "anzeige_code": "JPN 10",
+      "team_code": "JPN",
+      "team_name": "Japan",
+      "nummer": 10,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "JPN11",
+      "anzeige_code": "JPN 11",
+      "team_code": "JPN",
+      "team_name": "Japan",
+      "nummer": 11,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "JPN12",
+      "anzeige_code": "JPN 12",
+      "team_code": "JPN",
+      "team_name": "Japan",
+      "nummer": 12,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "JPN13",
+      "anzeige_code": "JPN 13",
+      "team_code": "JPN",
+      "team_name": "Japan",
+      "nummer": 13,
+      "typ": "Mannschaftsfoto",
+      "name": "Mannschaftsfoto"
+    },
+    {
+      "code": "JPN14",
+      "anzeige_code": "JPN 14",
+      "team_code": "JPN",
+      "team_name": "Japan",
+      "nummer": 14,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "JPN15",
+      "anzeige_code": "JPN 15",
+      "team_code": "JPN",
+      "team_name": "Japan",
+      "nummer": 15,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "JPN16",
+      "anzeige_code": "JPN 16",
+      "team_code": "JPN",
+      "team_name": "Japan",
+      "nummer": 16,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "JPN17",
+      "anzeige_code": "JPN 17",
+      "team_code": "JPN",
+      "team_name": "Japan",
+      "nummer": 17,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "JPN18",
+      "anzeige_code": "JPN 18",
+      "team_code": "JPN",
+      "team_name": "Japan",
+      "nummer": 18,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "JPN19",
+      "anzeige_code": "JPN 19",
+      "team_code": "JPN",
+      "team_name": "Japan",
+      "nummer": 19,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "JPN20",
+      "anzeige_code": "JPN 20",
+      "team_code": "JPN",
+      "team_name": "Japan",
+      "nummer": 20,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "JOR1",
+      "anzeige_code": "JOR 1",
+      "team_code": "JOR",
+      "team_name": "Jordanien",
+      "nummer": 1,
+      "typ": "Wappen",
+      "name": "Team-Wappen"
+    },
+    {
+      "code": "JOR2",
+      "anzeige_code": "JOR 2",
+      "team_code": "JOR",
+      "team_name": "Jordanien",
+      "nummer": 2,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "JOR3",
+      "anzeige_code": "JOR 3",
+      "team_code": "JOR",
+      "team_name": "Jordanien",
+      "nummer": 3,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "JOR4",
+      "anzeige_code": "JOR 4",
+      "team_code": "JOR",
+      "team_name": "Jordanien",
+      "nummer": 4,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "JOR5",
+      "anzeige_code": "JOR 5",
+      "team_code": "JOR",
+      "team_name": "Jordanien",
+      "nummer": 5,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "JOR6",
+      "anzeige_code": "JOR 6",
+      "team_code": "JOR",
+      "team_name": "Jordanien",
+      "nummer": 6,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "JOR7",
+      "anzeige_code": "JOR 7",
+      "team_code": "JOR",
+      "team_name": "Jordanien",
+      "nummer": 7,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "JOR8",
+      "anzeige_code": "JOR 8",
+      "team_code": "JOR",
+      "team_name": "Jordanien",
+      "nummer": 8,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "JOR9",
+      "anzeige_code": "JOR 9",
+      "team_code": "JOR",
+      "team_name": "Jordanien",
+      "nummer": 9,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "JOR10",
+      "anzeige_code": "JOR 10",
+      "team_code": "JOR",
+      "team_name": "Jordanien",
+      "nummer": 10,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "JOR11",
+      "anzeige_code": "JOR 11",
+      "team_code": "JOR",
+      "team_name": "Jordanien",
+      "nummer": 11,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "JOR12",
+      "anzeige_code": "JOR 12",
+      "team_code": "JOR",
+      "team_name": "Jordanien",
+      "nummer": 12,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "JOR13",
+      "anzeige_code": "JOR 13",
+      "team_code": "JOR",
+      "team_name": "Jordanien",
+      "nummer": 13,
+      "typ": "Mannschaftsfoto",
+      "name": "Mannschaftsfoto"
+    },
+    {
+      "code": "JOR14",
+      "anzeige_code": "JOR 14",
+      "team_code": "JOR",
+      "team_name": "Jordanien",
+      "nummer": 14,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "JOR15",
+      "anzeige_code": "JOR 15",
+      "team_code": "JOR",
+      "team_name": "Jordanien",
+      "nummer": 15,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "JOR16",
+      "anzeige_code": "JOR 16",
+      "team_code": "JOR",
+      "team_name": "Jordanien",
+      "nummer": 16,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "JOR17",
+      "anzeige_code": "JOR 17",
+      "team_code": "JOR",
+      "team_name": "Jordanien",
+      "nummer": 17,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "JOR18",
+      "anzeige_code": "JOR 18",
+      "team_code": "JOR",
+      "team_name": "Jordanien",
+      "nummer": 18,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "JOR19",
+      "anzeige_code": "JOR 19",
+      "team_code": "JOR",
+      "team_name": "Jordanien",
+      "nummer": 19,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "JOR20",
+      "anzeige_code": "JOR 20",
+      "team_code": "JOR",
+      "team_name": "Jordanien",
+      "nummer": 20,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "UZB1",
+      "anzeige_code": "UZB 1",
+      "team_code": "UZB",
+      "team_name": "Usbekistan",
+      "nummer": 1,
+      "typ": "Wappen",
+      "name": "Team-Wappen"
+    },
+    {
+      "code": "UZB2",
+      "anzeige_code": "UZB 2",
+      "team_code": "UZB",
+      "team_name": "Usbekistan",
+      "nummer": 2,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "UZB3",
+      "anzeige_code": "UZB 3",
+      "team_code": "UZB",
+      "team_name": "Usbekistan",
+      "nummer": 3,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "UZB4",
+      "anzeige_code": "UZB 4",
+      "team_code": "UZB",
+      "team_name": "Usbekistan",
+      "nummer": 4,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "UZB5",
+      "anzeige_code": "UZB 5",
+      "team_code": "UZB",
+      "team_name": "Usbekistan",
+      "nummer": 5,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "UZB6",
+      "anzeige_code": "UZB 6",
+      "team_code": "UZB",
+      "team_name": "Usbekistan",
+      "nummer": 6,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "UZB7",
+      "anzeige_code": "UZB 7",
+      "team_code": "UZB",
+      "team_name": "Usbekistan",
+      "nummer": 7,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "UZB8",
+      "anzeige_code": "UZB 8",
+      "team_code": "UZB",
+      "team_name": "Usbekistan",
+      "nummer": 8,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "UZB9",
+      "anzeige_code": "UZB 9",
+      "team_code": "UZB",
+      "team_name": "Usbekistan",
+      "nummer": 9,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "UZB10",
+      "anzeige_code": "UZB 10",
+      "team_code": "UZB",
+      "team_name": "Usbekistan",
+      "nummer": 10,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "UZB11",
+      "anzeige_code": "UZB 11",
+      "team_code": "UZB",
+      "team_name": "Usbekistan",
+      "nummer": 11,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "UZB12",
+      "anzeige_code": "UZB 12",
+      "team_code": "UZB",
+      "team_name": "Usbekistan",
+      "nummer": 12,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "UZB13",
+      "anzeige_code": "UZB 13",
+      "team_code": "UZB",
+      "team_name": "Usbekistan",
+      "nummer": 13,
+      "typ": "Mannschaftsfoto",
+      "name": "Mannschaftsfoto"
+    },
+    {
+      "code": "UZB14",
+      "anzeige_code": "UZB 14",
+      "team_code": "UZB",
+      "team_name": "Usbekistan",
+      "nummer": 14,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "UZB15",
+      "anzeige_code": "UZB 15",
+      "team_code": "UZB",
+      "team_name": "Usbekistan",
+      "nummer": 15,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "UZB16",
+      "anzeige_code": "UZB 16",
+      "team_code": "UZB",
+      "team_name": "Usbekistan",
+      "nummer": 16,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "UZB17",
+      "anzeige_code": "UZB 17",
+      "team_code": "UZB",
+      "team_name": "Usbekistan",
+      "nummer": 17,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "UZB18",
+      "anzeige_code": "UZB 18",
+      "team_code": "UZB",
+      "team_name": "Usbekistan",
+      "nummer": 18,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "UZB19",
+      "anzeige_code": "UZB 19",
+      "team_code": "UZB",
+      "team_name": "Usbekistan",
+      "nummer": 19,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "UZB20",
+      "anzeige_code": "UZB 20",
+      "team_code": "UZB",
+      "team_name": "Usbekistan",
+      "nummer": 20,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "QAT1",
+      "anzeige_code": "QAT 1",
+      "team_code": "QAT",
+      "team_name": "Katar",
+      "nummer": 1,
+      "typ": "Wappen",
+      "name": "Team-Wappen"
+    },
+    {
+      "code": "QAT2",
+      "anzeige_code": "QAT 2",
+      "team_code": "QAT",
+      "team_name": "Katar",
+      "nummer": 2,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "QAT3",
+      "anzeige_code": "QAT 3",
+      "team_code": "QAT",
+      "team_name": "Katar",
+      "nummer": 3,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "QAT4",
+      "anzeige_code": "QAT 4",
+      "team_code": "QAT",
+      "team_name": "Katar",
+      "nummer": 4,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "QAT5",
+      "anzeige_code": "QAT 5",
+      "team_code": "QAT",
+      "team_name": "Katar",
+      "nummer": 5,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "QAT6",
+      "anzeige_code": "QAT 6",
+      "team_code": "QAT",
+      "team_name": "Katar",
+      "nummer": 6,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "QAT7",
+      "anzeige_code": "QAT 7",
+      "team_code": "QAT",
+      "team_name": "Katar",
+      "nummer": 7,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "QAT8",
+      "anzeige_code": "QAT 8",
+      "team_code": "QAT",
+      "team_name": "Katar",
+      "nummer": 8,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "QAT9",
+      "anzeige_code": "QAT 9",
+      "team_code": "QAT",
+      "team_name": "Katar",
+      "nummer": 9,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "QAT10",
+      "anzeige_code": "QAT 10",
+      "team_code": "QAT",
+      "team_name": "Katar",
+      "nummer": 10,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "QAT11",
+      "anzeige_code": "QAT 11",
+      "team_code": "QAT",
+      "team_name": "Katar",
+      "nummer": 11,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "QAT12",
+      "anzeige_code": "QAT 12",
+      "team_code": "QAT",
+      "team_name": "Katar",
+      "nummer": 12,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "QAT13",
+      "anzeige_code": "QAT 13",
+      "team_code": "QAT",
+      "team_name": "Katar",
+      "nummer": 13,
+      "typ": "Mannschaftsfoto",
+      "name": "Mannschaftsfoto"
+    },
+    {
+      "code": "QAT14",
+      "anzeige_code": "QAT 14",
+      "team_code": "QAT",
+      "team_name": "Katar",
+      "nummer": 14,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "QAT15",
+      "anzeige_code": "QAT 15",
+      "team_code": "QAT",
+      "team_name": "Katar",
+      "nummer": 15,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "QAT16",
+      "anzeige_code": "QAT 16",
+      "team_code": "QAT",
+      "team_name": "Katar",
+      "nummer": 16,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "QAT17",
+      "anzeige_code": "QAT 17",
+      "team_code": "QAT",
+      "team_name": "Katar",
+      "nummer": 17,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "QAT18",
+      "anzeige_code": "QAT 18",
+      "team_code": "QAT",
+      "team_name": "Katar",
+      "nummer": 18,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "QAT19",
+      "anzeige_code": "QAT 19",
+      "team_code": "QAT",
+      "team_name": "Katar",
+      "nummer": 19,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "QAT20",
+      "anzeige_code": "QAT 20",
+      "team_code": "QAT",
+      "team_name": "Katar",
+      "nummer": 20,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "KSA1",
+      "anzeige_code": "KSA 1",
+      "team_code": "KSA",
+      "team_name": "Saudi-Arabien",
+      "nummer": 1,
+      "typ": "Wappen",
+      "name": "Team-Wappen"
+    },
+    {
+      "code": "KSA2",
+      "anzeige_code": "KSA 2",
+      "team_code": "KSA",
+      "team_name": "Saudi-Arabien",
+      "nummer": 2,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "KSA3",
+      "anzeige_code": "KSA 3",
+      "team_code": "KSA",
+      "team_name": "Saudi-Arabien",
+      "nummer": 3,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "KSA4",
+      "anzeige_code": "KSA 4",
+      "team_code": "KSA",
+      "team_name": "Saudi-Arabien",
+      "nummer": 4,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "KSA5",
+      "anzeige_code": "KSA 5",
+      "team_code": "KSA",
+      "team_name": "Saudi-Arabien",
+      "nummer": 5,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "KSA6",
+      "anzeige_code": "KSA 6",
+      "team_code": "KSA",
+      "team_name": "Saudi-Arabien",
+      "nummer": 6,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "KSA7",
+      "anzeige_code": "KSA 7",
+      "team_code": "KSA",
+      "team_name": "Saudi-Arabien",
+      "nummer": 7,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "KSA8",
+      "anzeige_code": "KSA 8",
+      "team_code": "KSA",
+      "team_name": "Saudi-Arabien",
+      "nummer": 8,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "KSA9",
+      "anzeige_code": "KSA 9",
+      "team_code": "KSA",
+      "team_name": "Saudi-Arabien",
+      "nummer": 9,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "KSA10",
+      "anzeige_code": "KSA 10",
+      "team_code": "KSA",
+      "team_name": "Saudi-Arabien",
+      "nummer": 10,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "KSA11",
+      "anzeige_code": "KSA 11",
+      "team_code": "KSA",
+      "team_name": "Saudi-Arabien",
+      "nummer": 11,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "KSA12",
+      "anzeige_code": "KSA 12",
+      "team_code": "KSA",
+      "team_name": "Saudi-Arabien",
+      "nummer": 12,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "KSA13",
+      "anzeige_code": "KSA 13",
+      "team_code": "KSA",
+      "team_name": "Saudi-Arabien",
+      "nummer": 13,
+      "typ": "Mannschaftsfoto",
+      "name": "Mannschaftsfoto"
+    },
+    {
+      "code": "KSA14",
+      "anzeige_code": "KSA 14",
+      "team_code": "KSA",
+      "team_name": "Saudi-Arabien",
+      "nummer": 14,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "KSA15",
+      "anzeige_code": "KSA 15",
+      "team_code": "KSA",
+      "team_name": "Saudi-Arabien",
+      "nummer": 15,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "KSA16",
+      "anzeige_code": "KSA 16",
+      "team_code": "KSA",
+      "team_name": "Saudi-Arabien",
+      "nummer": 16,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "KSA17",
+      "anzeige_code": "KSA 17",
+      "team_code": "KSA",
+      "team_name": "Saudi-Arabien",
+      "nummer": 17,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "KSA18",
+      "anzeige_code": "KSA 18",
+      "team_code": "KSA",
+      "team_name": "Saudi-Arabien",
+      "nummer": 18,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "KSA19",
+      "anzeige_code": "KSA 19",
+      "team_code": "KSA",
+      "team_name": "Saudi-Arabien",
+      "nummer": 19,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "KSA20",
+      "anzeige_code": "KSA 20",
+      "team_code": "KSA",
+      "team_name": "Saudi-Arabien",
+      "nummer": 20,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "KOR1",
+      "anzeige_code": "KOR 1",
+      "team_code": "KOR",
+      "team_name": "Südkorea",
+      "nummer": 1,
+      "typ": "Wappen",
+      "name": "Team-Wappen"
+    },
+    {
+      "code": "KOR2",
+      "anzeige_code": "KOR 2",
+      "team_code": "KOR",
+      "team_name": "Südkorea",
+      "nummer": 2,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "KOR3",
+      "anzeige_code": "KOR 3",
+      "team_code": "KOR",
+      "team_name": "Südkorea",
+      "nummer": 3,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "KOR4",
+      "anzeige_code": "KOR 4",
+      "team_code": "KOR",
+      "team_name": "Südkorea",
+      "nummer": 4,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "KOR5",
+      "anzeige_code": "KOR 5",
+      "team_code": "KOR",
+      "team_name": "Südkorea",
+      "nummer": 5,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "KOR6",
+      "anzeige_code": "KOR 6",
+      "team_code": "KOR",
+      "team_name": "Südkorea",
+      "nummer": 6,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "KOR7",
+      "anzeige_code": "KOR 7",
+      "team_code": "KOR",
+      "team_name": "Südkorea",
+      "nummer": 7,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "KOR8",
+      "anzeige_code": "KOR 8",
+      "team_code": "KOR",
+      "team_name": "Südkorea",
+      "nummer": 8,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "KOR9",
+      "anzeige_code": "KOR 9",
+      "team_code": "KOR",
+      "team_name": "Südkorea",
+      "nummer": 9,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "KOR10",
+      "anzeige_code": "KOR 10",
+      "team_code": "KOR",
+      "team_name": "Südkorea",
+      "nummer": 10,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "KOR11",
+      "anzeige_code": "KOR 11",
+      "team_code": "KOR",
+      "team_name": "Südkorea",
+      "nummer": 11,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "KOR12",
+      "anzeige_code": "KOR 12",
+      "team_code": "KOR",
+      "team_name": "Südkorea",
+      "nummer": 12,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "KOR13",
+      "anzeige_code": "KOR 13",
+      "team_code": "KOR",
+      "team_name": "Südkorea",
+      "nummer": 13,
+      "typ": "Mannschaftsfoto",
+      "name": "Mannschaftsfoto"
+    },
+    {
+      "code": "KOR14",
+      "anzeige_code": "KOR 14",
+      "team_code": "KOR",
+      "team_name": "Südkorea",
+      "nummer": 14,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "KOR15",
+      "anzeige_code": "KOR 15",
+      "team_code": "KOR",
+      "team_name": "Südkorea",
+      "nummer": 15,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "KOR16",
+      "anzeige_code": "KOR 16",
+      "team_code": "KOR",
+      "team_name": "Südkorea",
+      "nummer": 16,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "KOR17",
+      "anzeige_code": "KOR 17",
+      "team_code": "KOR",
+      "team_name": "Südkorea",
+      "nummer": 17,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "KOR18",
+      "anzeige_code": "KOR 18",
+      "team_code": "KOR",
+      "team_name": "Südkorea",
+      "nummer": 18,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "KOR19",
+      "anzeige_code": "KOR 19",
+      "team_code": "KOR",
+      "team_name": "Südkorea",
+      "nummer": 19,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "KOR20",
+      "anzeige_code": "KOR 20",
+      "team_code": "KOR",
+      "team_name": "Südkorea",
+      "nummer": 20,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "MAR1",
+      "anzeige_code": "MAR 1",
+      "team_code": "MAR",
+      "team_name": "Marokko",
+      "nummer": 1,
+      "typ": "Wappen",
+      "name": "Team-Wappen"
+    },
+    {
+      "code": "MAR2",
+      "anzeige_code": "MAR 2",
+      "team_code": "MAR",
+      "team_name": "Marokko",
+      "nummer": 2,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "MAR3",
+      "anzeige_code": "MAR 3",
+      "team_code": "MAR",
+      "team_name": "Marokko",
+      "nummer": 3,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "MAR4",
+      "anzeige_code": "MAR 4",
+      "team_code": "MAR",
+      "team_name": "Marokko",
+      "nummer": 4,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "MAR5",
+      "anzeige_code": "MAR 5",
+      "team_code": "MAR",
+      "team_name": "Marokko",
+      "nummer": 5,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "MAR6",
+      "anzeige_code": "MAR 6",
+      "team_code": "MAR",
+      "team_name": "Marokko",
+      "nummer": 6,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "MAR7",
+      "anzeige_code": "MAR 7",
+      "team_code": "MAR",
+      "team_name": "Marokko",
+      "nummer": 7,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "MAR8",
+      "anzeige_code": "MAR 8",
+      "team_code": "MAR",
+      "team_name": "Marokko",
+      "nummer": 8,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "MAR9",
+      "anzeige_code": "MAR 9",
+      "team_code": "MAR",
+      "team_name": "Marokko",
+      "nummer": 9,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "MAR10",
+      "anzeige_code": "MAR 10",
+      "team_code": "MAR",
+      "team_name": "Marokko",
+      "nummer": 10,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "MAR11",
+      "anzeige_code": "MAR 11",
+      "team_code": "MAR",
+      "team_name": "Marokko",
+      "nummer": 11,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "MAR12",
+      "anzeige_code": "MAR 12",
+      "team_code": "MAR",
+      "team_name": "Marokko",
+      "nummer": 12,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "MAR13",
+      "anzeige_code": "MAR 13",
+      "team_code": "MAR",
+      "team_name": "Marokko",
+      "nummer": 13,
+      "typ": "Mannschaftsfoto",
+      "name": "Mannschaftsfoto"
+    },
+    {
+      "code": "MAR14",
+      "anzeige_code": "MAR 14",
+      "team_code": "MAR",
+      "team_name": "Marokko",
+      "nummer": 14,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "MAR15",
+      "anzeige_code": "MAR 15",
+      "team_code": "MAR",
+      "team_name": "Marokko",
+      "nummer": 15,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "MAR16",
+      "anzeige_code": "MAR 16",
+      "team_code": "MAR",
+      "team_name": "Marokko",
+      "nummer": 16,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "MAR17",
+      "anzeige_code": "MAR 17",
+      "team_code": "MAR",
+      "team_name": "Marokko",
+      "nummer": 17,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "MAR18",
+      "anzeige_code": "MAR 18",
+      "team_code": "MAR",
+      "team_name": "Marokko",
+      "nummer": 18,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "MAR19",
+      "anzeige_code": "MAR 19",
+      "team_code": "MAR",
+      "team_name": "Marokko",
+      "nummer": 19,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "MAR20",
+      "anzeige_code": "MAR 20",
+      "team_code": "MAR",
+      "team_name": "Marokko",
+      "nummer": 20,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "EGY1",
+      "anzeige_code": "EGY 1",
+      "team_code": "EGY",
+      "team_name": "Ägypten",
+      "nummer": 1,
+      "typ": "Wappen",
+      "name": "Team-Wappen"
+    },
+    {
+      "code": "EGY2",
+      "anzeige_code": "EGY 2",
+      "team_code": "EGY",
+      "team_name": "Ägypten",
+      "nummer": 2,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "EGY3",
+      "anzeige_code": "EGY 3",
+      "team_code": "EGY",
+      "team_name": "Ägypten",
+      "nummer": 3,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "EGY4",
+      "anzeige_code": "EGY 4",
+      "team_code": "EGY",
+      "team_name": "Ägypten",
+      "nummer": 4,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "EGY5",
+      "anzeige_code": "EGY 5",
+      "team_code": "EGY",
+      "team_name": "Ägypten",
+      "nummer": 5,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "EGY6",
+      "anzeige_code": "EGY 6",
+      "team_code": "EGY",
+      "team_name": "Ägypten",
+      "nummer": 6,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "EGY7",
+      "anzeige_code": "EGY 7",
+      "team_code": "EGY",
+      "team_name": "Ägypten",
+      "nummer": 7,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "EGY8",
+      "anzeige_code": "EGY 8",
+      "team_code": "EGY",
+      "team_name": "Ägypten",
+      "nummer": 8,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "EGY9",
+      "anzeige_code": "EGY 9",
+      "team_code": "EGY",
+      "team_name": "Ägypten",
+      "nummer": 9,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "EGY10",
+      "anzeige_code": "EGY 10",
+      "team_code": "EGY",
+      "team_name": "Ägypten",
+      "nummer": 10,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "EGY11",
+      "anzeige_code": "EGY 11",
+      "team_code": "EGY",
+      "team_name": "Ägypten",
+      "nummer": 11,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "EGY12",
+      "anzeige_code": "EGY 12",
+      "team_code": "EGY",
+      "team_name": "Ägypten",
+      "nummer": 12,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "EGY13",
+      "anzeige_code": "EGY 13",
+      "team_code": "EGY",
+      "team_name": "Ägypten",
+      "nummer": 13,
+      "typ": "Mannschaftsfoto",
+      "name": "Mannschaftsfoto"
+    },
+    {
+      "code": "EGY14",
+      "anzeige_code": "EGY 14",
+      "team_code": "EGY",
+      "team_name": "Ägypten",
+      "nummer": 14,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "EGY15",
+      "anzeige_code": "EGY 15",
+      "team_code": "EGY",
+      "team_name": "Ägypten",
+      "nummer": 15,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "EGY16",
+      "anzeige_code": "EGY 16",
+      "team_code": "EGY",
+      "team_name": "Ägypten",
+      "nummer": 16,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "EGY17",
+      "anzeige_code": "EGY 17",
+      "team_code": "EGY",
+      "team_name": "Ägypten",
+      "nummer": 17,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "EGY18",
+      "anzeige_code": "EGY 18",
+      "team_code": "EGY",
+      "team_name": "Ägypten",
+      "nummer": 18,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "EGY19",
+      "anzeige_code": "EGY 19",
+      "team_code": "EGY",
+      "team_name": "Ägypten",
+      "nummer": 19,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "EGY20",
+      "anzeige_code": "EGY 20",
+      "team_code": "EGY",
+      "team_name": "Ägypten",
+      "nummer": 20,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ALG1",
+      "anzeige_code": "ALG 1",
+      "team_code": "ALG",
+      "team_name": "Algerien",
+      "nummer": 1,
+      "typ": "Wappen",
+      "name": "Team-Wappen"
+    },
+    {
+      "code": "ALG2",
+      "anzeige_code": "ALG 2",
+      "team_code": "ALG",
+      "team_name": "Algerien",
+      "nummer": 2,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ALG3",
+      "anzeige_code": "ALG 3",
+      "team_code": "ALG",
+      "team_name": "Algerien",
+      "nummer": 3,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ALG4",
+      "anzeige_code": "ALG 4",
+      "team_code": "ALG",
+      "team_name": "Algerien",
+      "nummer": 4,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ALG5",
+      "anzeige_code": "ALG 5",
+      "team_code": "ALG",
+      "team_name": "Algerien",
+      "nummer": 5,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ALG6",
+      "anzeige_code": "ALG 6",
+      "team_code": "ALG",
+      "team_name": "Algerien",
+      "nummer": 6,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ALG7",
+      "anzeige_code": "ALG 7",
+      "team_code": "ALG",
+      "team_name": "Algerien",
+      "nummer": 7,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ALG8",
+      "anzeige_code": "ALG 8",
+      "team_code": "ALG",
+      "team_name": "Algerien",
+      "nummer": 8,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ALG9",
+      "anzeige_code": "ALG 9",
+      "team_code": "ALG",
+      "team_name": "Algerien",
+      "nummer": 9,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ALG10",
+      "anzeige_code": "ALG 10",
+      "team_code": "ALG",
+      "team_name": "Algerien",
+      "nummer": 10,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ALG11",
+      "anzeige_code": "ALG 11",
+      "team_code": "ALG",
+      "team_name": "Algerien",
+      "nummer": 11,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ALG12",
+      "anzeige_code": "ALG 12",
+      "team_code": "ALG",
+      "team_name": "Algerien",
+      "nummer": 12,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ALG13",
+      "anzeige_code": "ALG 13",
+      "team_code": "ALG",
+      "team_name": "Algerien",
+      "nummer": 13,
+      "typ": "Mannschaftsfoto",
+      "name": "Mannschaftsfoto"
+    },
+    {
+      "code": "ALG14",
+      "anzeige_code": "ALG 14",
+      "team_code": "ALG",
+      "team_name": "Algerien",
+      "nummer": 14,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ALG15",
+      "anzeige_code": "ALG 15",
+      "team_code": "ALG",
+      "team_name": "Algerien",
+      "nummer": 15,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ALG16",
+      "anzeige_code": "ALG 16",
+      "team_code": "ALG",
+      "team_name": "Algerien",
+      "nummer": 16,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ALG17",
+      "anzeige_code": "ALG 17",
+      "team_code": "ALG",
+      "team_name": "Algerien",
+      "nummer": 17,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ALG18",
+      "anzeige_code": "ALG 18",
+      "team_code": "ALG",
+      "team_name": "Algerien",
+      "nummer": 18,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ALG19",
+      "anzeige_code": "ALG 19",
+      "team_code": "ALG",
+      "team_name": "Algerien",
+      "nummer": 19,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "ALG20",
+      "anzeige_code": "ALG 20",
+      "team_code": "ALG",
+      "team_name": "Algerien",
+      "nummer": 20,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "TUN1",
+      "anzeige_code": "TUN 1",
+      "team_code": "TUN",
+      "team_name": "Tunesien",
+      "nummer": 1,
+      "typ": "Wappen",
+      "name": "Team-Wappen"
+    },
+    {
+      "code": "TUN2",
+      "anzeige_code": "TUN 2",
+      "team_code": "TUN",
+      "team_name": "Tunesien",
+      "nummer": 2,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "TUN3",
+      "anzeige_code": "TUN 3",
+      "team_code": "TUN",
+      "team_name": "Tunesien",
+      "nummer": 3,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "TUN4",
+      "anzeige_code": "TUN 4",
+      "team_code": "TUN",
+      "team_name": "Tunesien",
+      "nummer": 4,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "TUN5",
+      "anzeige_code": "TUN 5",
+      "team_code": "TUN",
+      "team_name": "Tunesien",
+      "nummer": 5,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "TUN6",
+      "anzeige_code": "TUN 6",
+      "team_code": "TUN",
+      "team_name": "Tunesien",
+      "nummer": 6,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "TUN7",
+      "anzeige_code": "TUN 7",
+      "team_code": "TUN",
+      "team_name": "Tunesien",
+      "nummer": 7,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "TUN8",
+      "anzeige_code": "TUN 8",
+      "team_code": "TUN",
+      "team_name": "Tunesien",
+      "nummer": 8,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "TUN9",
+      "anzeige_code": "TUN 9",
+      "team_code": "TUN",
+      "team_name": "Tunesien",
+      "nummer": 9,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "TUN10",
+      "anzeige_code": "TUN 10",
+      "team_code": "TUN",
+      "team_name": "Tunesien",
+      "nummer": 10,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "TUN11",
+      "anzeige_code": "TUN 11",
+      "team_code": "TUN",
+      "team_name": "Tunesien",
+      "nummer": 11,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "TUN12",
+      "anzeige_code": "TUN 12",
+      "team_code": "TUN",
+      "team_name": "Tunesien",
+      "nummer": 12,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "TUN13",
+      "anzeige_code": "TUN 13",
+      "team_code": "TUN",
+      "team_name": "Tunesien",
+      "nummer": 13,
+      "typ": "Mannschaftsfoto",
+      "name": "Mannschaftsfoto"
+    },
+    {
+      "code": "TUN14",
+      "anzeige_code": "TUN 14",
+      "team_code": "TUN",
+      "team_name": "Tunesien",
+      "nummer": 14,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "TUN15",
+      "anzeige_code": "TUN 15",
+      "team_code": "TUN",
+      "team_name": "Tunesien",
+      "nummer": 15,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "TUN16",
+      "anzeige_code": "TUN 16",
+      "team_code": "TUN",
+      "team_name": "Tunesien",
+      "nummer": 16,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "TUN17",
+      "anzeige_code": "TUN 17",
+      "team_code": "TUN",
+      "team_name": "Tunesien",
+      "nummer": 17,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "TUN18",
+      "anzeige_code": "TUN 18",
+      "team_code": "TUN",
+      "team_name": "Tunesien",
+      "nummer": 18,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "TUN19",
+      "anzeige_code": "TUN 19",
+      "team_code": "TUN",
+      "team_name": "Tunesien",
+      "nummer": 19,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "TUN20",
+      "anzeige_code": "TUN 20",
+      "team_code": "TUN",
+      "team_name": "Tunesien",
+      "nummer": 20,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SEN1",
+      "anzeige_code": "SEN 1",
+      "team_code": "SEN",
+      "team_name": "Senegal",
+      "nummer": 1,
+      "typ": "Wappen",
+      "name": "Team-Wappen"
+    },
+    {
+      "code": "SEN2",
+      "anzeige_code": "SEN 2",
+      "team_code": "SEN",
+      "team_name": "Senegal",
+      "nummer": 2,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SEN3",
+      "anzeige_code": "SEN 3",
+      "team_code": "SEN",
+      "team_name": "Senegal",
+      "nummer": 3,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SEN4",
+      "anzeige_code": "SEN 4",
+      "team_code": "SEN",
+      "team_name": "Senegal",
+      "nummer": 4,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SEN5",
+      "anzeige_code": "SEN 5",
+      "team_code": "SEN",
+      "team_name": "Senegal",
+      "nummer": 5,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SEN6",
+      "anzeige_code": "SEN 6",
+      "team_code": "SEN",
+      "team_name": "Senegal",
+      "nummer": 6,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SEN7",
+      "anzeige_code": "SEN 7",
+      "team_code": "SEN",
+      "team_name": "Senegal",
+      "nummer": 7,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SEN8",
+      "anzeige_code": "SEN 8",
+      "team_code": "SEN",
+      "team_name": "Senegal",
+      "nummer": 8,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SEN9",
+      "anzeige_code": "SEN 9",
+      "team_code": "SEN",
+      "team_name": "Senegal",
+      "nummer": 9,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SEN10",
+      "anzeige_code": "SEN 10",
+      "team_code": "SEN",
+      "team_name": "Senegal",
+      "nummer": 10,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SEN11",
+      "anzeige_code": "SEN 11",
+      "team_code": "SEN",
+      "team_name": "Senegal",
+      "nummer": 11,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SEN12",
+      "anzeige_code": "SEN 12",
+      "team_code": "SEN",
+      "team_name": "Senegal",
+      "nummer": 12,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SEN13",
+      "anzeige_code": "SEN 13",
+      "team_code": "SEN",
+      "team_name": "Senegal",
+      "nummer": 13,
+      "typ": "Mannschaftsfoto",
+      "name": "Mannschaftsfoto"
+    },
+    {
+      "code": "SEN14",
+      "anzeige_code": "SEN 14",
+      "team_code": "SEN",
+      "team_name": "Senegal",
+      "nummer": 14,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SEN15",
+      "anzeige_code": "SEN 15",
+      "team_code": "SEN",
+      "team_name": "Senegal",
+      "nummer": 15,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SEN16",
+      "anzeige_code": "SEN 16",
+      "team_code": "SEN",
+      "team_name": "Senegal",
+      "nummer": 16,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SEN17",
+      "anzeige_code": "SEN 17",
+      "team_code": "SEN",
+      "team_name": "Senegal",
+      "nummer": 17,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SEN18",
+      "anzeige_code": "SEN 18",
+      "team_code": "SEN",
+      "team_name": "Senegal",
+      "nummer": 18,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SEN19",
+      "anzeige_code": "SEN 19",
+      "team_code": "SEN",
+      "team_name": "Senegal",
+      "nummer": 19,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "SEN20",
+      "anzeige_code": "SEN 20",
+      "team_code": "SEN",
+      "team_name": "Senegal",
+      "nummer": 20,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "GHA1",
+      "anzeige_code": "GHA 1",
+      "team_code": "GHA",
+      "team_name": "Ghana",
+      "nummer": 1,
+      "typ": "Wappen",
+      "name": "Team-Wappen"
+    },
+    {
+      "code": "GHA2",
+      "anzeige_code": "GHA 2",
+      "team_code": "GHA",
+      "team_name": "Ghana",
+      "nummer": 2,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "GHA3",
+      "anzeige_code": "GHA 3",
+      "team_code": "GHA",
+      "team_name": "Ghana",
+      "nummer": 3,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "GHA4",
+      "anzeige_code": "GHA 4",
+      "team_code": "GHA",
+      "team_name": "Ghana",
+      "nummer": 4,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "GHA5",
+      "anzeige_code": "GHA 5",
+      "team_code": "GHA",
+      "team_name": "Ghana",
+      "nummer": 5,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "GHA6",
+      "anzeige_code": "GHA 6",
+      "team_code": "GHA",
+      "team_name": "Ghana",
+      "nummer": 6,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "GHA7",
+      "anzeige_code": "GHA 7",
+      "team_code": "GHA",
+      "team_name": "Ghana",
+      "nummer": 7,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "GHA8",
+      "anzeige_code": "GHA 8",
+      "team_code": "GHA",
+      "team_name": "Ghana",
+      "nummer": 8,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "GHA9",
+      "anzeige_code": "GHA 9",
+      "team_code": "GHA",
+      "team_name": "Ghana",
+      "nummer": 9,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "GHA10",
+      "anzeige_code": "GHA 10",
+      "team_code": "GHA",
+      "team_name": "Ghana",
+      "nummer": 10,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "GHA11",
+      "anzeige_code": "GHA 11",
+      "team_code": "GHA",
+      "team_name": "Ghana",
+      "nummer": 11,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "GHA12",
+      "anzeige_code": "GHA 12",
+      "team_code": "GHA",
+      "team_name": "Ghana",
+      "nummer": 12,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "GHA13",
+      "anzeige_code": "GHA 13",
+      "team_code": "GHA",
+      "team_name": "Ghana",
+      "nummer": 13,
+      "typ": "Mannschaftsfoto",
+      "name": "Mannschaftsfoto"
+    },
+    {
+      "code": "GHA14",
+      "anzeige_code": "GHA 14",
+      "team_code": "GHA",
+      "team_name": "Ghana",
+      "nummer": 14,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "GHA15",
+      "anzeige_code": "GHA 15",
+      "team_code": "GHA",
+      "team_name": "Ghana",
+      "nummer": 15,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "GHA16",
+      "anzeige_code": "GHA 16",
+      "team_code": "GHA",
+      "team_name": "Ghana",
+      "nummer": 16,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "GHA17",
+      "anzeige_code": "GHA 17",
+      "team_code": "GHA",
+      "team_name": "Ghana",
+      "nummer": 17,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "GHA18",
+      "anzeige_code": "GHA 18",
+      "team_code": "GHA",
+      "team_name": "Ghana",
+      "nummer": 18,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "GHA19",
+      "anzeige_code": "GHA 19",
+      "team_code": "GHA",
+      "team_name": "Ghana",
+      "nummer": 19,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "GHA20",
+      "anzeige_code": "GHA 20",
+      "team_code": "GHA",
+      "team_name": "Ghana",
+      "nummer": 20,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CIV1",
+      "anzeige_code": "CIV 1",
+      "team_code": "CIV",
+      "team_name": "Elfenbeinküste",
+      "nummer": 1,
+      "typ": "Wappen",
+      "name": "Team-Wappen"
+    },
+    {
+      "code": "CIV2",
+      "anzeige_code": "CIV 2",
+      "team_code": "CIV",
+      "team_name": "Elfenbeinküste",
+      "nummer": 2,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CIV3",
+      "anzeige_code": "CIV 3",
+      "team_code": "CIV",
+      "team_name": "Elfenbeinküste",
+      "nummer": 3,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CIV4",
+      "anzeige_code": "CIV 4",
+      "team_code": "CIV",
+      "team_name": "Elfenbeinküste",
+      "nummer": 4,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CIV5",
+      "anzeige_code": "CIV 5",
+      "team_code": "CIV",
+      "team_name": "Elfenbeinküste",
+      "nummer": 5,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CIV6",
+      "anzeige_code": "CIV 6",
+      "team_code": "CIV",
+      "team_name": "Elfenbeinküste",
+      "nummer": 6,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CIV7",
+      "anzeige_code": "CIV 7",
+      "team_code": "CIV",
+      "team_name": "Elfenbeinküste",
+      "nummer": 7,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CIV8",
+      "anzeige_code": "CIV 8",
+      "team_code": "CIV",
+      "team_name": "Elfenbeinküste",
+      "nummer": 8,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CIV9",
+      "anzeige_code": "CIV 9",
+      "team_code": "CIV",
+      "team_name": "Elfenbeinküste",
+      "nummer": 9,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CIV10",
+      "anzeige_code": "CIV 10",
+      "team_code": "CIV",
+      "team_name": "Elfenbeinküste",
+      "nummer": 10,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CIV11",
+      "anzeige_code": "CIV 11",
+      "team_code": "CIV",
+      "team_name": "Elfenbeinküste",
+      "nummer": 11,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CIV12",
+      "anzeige_code": "CIV 12",
+      "team_code": "CIV",
+      "team_name": "Elfenbeinküste",
+      "nummer": 12,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CIV13",
+      "anzeige_code": "CIV 13",
+      "team_code": "CIV",
+      "team_name": "Elfenbeinküste",
+      "nummer": 13,
+      "typ": "Mannschaftsfoto",
+      "name": "Mannschaftsfoto"
+    },
+    {
+      "code": "CIV14",
+      "anzeige_code": "CIV 14",
+      "team_code": "CIV",
+      "team_name": "Elfenbeinküste",
+      "nummer": 14,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CIV15",
+      "anzeige_code": "CIV 15",
+      "team_code": "CIV",
+      "team_name": "Elfenbeinküste",
+      "nummer": 15,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CIV16",
+      "anzeige_code": "CIV 16",
+      "team_code": "CIV",
+      "team_name": "Elfenbeinküste",
+      "nummer": 16,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CIV17",
+      "anzeige_code": "CIV 17",
+      "team_code": "CIV",
+      "team_name": "Elfenbeinküste",
+      "nummer": 17,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CIV18",
+      "anzeige_code": "CIV 18",
+      "team_code": "CIV",
+      "team_name": "Elfenbeinküste",
+      "nummer": 18,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CIV19",
+      "anzeige_code": "CIV 19",
+      "team_code": "CIV",
+      "team_name": "Elfenbeinküste",
+      "nummer": 19,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CIV20",
+      "anzeige_code": "CIV 20",
+      "team_code": "CIV",
+      "team_name": "Elfenbeinküste",
+      "nummer": 20,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CPV1",
+      "anzeige_code": "CPV 1",
+      "team_code": "CPV",
+      "team_name": "Kap Verde",
+      "nummer": 1,
+      "typ": "Wappen",
+      "name": "Team-Wappen"
+    },
+    {
+      "code": "CPV2",
+      "anzeige_code": "CPV 2",
+      "team_code": "CPV",
+      "team_name": "Kap Verde",
+      "nummer": 2,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CPV3",
+      "anzeige_code": "CPV 3",
+      "team_code": "CPV",
+      "team_name": "Kap Verde",
+      "nummer": 3,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CPV4",
+      "anzeige_code": "CPV 4",
+      "team_code": "CPV",
+      "team_name": "Kap Verde",
+      "nummer": 4,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CPV5",
+      "anzeige_code": "CPV 5",
+      "team_code": "CPV",
+      "team_name": "Kap Verde",
+      "nummer": 5,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CPV6",
+      "anzeige_code": "CPV 6",
+      "team_code": "CPV",
+      "team_name": "Kap Verde",
+      "nummer": 6,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CPV7",
+      "anzeige_code": "CPV 7",
+      "team_code": "CPV",
+      "team_name": "Kap Verde",
+      "nummer": 7,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CPV8",
+      "anzeige_code": "CPV 8",
+      "team_code": "CPV",
+      "team_name": "Kap Verde",
+      "nummer": 8,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CPV9",
+      "anzeige_code": "CPV 9",
+      "team_code": "CPV",
+      "team_name": "Kap Verde",
+      "nummer": 9,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CPV10",
+      "anzeige_code": "CPV 10",
+      "team_code": "CPV",
+      "team_name": "Kap Verde",
+      "nummer": 10,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CPV11",
+      "anzeige_code": "CPV 11",
+      "team_code": "CPV",
+      "team_name": "Kap Verde",
+      "nummer": 11,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CPV12",
+      "anzeige_code": "CPV 12",
+      "team_code": "CPV",
+      "team_name": "Kap Verde",
+      "nummer": 12,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CPV13",
+      "anzeige_code": "CPV 13",
+      "team_code": "CPV",
+      "team_name": "Kap Verde",
+      "nummer": 13,
+      "typ": "Mannschaftsfoto",
+      "name": "Mannschaftsfoto"
+    },
+    {
+      "code": "CPV14",
+      "anzeige_code": "CPV 14",
+      "team_code": "CPV",
+      "team_name": "Kap Verde",
+      "nummer": 14,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CPV15",
+      "anzeige_code": "CPV 15",
+      "team_code": "CPV",
+      "team_name": "Kap Verde",
+      "nummer": 15,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CPV16",
+      "anzeige_code": "CPV 16",
+      "team_code": "CPV",
+      "team_name": "Kap Verde",
+      "nummer": 16,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CPV17",
+      "anzeige_code": "CPV 17",
+      "team_code": "CPV",
+      "team_name": "Kap Verde",
+      "nummer": 17,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CPV18",
+      "anzeige_code": "CPV 18",
+      "team_code": "CPV",
+      "team_name": "Kap Verde",
+      "nummer": 18,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CPV19",
+      "anzeige_code": "CPV 19",
+      "team_code": "CPV",
+      "team_name": "Kap Verde",
+      "nummer": 19,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CPV20",
+      "anzeige_code": "CPV 20",
+      "team_code": "CPV",
+      "team_name": "Kap Verde",
+      "nummer": 20,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "RSA1",
+      "anzeige_code": "RSA 1",
+      "team_code": "RSA",
+      "team_name": "Südafrika",
+      "nummer": 1,
+      "typ": "Wappen",
+      "name": "Team-Wappen"
+    },
+    {
+      "code": "RSA2",
+      "anzeige_code": "RSA 2",
+      "team_code": "RSA",
+      "team_name": "Südafrika",
+      "nummer": 2,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "RSA3",
+      "anzeige_code": "RSA 3",
+      "team_code": "RSA",
+      "team_name": "Südafrika",
+      "nummer": 3,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "RSA4",
+      "anzeige_code": "RSA 4",
+      "team_code": "RSA",
+      "team_name": "Südafrika",
+      "nummer": 4,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "RSA5",
+      "anzeige_code": "RSA 5",
+      "team_code": "RSA",
+      "team_name": "Südafrika",
+      "nummer": 5,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "RSA6",
+      "anzeige_code": "RSA 6",
+      "team_code": "RSA",
+      "team_name": "Südafrika",
+      "nummer": 6,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "RSA7",
+      "anzeige_code": "RSA 7",
+      "team_code": "RSA",
+      "team_name": "Südafrika",
+      "nummer": 7,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "RSA8",
+      "anzeige_code": "RSA 8",
+      "team_code": "RSA",
+      "team_name": "Südafrika",
+      "nummer": 8,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "RSA9",
+      "anzeige_code": "RSA 9",
+      "team_code": "RSA",
+      "team_name": "Südafrika",
+      "nummer": 9,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "RSA10",
+      "anzeige_code": "RSA 10",
+      "team_code": "RSA",
+      "team_name": "Südafrika",
+      "nummer": 10,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "RSA11",
+      "anzeige_code": "RSA 11",
+      "team_code": "RSA",
+      "team_name": "Südafrika",
+      "nummer": 11,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "RSA12",
+      "anzeige_code": "RSA 12",
+      "team_code": "RSA",
+      "team_name": "Südafrika",
+      "nummer": 12,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "RSA13",
+      "anzeige_code": "RSA 13",
+      "team_code": "RSA",
+      "team_name": "Südafrika",
+      "nummer": 13,
+      "typ": "Mannschaftsfoto",
+      "name": "Mannschaftsfoto"
+    },
+    {
+      "code": "RSA14",
+      "anzeige_code": "RSA 14",
+      "team_code": "RSA",
+      "team_name": "Südafrika",
+      "nummer": 14,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "RSA15",
+      "anzeige_code": "RSA 15",
+      "team_code": "RSA",
+      "team_name": "Südafrika",
+      "nummer": 15,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "RSA16",
+      "anzeige_code": "RSA 16",
+      "team_code": "RSA",
+      "team_name": "Südafrika",
+      "nummer": 16,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "RSA17",
+      "anzeige_code": "RSA 17",
+      "team_code": "RSA",
+      "team_name": "Südafrika",
+      "nummer": 17,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "RSA18",
+      "anzeige_code": "RSA 18",
+      "team_code": "RSA",
+      "team_name": "Südafrika",
+      "nummer": 18,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "RSA19",
+      "anzeige_code": "RSA 19",
+      "team_code": "RSA",
+      "team_name": "Südafrika",
+      "nummer": 19,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "RSA20",
+      "anzeige_code": "RSA 20",
+      "team_code": "RSA",
+      "team_name": "Südafrika",
+      "nummer": 20,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "PAN1",
+      "anzeige_code": "PAN 1",
+      "team_code": "PAN",
+      "team_name": "Panama",
+      "nummer": 1,
+      "typ": "Wappen",
+      "name": "Team-Wappen"
+    },
+    {
+      "code": "PAN2",
+      "anzeige_code": "PAN 2",
+      "team_code": "PAN",
+      "team_name": "Panama",
+      "nummer": 2,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "PAN3",
+      "anzeige_code": "PAN 3",
+      "team_code": "PAN",
+      "team_name": "Panama",
+      "nummer": 3,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "PAN4",
+      "anzeige_code": "PAN 4",
+      "team_code": "PAN",
+      "team_name": "Panama",
+      "nummer": 4,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "PAN5",
+      "anzeige_code": "PAN 5",
+      "team_code": "PAN",
+      "team_name": "Panama",
+      "nummer": 5,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "PAN6",
+      "anzeige_code": "PAN 6",
+      "team_code": "PAN",
+      "team_name": "Panama",
+      "nummer": 6,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "PAN7",
+      "anzeige_code": "PAN 7",
+      "team_code": "PAN",
+      "team_name": "Panama",
+      "nummer": 7,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "PAN8",
+      "anzeige_code": "PAN 8",
+      "team_code": "PAN",
+      "team_name": "Panama",
+      "nummer": 8,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "PAN9",
+      "anzeige_code": "PAN 9",
+      "team_code": "PAN",
+      "team_name": "Panama",
+      "nummer": 9,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "PAN10",
+      "anzeige_code": "PAN 10",
+      "team_code": "PAN",
+      "team_name": "Panama",
+      "nummer": 10,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "PAN11",
+      "anzeige_code": "PAN 11",
+      "team_code": "PAN",
+      "team_name": "Panama",
+      "nummer": 11,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "PAN12",
+      "anzeige_code": "PAN 12",
+      "team_code": "PAN",
+      "team_name": "Panama",
+      "nummer": 12,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "PAN13",
+      "anzeige_code": "PAN 13",
+      "team_code": "PAN",
+      "team_name": "Panama",
+      "nummer": 13,
+      "typ": "Mannschaftsfoto",
+      "name": "Mannschaftsfoto"
+    },
+    {
+      "code": "PAN14",
+      "anzeige_code": "PAN 14",
+      "team_code": "PAN",
+      "team_name": "Panama",
+      "nummer": 14,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "PAN15",
+      "anzeige_code": "PAN 15",
+      "team_code": "PAN",
+      "team_name": "Panama",
+      "nummer": 15,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "PAN16",
+      "anzeige_code": "PAN 16",
+      "team_code": "PAN",
+      "team_name": "Panama",
+      "nummer": 16,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "PAN17",
+      "anzeige_code": "PAN 17",
+      "team_code": "PAN",
+      "team_name": "Panama",
+      "nummer": 17,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "PAN18",
+      "anzeige_code": "PAN 18",
+      "team_code": "PAN",
+      "team_name": "Panama",
+      "nummer": 18,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "PAN19",
+      "anzeige_code": "PAN 19",
+      "team_code": "PAN",
+      "team_name": "Panama",
+      "nummer": 19,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "PAN20",
+      "anzeige_code": "PAN 20",
+      "team_code": "PAN",
+      "team_name": "Panama",
+      "nummer": 20,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CUW1",
+      "anzeige_code": "CUW 1",
+      "team_code": "CUW",
+      "team_name": "Curaçao",
+      "nummer": 1,
+      "typ": "Wappen",
+      "name": "Team-Wappen"
+    },
+    {
+      "code": "CUW2",
+      "anzeige_code": "CUW 2",
+      "team_code": "CUW",
+      "team_name": "Curaçao",
+      "nummer": 2,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CUW3",
+      "anzeige_code": "CUW 3",
+      "team_code": "CUW",
+      "team_name": "Curaçao",
+      "nummer": 3,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CUW4",
+      "anzeige_code": "CUW 4",
+      "team_code": "CUW",
+      "team_name": "Curaçao",
+      "nummer": 4,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CUW5",
+      "anzeige_code": "CUW 5",
+      "team_code": "CUW",
+      "team_name": "Curaçao",
+      "nummer": 5,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CUW6",
+      "anzeige_code": "CUW 6",
+      "team_code": "CUW",
+      "team_name": "Curaçao",
+      "nummer": 6,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CUW7",
+      "anzeige_code": "CUW 7",
+      "team_code": "CUW",
+      "team_name": "Curaçao",
+      "nummer": 7,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CUW8",
+      "anzeige_code": "CUW 8",
+      "team_code": "CUW",
+      "team_name": "Curaçao",
+      "nummer": 8,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CUW9",
+      "anzeige_code": "CUW 9",
+      "team_code": "CUW",
+      "team_name": "Curaçao",
+      "nummer": 9,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CUW10",
+      "anzeige_code": "CUW 10",
+      "team_code": "CUW",
+      "team_name": "Curaçao",
+      "nummer": 10,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CUW11",
+      "anzeige_code": "CUW 11",
+      "team_code": "CUW",
+      "team_name": "Curaçao",
+      "nummer": 11,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CUW12",
+      "anzeige_code": "CUW 12",
+      "team_code": "CUW",
+      "team_name": "Curaçao",
+      "nummer": 12,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CUW13",
+      "anzeige_code": "CUW 13",
+      "team_code": "CUW",
+      "team_name": "Curaçao",
+      "nummer": 13,
+      "typ": "Mannschaftsfoto",
+      "name": "Mannschaftsfoto"
+    },
+    {
+      "code": "CUW14",
+      "anzeige_code": "CUW 14",
+      "team_code": "CUW",
+      "team_name": "Curaçao",
+      "nummer": 14,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CUW15",
+      "anzeige_code": "CUW 15",
+      "team_code": "CUW",
+      "team_name": "Curaçao",
+      "nummer": 15,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CUW16",
+      "anzeige_code": "CUW 16",
+      "team_code": "CUW",
+      "team_name": "Curaçao",
+      "nummer": 16,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CUW17",
+      "anzeige_code": "CUW 17",
+      "team_code": "CUW",
+      "team_name": "Curaçao",
+      "nummer": 17,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CUW18",
+      "anzeige_code": "CUW 18",
+      "team_code": "CUW",
+      "team_name": "Curaçao",
+      "nummer": 18,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CUW19",
+      "anzeige_code": "CUW 19",
+      "team_code": "CUW",
+      "team_name": "Curaçao",
+      "nummer": 19,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "CUW20",
+      "anzeige_code": "CUW 20",
+      "team_code": "CUW",
+      "team_name": "Curaçao",
+      "nummer": 20,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "HAI1",
+      "anzeige_code": "HAI 1",
+      "team_code": "HAI",
+      "team_name": "Haiti",
+      "nummer": 1,
+      "typ": "Wappen",
+      "name": "Team-Wappen"
+    },
+    {
+      "code": "HAI2",
+      "anzeige_code": "HAI 2",
+      "team_code": "HAI",
+      "team_name": "Haiti",
+      "nummer": 2,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "HAI3",
+      "anzeige_code": "HAI 3",
+      "team_code": "HAI",
+      "team_name": "Haiti",
+      "nummer": 3,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "HAI4",
+      "anzeige_code": "HAI 4",
+      "team_code": "HAI",
+      "team_name": "Haiti",
+      "nummer": 4,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "HAI5",
+      "anzeige_code": "HAI 5",
+      "team_code": "HAI",
+      "team_name": "Haiti",
+      "nummer": 5,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "HAI6",
+      "anzeige_code": "HAI 6",
+      "team_code": "HAI",
+      "team_name": "Haiti",
+      "nummer": 6,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "HAI7",
+      "anzeige_code": "HAI 7",
+      "team_code": "HAI",
+      "team_name": "Haiti",
+      "nummer": 7,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "HAI8",
+      "anzeige_code": "HAI 8",
+      "team_code": "HAI",
+      "team_name": "Haiti",
+      "nummer": 8,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "HAI9",
+      "anzeige_code": "HAI 9",
+      "team_code": "HAI",
+      "team_name": "Haiti",
+      "nummer": 9,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "HAI10",
+      "anzeige_code": "HAI 10",
+      "team_code": "HAI",
+      "team_name": "Haiti",
+      "nummer": 10,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "HAI11",
+      "anzeige_code": "HAI 11",
+      "team_code": "HAI",
+      "team_name": "Haiti",
+      "nummer": 11,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "HAI12",
+      "anzeige_code": "HAI 12",
+      "team_code": "HAI",
+      "team_name": "Haiti",
+      "nummer": 12,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "HAI13",
+      "anzeige_code": "HAI 13",
+      "team_code": "HAI",
+      "team_name": "Haiti",
+      "nummer": 13,
+      "typ": "Mannschaftsfoto",
+      "name": "Mannschaftsfoto"
+    },
+    {
+      "code": "HAI14",
+      "anzeige_code": "HAI 14",
+      "team_code": "HAI",
+      "team_name": "Haiti",
+      "nummer": 14,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "HAI15",
+      "anzeige_code": "HAI 15",
+      "team_code": "HAI",
+      "team_name": "Haiti",
+      "nummer": 15,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "HAI16",
+      "anzeige_code": "HAI 16",
+      "team_code": "HAI",
+      "team_name": "Haiti",
+      "nummer": 16,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "HAI17",
+      "anzeige_code": "HAI 17",
+      "team_code": "HAI",
+      "team_name": "Haiti",
+      "nummer": 17,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "HAI18",
+      "anzeige_code": "HAI 18",
+      "team_code": "HAI",
+      "team_name": "Haiti",
+      "nummer": 18,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "HAI19",
+      "anzeige_code": "HAI 19",
+      "team_code": "HAI",
+      "team_name": "Haiti",
+      "nummer": 19,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "HAI20",
+      "anzeige_code": "HAI 20",
+      "team_code": "HAI",
+      "team_name": "Haiti",
+      "nummer": 20,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "NZL1",
+      "anzeige_code": "NZL 1",
+      "team_code": "NZL",
+      "team_name": "Neuseeland",
+      "nummer": 1,
+      "typ": "Wappen",
+      "name": "Team-Wappen"
+    },
+    {
+      "code": "NZL2",
+      "anzeige_code": "NZL 2",
+      "team_code": "NZL",
+      "team_name": "Neuseeland",
+      "nummer": 2,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "NZL3",
+      "anzeige_code": "NZL 3",
+      "team_code": "NZL",
+      "team_name": "Neuseeland",
+      "nummer": 3,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "NZL4",
+      "anzeige_code": "NZL 4",
+      "team_code": "NZL",
+      "team_name": "Neuseeland",
+      "nummer": 4,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "NZL5",
+      "anzeige_code": "NZL 5",
+      "team_code": "NZL",
+      "team_name": "Neuseeland",
+      "nummer": 5,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "NZL6",
+      "anzeige_code": "NZL 6",
+      "team_code": "NZL",
+      "team_name": "Neuseeland",
+      "nummer": 6,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "NZL7",
+      "anzeige_code": "NZL 7",
+      "team_code": "NZL",
+      "team_name": "Neuseeland",
+      "nummer": 7,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "NZL8",
+      "anzeige_code": "NZL 8",
+      "team_code": "NZL",
+      "team_name": "Neuseeland",
+      "nummer": 8,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "NZL9",
+      "anzeige_code": "NZL 9",
+      "team_code": "NZL",
+      "team_name": "Neuseeland",
+      "nummer": 9,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "NZL10",
+      "anzeige_code": "NZL 10",
+      "team_code": "NZL",
+      "team_name": "Neuseeland",
+      "nummer": 10,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "NZL11",
+      "anzeige_code": "NZL 11",
+      "team_code": "NZL",
+      "team_name": "Neuseeland",
+      "nummer": 11,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "NZL12",
+      "anzeige_code": "NZL 12",
+      "team_code": "NZL",
+      "team_name": "Neuseeland",
+      "nummer": 12,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "NZL13",
+      "anzeige_code": "NZL 13",
+      "team_code": "NZL",
+      "team_name": "Neuseeland",
+      "nummer": 13,
+      "typ": "Mannschaftsfoto",
+      "name": "Mannschaftsfoto"
+    },
+    {
+      "code": "NZL14",
+      "anzeige_code": "NZL 14",
+      "team_code": "NZL",
+      "team_name": "Neuseeland",
+      "nummer": 14,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "NZL15",
+      "anzeige_code": "NZL 15",
+      "team_code": "NZL",
+      "team_name": "Neuseeland",
+      "nummer": 15,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "NZL16",
+      "anzeige_code": "NZL 16",
+      "team_code": "NZL",
+      "team_name": "Neuseeland",
+      "nummer": 16,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "NZL17",
+      "anzeige_code": "NZL 17",
+      "team_code": "NZL",
+      "team_name": "Neuseeland",
+      "nummer": 17,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "NZL18",
+      "anzeige_code": "NZL 18",
+      "team_code": "NZL",
+      "team_name": "Neuseeland",
+      "nummer": 18,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "NZL19",
+      "anzeige_code": "NZL 19",
+      "team_code": "NZL",
+      "team_name": "Neuseeland",
+      "nummer": 19,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "NZL20",
+      "anzeige_code": "NZL 20",
+      "team_code": "NZL",
+      "team_name": "Neuseeland",
+      "nummer": 20,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "COD1",
+      "anzeige_code": "COD 1",
+      "team_code": "COD",
+      "team_name": "DR Kongo",
+      "nummer": 1,
+      "typ": "Wappen",
+      "name": "Team-Wappen"
+    },
+    {
+      "code": "COD2",
+      "anzeige_code": "COD 2",
+      "team_code": "COD",
+      "team_name": "DR Kongo",
+      "nummer": 2,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "COD3",
+      "anzeige_code": "COD 3",
+      "team_code": "COD",
+      "team_name": "DR Kongo",
+      "nummer": 3,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "COD4",
+      "anzeige_code": "COD 4",
+      "team_code": "COD",
+      "team_name": "DR Kongo",
+      "nummer": 4,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "COD5",
+      "anzeige_code": "COD 5",
+      "team_code": "COD",
+      "team_name": "DR Kongo",
+      "nummer": 5,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "COD6",
+      "anzeige_code": "COD 6",
+      "team_code": "COD",
+      "team_name": "DR Kongo",
+      "nummer": 6,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "COD7",
+      "anzeige_code": "COD 7",
+      "team_code": "COD",
+      "team_name": "DR Kongo",
+      "nummer": 7,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "COD8",
+      "anzeige_code": "COD 8",
+      "team_code": "COD",
+      "team_name": "DR Kongo",
+      "nummer": 8,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "COD9",
+      "anzeige_code": "COD 9",
+      "team_code": "COD",
+      "team_name": "DR Kongo",
+      "nummer": 9,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "COD10",
+      "anzeige_code": "COD 10",
+      "team_code": "COD",
+      "team_name": "DR Kongo",
+      "nummer": 10,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "COD11",
+      "anzeige_code": "COD 11",
+      "team_code": "COD",
+      "team_name": "DR Kongo",
+      "nummer": 11,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "COD12",
+      "anzeige_code": "COD 12",
+      "team_code": "COD",
+      "team_name": "DR Kongo",
+      "nummer": 12,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "COD13",
+      "anzeige_code": "COD 13",
+      "team_code": "COD",
+      "team_name": "DR Kongo",
+      "nummer": 13,
+      "typ": "Mannschaftsfoto",
+      "name": "Mannschaftsfoto"
+    },
+    {
+      "code": "COD14",
+      "anzeige_code": "COD 14",
+      "team_code": "COD",
+      "team_name": "DR Kongo",
+      "nummer": 14,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "COD15",
+      "anzeige_code": "COD 15",
+      "team_code": "COD",
+      "team_name": "DR Kongo",
+      "nummer": 15,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "COD16",
+      "anzeige_code": "COD 16",
+      "team_code": "COD",
+      "team_name": "DR Kongo",
+      "nummer": 16,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "COD17",
+      "anzeige_code": "COD 17",
+      "team_code": "COD",
+      "team_name": "DR Kongo",
+      "nummer": 17,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "COD18",
+      "anzeige_code": "COD 18",
+      "team_code": "COD",
+      "team_name": "DR Kongo",
+      "nummer": 18,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "COD19",
+      "anzeige_code": "COD 19",
+      "team_code": "COD",
+      "team_name": "DR Kongo",
+      "nummer": 19,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "COD20",
+      "anzeige_code": "COD 20",
+      "team_code": "COD",
+      "team_name": "DR Kongo",
+      "nummer": 20,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "IRQ1",
+      "anzeige_code": "IRQ 1",
+      "team_code": "IRQ",
+      "team_name": "Irak",
+      "nummer": 1,
+      "typ": "Wappen",
+      "name": "Team-Wappen"
+    },
+    {
+      "code": "IRQ2",
+      "anzeige_code": "IRQ 2",
+      "team_code": "IRQ",
+      "team_name": "Irak",
+      "nummer": 2,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "IRQ3",
+      "anzeige_code": "IRQ 3",
+      "team_code": "IRQ",
+      "team_name": "Irak",
+      "nummer": 3,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "IRQ4",
+      "anzeige_code": "IRQ 4",
+      "team_code": "IRQ",
+      "team_name": "Irak",
+      "nummer": 4,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "IRQ5",
+      "anzeige_code": "IRQ 5",
+      "team_code": "IRQ",
+      "team_name": "Irak",
+      "nummer": 5,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "IRQ6",
+      "anzeige_code": "IRQ 6",
+      "team_code": "IRQ",
+      "team_name": "Irak",
+      "nummer": 6,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "IRQ7",
+      "anzeige_code": "IRQ 7",
+      "team_code": "IRQ",
+      "team_name": "Irak",
+      "nummer": 7,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "IRQ8",
+      "anzeige_code": "IRQ 8",
+      "team_code": "IRQ",
+      "team_name": "Irak",
+      "nummer": 8,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "IRQ9",
+      "anzeige_code": "IRQ 9",
+      "team_code": "IRQ",
+      "team_name": "Irak",
+      "nummer": 9,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "IRQ10",
+      "anzeige_code": "IRQ 10",
+      "team_code": "IRQ",
+      "team_name": "Irak",
+      "nummer": 10,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "IRQ11",
+      "anzeige_code": "IRQ 11",
+      "team_code": "IRQ",
+      "team_name": "Irak",
+      "nummer": 11,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "IRQ12",
+      "anzeige_code": "IRQ 12",
+      "team_code": "IRQ",
+      "team_name": "Irak",
+      "nummer": 12,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "IRQ13",
+      "anzeige_code": "IRQ 13",
+      "team_code": "IRQ",
+      "team_name": "Irak",
+      "nummer": 13,
+      "typ": "Mannschaftsfoto",
+      "name": "Mannschaftsfoto"
+    },
+    {
+      "code": "IRQ14",
+      "anzeige_code": "IRQ 14",
+      "team_code": "IRQ",
+      "team_name": "Irak",
+      "nummer": 14,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "IRQ15",
+      "anzeige_code": "IRQ 15",
+      "team_code": "IRQ",
+      "team_name": "Irak",
+      "nummer": 15,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "IRQ16",
+      "anzeige_code": "IRQ 16",
+      "team_code": "IRQ",
+      "team_name": "Irak",
+      "nummer": 16,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "IRQ17",
+      "anzeige_code": "IRQ 17",
+      "team_code": "IRQ",
+      "team_name": "Irak",
+      "nummer": 17,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "IRQ18",
+      "anzeige_code": "IRQ 18",
+      "team_code": "IRQ",
+      "team_name": "Irak",
+      "nummer": 18,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "IRQ19",
+      "anzeige_code": "IRQ 19",
+      "team_code": "IRQ",
+      "team_name": "Irak",
+      "nummer": 19,
+      "typ": "Spieler",
+      "name": ""
+    },
+    {
+      "code": "IRQ20",
+      "anzeige_code": "IRQ 20",
+      "team_code": "IRQ",
+      "team_name": "Irak",
+      "nummer": 20,
+      "typ": "Spieler",
+      "name": ""
+    }
+  ]
+}
