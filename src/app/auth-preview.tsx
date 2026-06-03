@@ -64,7 +64,7 @@ export function AuthPreview({
       setMessage("Reset-Link wird verschickt...");
 
       const { error } = await supabase.auth.resetPasswordForEmail(email, {
-        redirectTo: window.location.origin,
+        redirectTo: `${window.location.origin}/?reset-password=1`,
       });
 
       if (error) {

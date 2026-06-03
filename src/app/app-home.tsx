@@ -16,9 +16,21 @@ export function AppHome() {
   const [isPasswordRecovery, setIsPasswordRecovery] = useState(false);
 
   useEffect(() => {
+    function hasPasswordRecoveryUrl() {
+      const query = new URLSearchParams(window.location.search);
+      const hash = new URLSearchParams(window.location.hash.replace(/^#/, ""));
+
+      return (
+        query.get("reset-password") === "1" ||
+        query.get("type") === "recovery" ||
+        hash.get("type") === "recovery"
+      );
+    }
+
     async function loadSession() {
       const { data } = await supabase.auth.getSession();
       setSession(data.session);
+      setIsPasswordRecovery(hasPasswordRecoveryUrl());
       setIsCheckingSession(false);
     }
 
@@ -128,7 +140,10 @@ export function AppHome() {
               key={isPasswordRecovery ? "password-recovery" : "auth"}
               isPasswordRecovery={isPasswordRecovery}
               onAuthSuccess={setSession}
-              onPasswordResetSuccess={() => setIsPasswordRecovery(false)}
+              onPasswordResetSuccess={() => {
+                setIsPasswordRecovery(false);
+                window.history.replaceState(null, "", window.location.pathname);
+              }}
             />
           </div>
         </section>
