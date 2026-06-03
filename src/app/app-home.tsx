@@ -13,6 +13,7 @@ import { PwaRegister } from "./pwa-register";
 export function AppHome() {
   const [session, setSession] = useState<Session | null>(null);
   const [isCheckingSession, setIsCheckingSession] = useState(true);
+  const [isPasswordRecovery, setIsPasswordRecovery] = useState(false);
 
   useEffect(() => {
     async function loadSession() {
@@ -23,7 +24,10 @@ export function AppHome() {
 
     loadSession();
 
-    const { data } = supabase.auth.onAuthStateChange((_event, nextSession) => {
+    const { data } = supabase.auth.onAuthStateChange((event, nextSession) => {
+      if (event === "PASSWORD_RECOVERY") {
+        setIsPasswordRecovery(true);
+      }
       setSession(nextSession);
       setIsCheckingSession(false);
     });
@@ -42,7 +46,7 @@ export function AppHome() {
     );
   }
 
-  if (session) {
+  if (session && !isPasswordRecovery) {
     return (
       <>
         <PwaRegister />
@@ -120,7 +124,12 @@ export function AppHome() {
               </div>
             </div>
 
-            <AuthPreview onAuthSuccess={setSession} />
+            <AuthPreview
+              key={isPasswordRecovery ? "password-recovery" : "auth"}
+              isPasswordRecovery={isPasswordRecovery}
+              onAuthSuccess={setSession}
+              onPasswordResetSuccess={() => setIsPasswordRecovery(false)}
+            />
           </div>
         </section>
       </main>
