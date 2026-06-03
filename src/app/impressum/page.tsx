@@ -34,8 +34,7 @@ export default function ImpressumPage() {
           <InfoCard title="Anbieter">
             <p>Benjamin Aufdemkamp</p>
             <p>dädd design Atelier</p>
-            <p>Hauptstr. 112</p>
-            <p>58730 Fröndenberg</p>
+            <p>Märkischer Ring 120, 58097 Hagen</p>
           </InfoCard>
 
           <InfoCard title="Kontakt">
@@ -71,8 +70,7 @@ export default function ImpressumPage() {
 
           <InfoCard title="Verantwortlich für den Inhalt">
             <p>Benjamin Aufdemkamp</p>
-            <p>Hauptstr. 112</p>
-            <p>58730 Fröndenberg</p>
+            <p>Märkischer Ring 120, 58097 Hagen</p>
           </InfoCard>
 
           <InfoCard title="Hinweis">
