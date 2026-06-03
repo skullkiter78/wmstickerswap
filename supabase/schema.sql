@@ -216,12 +216,9 @@ begin
     new.sticker_code,
     'Eine deiner gesuchten Karten ist im Angebot!'
   from public.user_stickers searcher
-  join public.profiles searcher_profile
-    on searcher_profile.id = searcher.user_id
   where searcher.liste = 'suche'
     and searcher.sticker_code = new.sticker_code
-    and searcher.user_id <> new.user_id
-    and searcher_profile.email_benachrichtigungen = true;
+    and searcher.user_id <> new.user_id;
 
   return new;
 end;
@@ -230,6 +227,30 @@ $$;
 create trigger on_user_sticker_match_notification
 after insert on public.user_stickers
 for each row execute function public.create_match_notifications();
+
+do $$
+begin
+  if not exists (
+    select 1
+    from pg_publication_tables
+    where pubname = 'supabase_realtime'
+      and schemaname = 'public'
+      and tablename = 'notifications'
+  ) then
+    alter publication supabase_realtime add table public.notifications;
+  end if;
+
+  if not exists (
+    select 1
+    from pg_publication_tables
+    where pubname = 'supabase_realtime'
+      and schemaname = 'public'
+      and tablename = 'user_stickers'
+  ) then
+    alter publication supabase_realtime add table public.user_stickers;
+  end if;
+end;
+$$;
 
 create or replace function public.delete_own_account()
 returns void
