@@ -21,6 +21,12 @@ type PublicProfile = {
   ort: string;
 };
 
+type MatchContact = {
+  kontakt_whatsapp: string | null;
+  kontakt_email: string | null;
+  kontakt_telefon: string | null;
+};
+
 type BrowseOffersProps = {
   userId: string;
   refreshKey: number;
@@ -202,6 +208,7 @@ export function BrowseOffers({ userId, refreshKey }: BrowseOffersProps) {
           {filteredOffers.slice(0, 60).map((offer) => (
             <OfferCard
               key={offer.id}
+              userId={userId}
               offer={offer}
               profile={profileMap.get(offer.user_id)}
             />
@@ -213,13 +220,85 @@ export function BrowseOffers({ userId, refreshKey }: BrowseOffersProps) {
 }
 
 function OfferCard({
+  userId,
   offer,
   profile,
 }: {
+  userId: string;
   offer: Offer;
   profile: PublicProfile | undefined;
 }) {
   const sticker = findSticker(offer.sticker_code);
+  const label = sticker ? stickerLabel(sticker) : offer.sticker_code;
+  const [contact, setContact] = useState<MatchContact | null>(null);
+  const [contactMessage, setContactMessage] = useState(
+    "Tippe auf Kontakt aufnehmen, wenn dich dieses Angebot interessiert.",
+  );
+  const [isLoadingContact, setIsLoadingContact] = useState(false);
+  const proposalText = createOfferProposalText(profile, label);
+
+  async function ensureSearchEntry() {
+    const { data, error } = await supabase
+      .from("user_stickers")
+      .select("id")
+      .eq("user_id", userId)
+      .eq("liste", "suche")
+      .eq("sticker_code", offer.sticker_code)
+      .limit(1);
+
+    if (error) {
+      return error;
+    }
+
+    if (data && data.length > 0) {
+      return null;
+    }
+
+    const { error: insertError } = await supabase.from("user_stickers").insert({
+      user_id: userId,
+      sticker_code: offer.sticker_code,
+      anzahl: 1,
+      liste: "suche",
+      abgabe_art: null,
+      preis_vorschlag: null,
+    });
+
+    return insertError;
+  }
+
+  async function loadContact() {
+    setIsLoadingContact(true);
+    setContactMessage("Kontakt wird vorbereitet...");
+
+    const searchError = await ensureSearchEntry();
+
+    if (searchError) {
+      setContactMessage(searchError.message);
+      setIsLoadingContact(false);
+      return;
+    }
+
+    const { data, error } = await supabase.rpc("get_match_contact", {
+      target_user_id: offer.user_id,
+    });
+
+    if (error) {
+      setContactMessage(
+        "Kontakt kann noch nicht angezeigt werden. Bitte pruefe die Supabase-Funktion get_match_contact.",
+      );
+      setIsLoadingContact(false);
+      return;
+    }
+
+    const nextContact = (data?.[0] ?? null) as MatchContact | null;
+    setContact(nextContact);
+    setContactMessage(
+      nextContact
+        ? "Kontakt ist bereit. Der Sticker wurde in deine Suchliste uebernommen."
+        : "Diese Person hat noch keine Kontaktwege hinterlegt.",
+    );
+    setIsLoadingContact(false);
+  }
 
   return (
     <article className="rounded-lg bg-[#f7fbff] p-4 ring-1 ring-[#dbe7ff]">
@@ -229,7 +308,7 @@ function OfferCard({
             {formatAbgabeArt(offer.abgabe_art)}
           </p>
           <h3 className="mt-1 text-lg font-black">
-            {sticker ? stickerLabel(sticker) : offer.sticker_code}
+            {label}
           </h3>
         </div>
         <p className="rounded-full bg-white px-3 py-2 text-sm font-black text-[#132a74]">
@@ -247,8 +326,63 @@ function OfferCard({
           Preisvorschlag: {offer.preis_vorschlag.toFixed(2)} Euro
         </p>
       ) : null}
+
+      <div className="mt-4 rounded-lg bg-white p-3">
+        <p className="text-sm leading-6 text-[#5d6b86]">{contactMessage}</p>
+
+        {contact ? (
+          <div className="mt-3 grid gap-2 sm:grid-cols-3">
+            {contact.kontakt_whatsapp ? (
+              <a
+                href={`https://wa.me/${cleanPhone(contact.kontakt_whatsapp)}?text=${encodeURIComponent(proposalText)}`}
+                className="grid h-12 place-items-center rounded-lg bg-[#25d366] px-4 text-sm font-black text-[#102217]"
+                target="_blank"
+                rel="noreferrer"
+              >
+                WhatsApp
+              </a>
+            ) : null}
+            {contact.kontakt_email ? (
+              <a
+                href={`mailto:${contact.kontakt_email}?subject=${encodeURIComponent("Sticker-Tausch")}&body=${encodeURIComponent(proposalText)}`}
+                className="grid h-12 place-items-center rounded-lg bg-[#fed447] px-4 text-sm font-black text-[#172033]"
+              >
+                E-Mail
+              </a>
+            ) : null}
+            {contact.kontakt_telefon ? (
+              <a
+                href={`tel:${contact.kontakt_telefon}`}
+                className="grid h-12 place-items-center rounded-lg bg-[#132a74] px-4 text-sm font-black text-white"
+              >
+                Telefon
+              </a>
+            ) : null}
+          </div>
+        ) : (
+          <button
+            type="button"
+            onClick={loadContact}
+            disabled={isLoadingContact}
+            className="mt-3 h-12 w-full rounded-lg bg-[#132a74] px-4 text-sm font-black text-white disabled:opacity-70"
+          >
+            {isLoadingContact ? "Kontakt wird geladen..." : "Kontakt aufnehmen"}
+          </button>
+        )}
+      </div>
     </article>
   );
+}
+
+function cleanPhone(phone: string) {
+  return phone.replace(/[^+\d]/g, "").replace(/^\+/, "");
+}
+
+function createOfferProposalText(
+  profile: PublicProfile | undefined,
+  stickerLabelText: string,
+) {
+  return `Hi ${profile?.nickname ?? "Sammler"}, ich habe dein Angebot in der Sticker-Tauschboerse gesehen.\n\nIch interessiere mich fuer: ${stickerLabelText}\n\nPasst das fuer dich?`;
 }
 
 function formatAbgabeArt(abgabeArt: AbgabeArt | null) {
