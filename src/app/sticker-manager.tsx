@@ -124,7 +124,7 @@ export function StickerManager({ userId, onChanged }: StickerManagerProps) {
     }
 
     setMessage(`${selectedSticker.code} wurde gespeichert.`);
-    setQuery(selectedSticker.team_code);
+    setQuery("");
     setSelectedSticker(null);
     setAnzahl(1);
     setPreisVorschlag("");
