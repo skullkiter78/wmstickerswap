@@ -69,6 +69,7 @@ export function AuthPreview({ onAuthSuccess }: AuthPreviewProps) {
         email,
         password,
         options: {
+          emailRedirectTo: window.location.origin,
           data: {
             nickname,
             ort,
