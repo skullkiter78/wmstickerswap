@@ -15,10 +15,13 @@ export function AuthPreview({ onAuthSuccess }: AuthPreviewProps) {
   const [mode, setMode] = useState<AuthMode>("login");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [passwordConfirmation, setPasswordConfirmation] = useState("");
   const [nickname, setNickname] = useState("");
   const [ort, setOrt] = useState("");
   const [privacyAccepted, setPrivacyAccepted] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
+  const [isRegistrationSubmitted, setIsRegistrationSubmitted] =
+    useState(false);
   const [message, setMessage] = useState(
     "Melde dich an oder erstelle dir ein Konto für die Tauschbörse.",
   );
@@ -27,6 +30,7 @@ export function AuthPreview({ onAuthSuccess }: AuthPreviewProps) {
 
   function switchMode(nextMode: AuthMode) {
     setMode(nextMode);
+    setIsRegistrationSubmitted(false);
     setMessage(
       nextMode === "register"
         ? "Erstelle dein Konto. Wir speichern nur, was für die Tauschbörse nötig ist."
@@ -35,8 +39,15 @@ export function AuthPreview({ onAuthSuccess }: AuthPreviewProps) {
   }
 
   async function handleSubmit() {
+    setIsRegistrationSubmitted(false);
+
     if (!email || !password) {
       setMessage("Bitte gib E-Mail und Passwort ein.");
+      return;
+    }
+
+    if (isRegister && password !== passwordConfirmation) {
+      setMessage("Die beiden Passwörter stimmen noch nicht überein.");
       return;
     }
 
@@ -71,10 +82,20 @@ export function AuthPreview({ onAuthSuccess }: AuthPreviewProps) {
         return;
       }
 
+      if (data.session) {
+        onAuthSuccess(data.session);
+        setMessage("Konto erstellt. Du bist eingeloggt.");
+        setIsLoading(false);
+        return;
+      }
+
+      setIsRegistrationSubmitted(true);
+      setPassword("");
+      setPasswordConfirmation("");
       setMessage(
         data.user
-          ? "Konto erstellt. Prüfe bitte deine E-Mails, falls Supabase eine Bestätigung verlangt."
-          : "Registrierung abgeschickt. Prüfe bitte deine E-Mails.",
+          ? "Konto erstellt. Bitte bestätige jetzt deine E-Mail-Adresse, bevor du dich einloggst."
+          : "Registrierung abgeschickt. Bitte prüfe dein Postfach.",
       );
       setIsLoading(false);
       return;
@@ -107,7 +128,14 @@ export function AuthPreview({ onAuthSuccess }: AuthPreviewProps) {
       <p className="font-display text-4xl leading-none tracking-normal text-[#132a74]">
         Rein ins Album
       </p>
-      <p className="mt-2 min-h-12 text-sm leading-6 text-[#5d6b86]">
+      <p
+        className={`mt-2 min-h-12 rounded-lg text-sm leading-6 ${
+          isRegistrationSubmitted
+            ? "bg-[#e9f8ee] p-3 font-bold text-[#17603a] ring-1 ring-[#bfe6cc]"
+            : "text-[#5d6b86]"
+        }`}
+        aria-live="polite"
+      >
         {message}
       </p>
 
@@ -186,24 +214,47 @@ export function AuthPreview({ onAuthSuccess }: AuthPreviewProps) {
       />
 
       {isRegister ? (
-        <label className="mt-4 flex items-start gap-3 rounded-lg bg-[#f7fbff] p-3 text-sm leading-6 text-[#33415c] ring-1 ring-[#dbe7ff]">
+        <>
+          <label
+            className="mt-4 block text-sm font-bold"
+            htmlFor="password-confirmation"
+          >
+            Passwort wiederholen
+          </label>
           <input
-            type="checkbox"
-            checked={privacyAccepted}
-            onChange={(event) => setPrivacyAccepted(event.target.checked)}
-            className="mt-1 size-5 accent-[#132a74]"
+            id="password-confirmation"
+            type="password"
+            value={passwordConfirmation}
+            onChange={(event) => setPasswordConfirmation(event.target.value)}
+            placeholder="Noch einmal eingeben"
+            className="mt-2 h-14 w-full rounded-lg border border-[#c9d8f5] bg-[#f7fbff] px-4 text-base outline-none focus:border-[#132a74]"
           />
-          <span>
-            Ich habe den{" "}
-            <Link
-              href="/datenschutz"
-              className="font-black text-[#132a74] underline"
-            >
-              Datenschutz-Hinweis
-            </Link>{" "}
-            gelesen.
-          </span>
-        </label>
+
+          <div className="mt-4 rounded-lg bg-[#fff8df] p-3 text-sm leading-6 text-[#6d5214] ring-1 ring-[#f1d982]">
+            Nach der Registrierung kommt eine Bestätigungsmail von Supabase.
+            Supabase ist unser Login-Dienst für WM Sticker Swap; der Link in
+            der Mail aktiviert dein Konto.
+          </div>
+
+          <label className="mt-4 flex items-start gap-3 rounded-lg bg-[#f7fbff] p-3 text-sm leading-6 text-[#33415c] ring-1 ring-[#dbe7ff]">
+            <input
+              type="checkbox"
+              checked={privacyAccepted}
+              onChange={(event) => setPrivacyAccepted(event.target.checked)}
+              className="mt-1 size-5 accent-[#132a74]"
+            />
+            <span>
+              Ich habe den{" "}
+              <Link
+                href="/datenschutz"
+                className="font-black text-[#132a74] underline"
+              >
+                Datenschutz-Hinweis
+              </Link>{" "}
+              gelesen.
+            </span>
+          </label>
+        </>
       ) : null}
 
       <button
