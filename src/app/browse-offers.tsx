@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { findSticker, stickerLabel } from "@/lib/katalog";
+import { compareStickerCodes, findSticker, stickerLabel } from "@/lib/katalog";
 import { supabase } from "@/lib/supabase";
 
 type AbgabeArt = "tausch" | "verschenken" | "verkauf";
@@ -120,27 +120,32 @@ export function BrowseOffers({ userId, refreshKey }: BrowseOffersProps) {
     const stickerSearch = stickerFilter.trim().toLowerCase();
     const ortSearch = ortFilter.trim().toLowerCase();
 
-    return offers.filter((offer) => {
-      const sticker = findSticker(offer.sticker_code);
-      const profile = profileMap.get(offer.user_id);
-      const stickerText = [
-        offer.sticker_code,
-        sticker?.anzeige_code,
-        sticker?.team_code,
-        sticker?.team_name,
-        sticker?.name,
-        sticker?.typ,
-        sticker ? stickerLabel(sticker) : "",
-      ]
-        .join(" ")
-        .toLowerCase();
-      const ortText = `${profile?.ort ?? ""} ${profile?.nickname ?? ""}`.toLowerCase();
+    return offers
+      .filter((offer) => {
+        const sticker = findSticker(offer.sticker_code);
+        const profile = profileMap.get(offer.user_id);
+        const stickerText = [
+          offer.sticker_code,
+          sticker?.anzeige_code,
+          sticker?.team_code,
+          sticker?.team_name,
+          sticker?.name,
+          sticker?.typ,
+          sticker ? stickerLabel(sticker) : "",
+        ]
+          .join(" ")
+          .toLowerCase();
+        const ortText =
+          `${profile?.ort ?? ""} ${profile?.nickname ?? ""}`.toLowerCase();
 
-      return (
-        (!stickerSearch || stickerText.includes(stickerSearch)) &&
-        (!ortSearch || ortText.includes(ortSearch))
+        return (
+          (!stickerSearch || stickerText.includes(stickerSearch)) &&
+          (!ortSearch || ortText.includes(ortSearch))
+        );
+      })
+      .sort((first, second) =>
+        compareStickerCodes(first.sticker_code, second.sticker_code),
       );
-    });
   }, [offers, ortFilter, profileMap, stickerFilter]);
 
   return (

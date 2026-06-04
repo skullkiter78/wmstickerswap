@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { supabase } from "@/lib/supabase";
 import {
+  compareStickerCodes,
   findSticker,
   katalog,
   type KatalogSticker,
@@ -146,8 +147,12 @@ export function StickerManager({ userId, onChanged }: StickerManagerProps) {
     onChanged?.();
   }
 
-  const habeEntries = entries.filter((entry) => entry.liste === "habe");
-  const sucheEntries = entries.filter((entry) => entry.liste === "suche");
+  const habeEntries = sortStickerEntries(
+    entries.filter((entry) => entry.liste === "habe"),
+  );
+  const sucheEntries = sortStickerEntries(
+    entries.filter((entry) => entry.liste === "suche"),
+  );
 
   return (
     <section className="rounded-lg bg-white p-5 shadow-sm ring-1 ring-[#dbe7ff]">
@@ -375,4 +380,10 @@ function formatAbgabeArt(abgabeArt: AbgabeArt) {
   }
 
   return "Verkaufen";
+}
+
+function sortStickerEntries(entries: UserSticker[]) {
+  return [...entries].sort((first, second) =>
+    compareStickerCodes(first.sticker_code, second.sticker_code),
+  );
 }

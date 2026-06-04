@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { supabase } from "@/lib/supabase";
-import { findSticker, stickerLabel } from "@/lib/katalog";
+import { compareStickerCodes, findSticker, stickerLabel } from "@/lib/katalog";
 
 type StickerListe = "habe" | "suche";
 type AbgabeArt = "tausch" | "verschenken" | "verkauf";
@@ -127,8 +127,8 @@ export function MatchFinder({ userId, refreshKey }: MatchFinderProps) {
           userId: otherUserId,
           nickname: profile?.nickname ?? "Sammler",
           ort: profile?.ort ?? "Ort nicht angegeben",
-          givesMe,
-          wantsMine,
+          givesMe: sortStickerEntries(givesMe),
+          wantsMine: sortStickerEntries(wantsMine),
         };
       })
       .filter((match) => match.givesMe.length > 0 || match.wantsMine.length > 0)
@@ -446,6 +446,12 @@ function entryLabels(entries: UserSticker[]) {
     .filter(Boolean)
     .map((sticker) => stickerLabel(sticker!))
     .join(", ");
+}
+
+function sortStickerEntries(entries: UserSticker[]) {
+  return [...entries].sort((first, second) =>
+    compareStickerCodes(first.sticker_code, second.sticker_code),
+  );
 }
 
 function createProposalText(

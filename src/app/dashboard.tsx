@@ -24,8 +24,16 @@ type Profile = {
   onboarding_abgeschlossen: boolean;
 };
 
+type CommunityStats = {
+  userCount: number;
+  stickerCount: number;
+};
+
 export function Dashboard({ session, onLogout }: DashboardProps) {
   const [profile, setProfile] = useState<Profile | null>(null);
+  const [communityStats, setCommunityStats] = useState<CommunityStats | null>(
+    null,
+  );
   const [isLoading, setIsLoading] = useState(true);
   const [refreshKey, setRefreshKey] = useState(0);
 
@@ -43,6 +51,34 @@ export function Dashboard({ session, onLogout }: DashboardProps) {
 
     loadProfile();
   }, [session.user.id]);
+
+  useEffect(() => {
+    async function loadCommunityStats() {
+      const [
+        { data: profileData, error: profileError },
+        { data: stickerData, error: stickerError },
+      ] = await Promise.all([
+        supabase.rpc("get_public_profiles"),
+        supabase.from("user_stickers").select("anzahl"),
+      ]);
+
+      if (profileError || stickerError) {
+        return;
+      }
+
+      const stickerCount = ((stickerData ?? []) as { anzahl: number }[]).reduce(
+        (sum, entry) => sum + entry.anzahl,
+        0,
+      );
+
+      setCommunityStats({
+        userCount: (profileData ?? []).length,
+        stickerCount,
+      });
+    }
+
+    loadCommunityStats();
+  }, [refreshKey]);
 
   useEffect(() => {
     const channel = supabase
@@ -121,6 +157,7 @@ export function Dashboard({ session, onLogout }: DashboardProps) {
               Ort: {profile?.ort ?? "noch nicht geladen"} · Login:{" "}
               {session.user.email}
             </p>
+            <CommunityStatsBar stats={communityStats} />
           </div>
         </section>
 
@@ -171,4 +208,33 @@ export function Dashboard({ session, onLogout }: DashboardProps) {
       <AppFooter />
     </div>
   );
+}
+
+function CommunityStatsBar({ stats }: { stats: CommunityStats | null }) {
+  return (
+    <div className="mt-5 grid gap-3 text-[#172033] sm:grid-cols-2">
+      <div className="rounded-lg bg-white/95 p-4 shadow-sm">
+        <p className="text-xs font-black uppercase text-[#e44533]">
+          Angemeldet
+        </p>
+        <p className="mt-1 text-3xl font-black text-[#132a74]">
+          {stats ? formatNumber(stats.userCount) : "..."}
+        </p>
+        <p className="text-sm font-semibold text-[#5d6b86]">Menschen</p>
+      </div>
+      <div className="rounded-lg bg-[#fed447] p-4 shadow-sm">
+        <p className="text-xs font-black uppercase text-[#132a74]">
+          Hinterlegt
+        </p>
+        <p className="mt-1 text-3xl font-black text-[#172033]">
+          {stats ? formatNumber(stats.stickerCount) : "..."}
+        </p>
+        <p className="text-sm font-semibold text-[#5d4a12]">Karten insgesamt</p>
+      </div>
+    </div>
+  );
+}
+
+function formatNumber(value: number) {
+  return new Intl.NumberFormat("de-DE").format(value);
 }
