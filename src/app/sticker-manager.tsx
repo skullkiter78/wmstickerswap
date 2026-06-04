@@ -33,6 +33,13 @@ type UserStickerListsProps = {
   onChanged?: () => void;
 };
 
+type UserStickerGroup = {
+  teamCode: string;
+  teamName: string;
+  entries: UserSticker[];
+  stickerCount: number;
+};
+
 const teamCodes = Array.from(
   new Set(katalog.map((sticker) => sticker.team_code)),
 ).sort((first, second) => {
@@ -403,20 +410,79 @@ function StickerList({
   entries: UserSticker[];
   onRemove: (id: string) => void;
 }) {
+  const groups = useMemo(() => groupUserStickersByTeam(entries), [entries]);
+  const [openTeamCodes, setOpenTeamCodes] = useState<string[]>([]);
+
+  function toggleTeam(teamCode: string) {
+    setOpenTeamCodes((current) =>
+      current.includes(teamCode)
+        ? current.filter((code) => code !== teamCode)
+        : [...current, teamCode],
+    );
+  }
+
   return (
     <div className="rounded-lg border border-[#dbe7ff] p-4">
       <h3 className="font-black text-[#132a74]">{title}</h3>
       {entries.length === 0 ? (
         <p className="mt-3 text-sm leading-6 text-[#5d6b86]">{emptyText}</p>
       ) : (
-        <div className="mt-3 grid max-h-96 gap-2 overflow-y-auto pr-1">
-          {entries.map((entry) => {
+        <div className="mt-3 grid gap-2">
+          {groups.map((group) => (
+            <UserStickerGroupSection
+              key={group.teamCode}
+              group={group}
+              isOpen={openTeamCodes.includes(group.teamCode)}
+              onToggle={() => toggleTeam(group.teamCode)}
+              onRemove={onRemove}
+            />
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
+function UserStickerGroupSection({
+  group,
+  isOpen,
+  onToggle,
+  onRemove,
+}: {
+  group: UserStickerGroup;
+  isOpen: boolean;
+  onToggle: () => void;
+  onRemove: (id: string) => void;
+}) {
+  return (
+    <div className="rounded-lg bg-[#f7fbff] ring-1 ring-[#dbe7ff]">
+      <button
+        type="button"
+        onClick={onToggle}
+        className="flex min-h-14 w-full items-center justify-between gap-3 rounded-lg px-4 py-3 text-left"
+      >
+        <span>
+          <span className="block font-black text-[#132a74]">
+            {group.teamName}
+          </span>
+          <span className="text-xs font-semibold text-[#5d6b86]">
+            Code {group.teamCode}
+          </span>
+        </span>
+        <span className="rounded-full bg-white px-3 py-2 text-sm font-black text-[#132a74]">
+          {group.entries.length} Eintraege · {group.stickerCount} Karten
+        </span>
+      </button>
+
+      {isOpen ? (
+        <div className="grid max-h-96 gap-2 overflow-y-auto border-t border-[#dbe7ff] p-2">
+          {group.entries.map((entry) => {
             const sticker = findSticker(entry.sticker_code);
 
             return (
               <div
                 key={entry.id}
-                className="flex items-center justify-between gap-3 rounded-lg bg-[#f7fbff] p-3"
+                className="flex items-center justify-between gap-3 rounded-lg bg-white p-3"
               >
                 <div>
                   <p className="font-black">
@@ -441,7 +507,7 @@ function StickerList({
             );
           })}
         </div>
-      )}
+      ) : null}
     </div>
   );
 }
@@ -461,5 +527,34 @@ function formatAbgabeArt(abgabeArt: AbgabeArt) {
 function sortStickerEntries(entries: UserSticker[]) {
   return [...entries].sort((first, second) =>
     compareStickerCodes(first.sticker_code, second.sticker_code),
+  );
+}
+
+function groupUserStickersByTeam(entries: UserSticker[]) {
+  const groups = new Map<string, UserStickerGroup>();
+
+  for (const entry of sortStickerEntries(entries)) {
+    const sticker = findSticker(entry.sticker_code);
+    const teamCode = sticker?.team_code ?? entry.sticker_code.slice(0, 3);
+    const teamName = sticker?.team_name ?? teamCode;
+    const group = groups.get(teamCode);
+
+    if (group) {
+      group.entries.push(entry);
+      group.stickerCount += entry.anzahl;
+    } else {
+      groups.set(teamCode, {
+        teamCode,
+        teamName,
+        entries: [entry],
+        stickerCount: entry.anzahl,
+      });
+    }
+  }
+
+  return Array.from(groups.values()).sort((first, second) =>
+    first.teamName.localeCompare(second.teamName, "de", {
+      sensitivity: "base",
+    }),
   );
 }
