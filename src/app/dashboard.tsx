@@ -186,6 +186,17 @@ export function Dashboard({ session, onLogout }: DashboardProps) {
               deine Kontaktwege unten bei Profil & Kontakt ein, dann k&ouml;nnen
               passende Treffer dich direkt erreichen.
             </p>
+            <div className="mt-4 flex flex-col gap-3 sm:flex-row sm:items-center">
+              <p className="text-sm font-black text-[#132a74]">
+                Helft uns besser zu werden.
+              </p>
+              <a
+                href="mailto:info@daedd-design.de?subject=Vorschlag%20f%C3%BCr%20Sticker%20Swap"
+                className="inline-grid h-11 place-items-center rounded-lg bg-[#132a74] px-4 text-sm font-black text-white"
+              >
+                Vorschlag machen
+              </a>
+            </div>
           </div>
           <div className="relative h-56 md:h-full">
             <Image
