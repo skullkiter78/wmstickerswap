@@ -1,10 +1,10 @@
 export const appConfig = {
   appName: "Sticker Swap",
-  regionLabel: "Fröndenberg & Umgebung",
+  regionLabel: "Fr\u00f6ndenberg & Umgebung",
   sponsor: {
-    name: "dädd design",
+    name: "d\u00e4dd design",
     url: "https://daedd-design.de",
-    tagline: "personalisierte 3D-Figuren aus Fröndenberg",
+    tagline: "personalisierte Geschenkideen in 3D aus Fr\u00f6ndenberg",
     logo: "/logos/daedd-logo.png",
     logoLight: "/logos/daedd-logo-weiss.png",
   },
