@@ -129,9 +129,7 @@ export function Dashboard({ session, onLogout }: DashboardProps) {
             <p className="font-display text-3xl leading-none tracking-normal text-[#132a74]">
               Sticker Swap
             </p>
-            <p className="text-xs font-bold text-[#e44533]">
-              Dein Dashboard
-            </p>
+            <p className="text-xs font-bold text-[#e44533]">Dein Dashboard</p>
           </div>
           <button
             type="button"
@@ -154,7 +152,7 @@ export function Dashboard({ session, onLogout }: DashboardProps) {
           <div className="absolute inset-0 bg-gradient-to-r from-[#132a74] via-[#132a74]/88 to-[#132a74]/35" />
           <div className="relative">
             <p className="text-sm font-bold text-[#fed447]">
-              Willkommen zurück
+              Willkommen zur&uuml;ck
             </p>
             <h1 className="mt-2 font-display text-5xl leading-none tracking-normal">
               {isLoading
@@ -162,7 +160,7 @@ export function Dashboard({ session, onLogout }: DashboardProps) {
                 : `Hallo ${profile?.nickname ?? "Sammler"}`}
             </h1>
             <p className="mt-3 max-w-xl text-sm leading-6 text-white/85">
-              Ort: {profile?.ort ?? "noch nicht geladen"} · Login:{" "}
+              Ort: {profile?.ort ?? "noch nicht geladen"} &middot; Login:{" "}
               {session.user.email}
             </p>
             <CommunityStatsBar stats={communityStats} />
@@ -174,7 +172,7 @@ export function Dashboard({ session, onLogout }: DashboardProps) {
         <section className="grid overflow-hidden rounded-lg bg-white shadow-sm ring-1 ring-[#dbe7ff] md:grid-cols-[0.95fr_1.05fr]">
           <div className="p-5">
             <p className="text-sm font-bold text-[#e44533]">
-              Sammelrunde Fröndenberg und Umgebung
+              Sammelrunde Fr&ouml;ndenberg und Umgebung
             </p>
             <h2 className="mt-2 text-2xl font-black text-[#132a74]">
               So muss Stickertausch - ohne Werbung - einfach und um die Ecke.
@@ -183,11 +181,16 @@ export function Dashboard({ session, onLogout }: DashboardProps) {
               Doppelte sortieren, Suchliste pflegen, Treffer finden: alles hier
               in deiner kleinen lokalen Sticker-Zentrale.
             </p>
+            <p className="mt-2 text-sm leading-6 text-[#5d6b86]">
+              F&uuml;r den schnellen Tausch kannst du auch WhatsApp nutzen: Trag
+              deine Kontaktwege unten bei Profil & Kontakt ein, dann k&ouml;nnen
+              passende Treffer dich direkt erreichen.
+            </p>
           </div>
           <div className="relative h-56 md:h-full">
             <Image
               src="/images/sticker-swap-hero.png"
-              alt="Sticker-Tausch an einem sonnigen Fußballplatz"
+              alt="Sticker-Tausch an einem sonnigen Fussballplatz"
               fill
               sizes="(min-width: 768px) 50vw, 100vw"
               className="object-cover"
@@ -204,13 +207,9 @@ export function Dashboard({ session, onLogout }: DashboardProps) {
 
         <BrowseOffers userId={session.user.id} refreshKey={refreshKey} />
 
-        <ProfileSettings
-          userId={session.user.id}
-          onAccountDeleted={onLogout}
-        />
+        <ProfileSettings userId={session.user.id} onAccountDeleted={onLogout} />
 
         <VoucherBanner />
-
       </main>
       <AppFooter />
     </div>
