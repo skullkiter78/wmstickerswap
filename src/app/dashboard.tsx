@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { supabase } from "@/lib/supabase";
 import type { Session } from "@supabase/supabase-js";
 import Image from "next/image";
@@ -9,7 +9,7 @@ import { MatchFinder } from "./match-finder";
 import { NotificationBanner } from "./notification-banner";
 import { Onboarding } from "./onboarding";
 import { ProfileSettings } from "./profile-settings";
-import { AppFooter, SponsorCard, VoucherBanner } from "./sponsor";
+import { AppFooter, VoucherBanner } from "./sponsor";
 import { StickerManager } from "./sticker-manager";
 
 type DashboardProps = {
@@ -37,6 +37,30 @@ export function Dashboard({ session, onLogout }: DashboardProps) {
   const [isLoading, setIsLoading] = useState(true);
   const [refreshKey, setRefreshKey] = useState(0);
 
+  const loadCommunityStats = useCallback(async () => {
+    const [
+      { data: profileData, error: profileError },
+      { data: stickerData, error: stickerError },
+    ] = await Promise.all([
+      supabase.rpc("get_public_profiles"),
+      supabase.from("user_stickers").select("anzahl"),
+    ]);
+
+    if (profileError || stickerError) {
+      return;
+    }
+
+    const stickerCount = ((stickerData ?? []) as { anzahl: number }[]).reduce(
+      (sum, entry) => sum + entry.anzahl,
+      0,
+    );
+
+    setCommunityStats({
+      userCount: (profileData ?? []).length,
+      stickerCount,
+    });
+  }, []);
+
   useEffect(() => {
     async function loadProfile() {
       const { data } = await supabase
@@ -53,32 +77,16 @@ export function Dashboard({ session, onLogout }: DashboardProps) {
   }, [session.user.id]);
 
   useEffect(() => {
-    async function loadCommunityStats() {
-      const [
-        { data: profileData, error: profileError },
-        { data: stickerData, error: stickerError },
-      ] = await Promise.all([
-        supabase.rpc("get_public_profiles"),
-        supabase.from("user_stickers").select("anzahl"),
-      ]);
+    const timeoutId = window.setTimeout(loadCommunityStats, 0);
 
-      if (profileError || stickerError) {
-        return;
-      }
+    return () => window.clearTimeout(timeoutId);
+  }, [loadCommunityStats, refreshKey]);
 
-      const stickerCount = ((stickerData ?? []) as { anzahl: number }[]).reduce(
-        (sum, entry) => sum + entry.anzahl,
-        0,
-      );
+  useEffect(() => {
+    const intervalId = window.setInterval(loadCommunityStats, 30000);
 
-      setCommunityStats({
-        userCount: (profileData ?? []).length,
-        stickerCount,
-      });
-    }
-
-    loadCommunityStats();
-  }, [refreshKey]);
+    return () => window.clearInterval(intervalId);
+  }, [loadCommunityStats]);
 
   useEffect(() => {
     const channel = supabase
@@ -166,10 +174,10 @@ export function Dashboard({ session, onLogout }: DashboardProps) {
         <section className="grid overflow-hidden rounded-lg bg-white shadow-sm ring-1 ring-[#dbe7ff] md:grid-cols-[0.95fr_1.05fr]">
           <div className="p-5">
             <p className="text-sm font-bold text-[#e44533]">
-              Sammelrunde Fröndenberg
+              Sammelrunde Fröndenberg und Umgebung
             </p>
             <h2 className="mt-2 text-2xl font-black text-[#132a74]">
-              So fühlt sich Tauschen nach Sommerturnier an.
+              So muss Stickertausch - ohne Werbung - einfach und um die Ecke.
             </h2>
             <p className="mt-2 text-sm leading-6 text-[#5d6b86]">
               Doppelte sortieren, Suchliste pflegen, Treffer finden: alles hier
@@ -203,7 +211,6 @@ export function Dashboard({ session, onLogout }: DashboardProps) {
 
         <VoucherBanner />
 
-        <SponsorCard />
       </main>
       <AppFooter />
     </div>
