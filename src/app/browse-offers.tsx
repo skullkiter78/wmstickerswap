@@ -39,6 +39,7 @@ export function BrowseOffers({ userId, refreshKey }: BrowseOffersProps) {
   const [ortFilter, setOrtFilter] = useState("");
   const [message, setMessage] = useState("Angebote werden geladen...");
   const [isLoading, setIsLoading] = useState(true);
+  const [hasNewOffers, setHasNewOffers] = useState(false);
 
   useEffect(() => {
     let ignore = false;
@@ -61,7 +62,17 @@ export function BrowseOffers({ userId, refreshKey }: BrowseOffersProps) {
     return () => {
       ignore = true;
     };
-  }, [userId, refreshKey]);
+  }, [userId]);
+
+  useEffect(() => {
+    if (refreshKey === 0 || isLoading) {
+      return;
+    }
+
+    const timeoutId = window.setTimeout(() => setHasNewOffers(true), 0);
+
+    return () => window.clearTimeout(timeoutId);
+  }, [isLoading, refreshKey]);
 
   async function fetchOffers(currentUserId: string) {
     return Promise.all([
@@ -98,6 +109,7 @@ export function BrowseOffers({ userId, refreshKey }: BrowseOffersProps) {
     setOffers((offerData ?? []) as Offer[]);
     setProfiles((profileData ?? []) as PublicProfile[]);
     setMessage("Angebote sind aktuell.");
+    setHasNewOffers(false);
     setIsLoading(false);
   }
 
@@ -158,15 +170,31 @@ export function BrowseOffers({ userId, refreshKey }: BrowseOffersProps) {
             Schau nach, wer welche Sticker doppelt hat. Kontaktdaten bleiben
             weiterhin erst bei Treffern sichtbar.
           </p>
+          <p className="mt-2 text-sm leading-6 text-[#5d6b86]">
+            Damit die Seite beim St&ouml;bern ruhig bleibt, laden neue Eintr&auml;ge
+            nicht automatisch in die Liste. Du bekommst hier einen Hinweis und
+            entscheidest selbst, wann aktualisiert wird.
+          </p>
         </div>
         <button
           type="button"
           onClick={loadOffers}
-          className="h-12 rounded-lg border-2 border-[#132a74] px-4 text-sm font-black text-[#132a74]"
+          className={`h-12 rounded-lg px-4 text-sm font-black ${
+            hasNewOffers
+              ? "bg-[#fed447] text-[#172033]"
+              : "border-2 border-[#132a74] text-[#132a74]"
+          }`}
         >
-          Aktualisieren
+          {hasNewOffers ? "Neue Angebote laden" : "Aktualisieren"}
         </button>
       </div>
+
+      {hasNewOffers ? (
+        <div className="mt-4 rounded-lg bg-[#fff8df] p-4 text-sm leading-6 text-[#6d5214] ring-1 ring-[#f1d982]">
+          Neue Angebote oder Suchtreffer sind dazugekommen. Deine aktuelle
+          Ansicht bleibt stabil; lade die Liste, wenn du bereit bist.
+        </div>
+      ) : null}
 
       <div className="mt-5 grid gap-3 md:grid-cols-2">
         <label className="block text-sm font-bold" htmlFor="browse-sticker">
