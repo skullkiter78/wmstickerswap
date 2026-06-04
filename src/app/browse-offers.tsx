@@ -27,6 +27,13 @@ type MatchContact = {
   kontakt_telefon: string | null;
 };
 
+type OfferGroup = {
+  teamCode: string;
+  teamName: string;
+  offers: Offer[];
+  stickerCount: number;
+};
+
 type BrowseOffersProps = {
   userId: string;
   refreshKey: number;
@@ -40,6 +47,7 @@ export function BrowseOffers({ userId, refreshKey }: BrowseOffersProps) {
   const [message, setMessage] = useState("Angebote werden geladen...");
   const [isLoading, setIsLoading] = useState(true);
   const [hasNewOffers, setHasNewOffers] = useState(false);
+  const [openTeamCodes, setOpenTeamCodes] = useState<string[]>([]);
 
   useEffect(() => {
     let ignore = false;
@@ -160,6 +168,19 @@ export function BrowseOffers({ userId, refreshKey }: BrowseOffersProps) {
       );
   }, [offers, ortFilter, profileMap, stickerFilter]);
 
+  const offerGroups = useMemo(
+    () => groupOffersByTeam(filteredOffers),
+    [filteredOffers],
+  );
+
+  function toggleTeam(teamCode: string) {
+    setOpenTeamCodes((current) =>
+      current.includes(teamCode)
+        ? current.filter((code) => code !== teamCode)
+        : [...current, teamCode],
+    );
+  }
+
   return (
     <section className="rounded-lg bg-white p-5 shadow-sm ring-1 ring-[#dbe7ff]">
       <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
@@ -237,8 +258,59 @@ export function BrowseOffers({ userId, refreshKey }: BrowseOffersProps) {
           lösche den Ortsfilter.
         </p>
       ) : (
-        <div className="mt-4 grid gap-3 md:grid-cols-2">
-          {filteredOffers.slice(0, 60).map((offer) => (
+        <div className="mt-4 grid gap-3">
+          {offerGroups.map((group) => (
+            <OfferGroupSection
+              key={group.teamCode}
+              group={group}
+              isOpen={openTeamCodes.includes(group.teamCode)}
+              onToggle={() => toggleTeam(group.teamCode)}
+              userId={userId}
+              profileMap={profileMap}
+            />
+          ))}
+        </div>
+      )}
+    </section>
+  );
+}
+
+function OfferGroupSection({
+  group,
+  isOpen,
+  onToggle,
+  userId,
+  profileMap,
+}: {
+  group: OfferGroup;
+  isOpen: boolean;
+  onToggle: () => void;
+  userId: string;
+  profileMap: Map<string, PublicProfile>;
+}) {
+  return (
+    <div className="rounded-lg bg-[#f7fbff] ring-1 ring-[#dbe7ff]">
+      <button
+        type="button"
+        onClick={onToggle}
+        className="flex min-h-14 w-full items-center justify-between gap-3 rounded-lg px-4 py-3 text-left"
+      >
+        <span>
+          <span className="block font-black text-[#132a74]">
+            {group.teamName}
+          </span>
+          <span className="text-xs font-semibold text-[#5d6b86]">
+            Code {group.teamCode}
+          </span>
+        </span>
+        <span className="rounded-full bg-white px-3 py-2 text-sm font-black text-[#132a74]">
+          {group.offers.length} Eintraege · {group.stickerCount} Karten
+        </span>
+      </button>
+
+      {isOpen ? (
+        <div className="grid gap-3 border-t border-[#dbe7ff] p-3 md:grid-cols-2">
+          {group.offers.map((offer) => (
             <OfferCard
               key={offer.id}
               userId={userId}
@@ -247,8 +319,8 @@ export function BrowseOffers({ userId, refreshKey }: BrowseOffersProps) {
             />
           ))}
         </div>
-      )}
-    </section>
+      ) : null}
+    </div>
   );
 }
 
@@ -428,4 +500,40 @@ function formatAbgabeArt(abgabeArt: AbgabeArt | null) {
   }
 
   return "Tauschen";
+}
+
+function groupOffersByTeam(offers: Offer[]) {
+  const groups = new Map<string, OfferGroup>();
+
+  for (const offer of offers) {
+    const sticker = findSticker(offer.sticker_code);
+    const teamCode = sticker?.team_code ?? offer.sticker_code.slice(0, 3);
+    const teamName = sticker?.team_name ?? teamCode;
+    const group = groups.get(teamCode);
+
+    if (group) {
+      group.offers.push(offer);
+      group.stickerCount += offer.anzahl;
+    } else {
+      groups.set(teamCode, {
+        teamCode,
+        teamName,
+        offers: [offer],
+        stickerCount: offer.anzahl,
+      });
+    }
+  }
+
+  return Array.from(groups.values())
+    .map((group) => ({
+      ...group,
+      offers: [...group.offers].sort((first, second) =>
+        compareStickerCodes(first.sticker_code, second.sticker_code),
+      ),
+    }))
+    .sort((first, second) =>
+      first.teamName.localeCompare(second.teamName, "de", {
+        sensitivity: "base",
+      }),
+    );
 }

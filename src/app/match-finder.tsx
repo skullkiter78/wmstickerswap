@@ -42,6 +42,12 @@ type Match = {
   wantsMine: UserSticker[];
 };
 
+type StickerEntryGroup = {
+  teamCode: string;
+  teamName: string;
+  entries: UserSticker[];
+};
+
 export function MatchFinder({ userId, refreshKey }: MatchFinderProps) {
   const [stickers, setStickers] = useState<UserSticker[]>([]);
   const [profiles, setProfiles] = useState<PublicProfile[]>([]);
@@ -374,6 +380,17 @@ function SelectableStickerList({
   isPerfect: boolean;
   onToggle: (id: string) => void;
 }) {
+  const groups = useMemo(() => groupStickerEntries(entries), [entries]);
+  const [openTeamCodes, setOpenTeamCodes] = useState<string[]>([]);
+
+  function toggleTeam(teamCode: string) {
+    setOpenTeamCodes((current) =>
+      current.includes(teamCode)
+        ? current.filter((code) => code !== teamCode)
+        : [...current, teamCode],
+    );
+  }
+
   return (
     <div className={`rounded-lg p-3 ${isPerfect ? "bg-white/10" : "bg-white"}`}>
       <p className="text-sm font-black">{title}</p>
@@ -388,30 +405,66 @@ function SelectableStickerList({
           Kein direkter Gegenwert.
         </p>
       ) : (
-        <div className="mt-2 grid max-h-96 gap-2 overflow-y-auto pr-1">
-          {entries.map((entry) => {
-            const sticker = findSticker(entry.sticker_code);
+        <div className="mt-2 grid gap-2">
+          {groups.map((group) => {
+            const isOpen = openTeamCodes.includes(group.teamCode);
+            const selectedCount = group.entries.filter((entry) =>
+              selectedIds.includes(entry.id),
+            ).length;
 
             return (
-              <label
-                key={entry.id}
-                className={`flex min-h-12 items-start gap-3 rounded-lg p-2 text-sm font-semibold ${
+              <div
+                key={group.teamCode}
+                className={`rounded-lg ${
                   isPerfect ? "bg-white/10" : "bg-[#f7fbff]"
                 }`}
               >
-                <input
-                  type="checkbox"
-                  checked={selectedIds.includes(entry.id)}
-                  onChange={() => onToggle(entry.id)}
-                  className="mt-1 size-5 accent-[#fed447]"
-                />
-                <span>
-                  {sticker ? stickerLabel(sticker) : entry.sticker_code}
-                  <span className="block text-xs opacity-75">
-                    {entry.anzahl}x
+                <button
+                  type="button"
+                  onClick={() => toggleTeam(group.teamCode)}
+                  className="flex min-h-12 w-full items-center justify-between gap-3 rounded-lg px-3 py-2 text-left text-sm font-black"
+                >
+                  <span>
+                    {group.teamName}
+                    <span className="ml-2 text-xs opacity-75">
+                      {group.teamCode}
+                    </span>
                   </span>
-                </span>
-              </label>
+                  <span className="rounded-full bg-white px-3 py-1 text-xs text-[#132a74]">
+                    {selectedCount}/{group.entries.length}
+                  </span>
+                </button>
+
+                {isOpen ? (
+                  <div className="grid max-h-80 gap-2 overflow-y-auto px-2 pb-2">
+                    {group.entries.map((entry) => {
+                      const sticker = findSticker(entry.sticker_code);
+
+                      return (
+                        <label
+                          key={entry.id}
+                          className={`flex min-h-12 items-start gap-3 rounded-lg p-2 text-sm font-semibold ${
+                            isPerfect ? "bg-white/10" : "bg-white"
+                          }`}
+                        >
+                          <input
+                            type="checkbox"
+                            checked={selectedIds.includes(entry.id)}
+                            onChange={() => onToggle(entry.id)}
+                            className="mt-1 size-5 accent-[#fed447]"
+                          />
+                          <span>
+                            {sticker ? stickerLabel(sticker) : entry.sticker_code}
+                            <span className="block text-xs opacity-75">
+                              {entry.anzahl}x
+                            </span>
+                          </span>
+                        </label>
+                      );
+                    })}
+                  </div>
+                ) : null}
+              </div>
             );
           })}
         </div>
@@ -456,5 +509,32 @@ function createProposalText(
 function sortStickerEntries(entries: UserSticker[]) {
   return [...entries].sort((first, second) =>
     compareStickerCodes(first.sticker_code, second.sticker_code),
+  );
+}
+
+function groupStickerEntries(entries: UserSticker[]) {
+  const groups = new Map<string, StickerEntryGroup>();
+
+  for (const entry of sortStickerEntries(entries)) {
+    const sticker = findSticker(entry.sticker_code);
+    const teamCode = sticker?.team_code ?? entry.sticker_code.slice(0, 3);
+    const teamName = sticker?.team_name ?? teamCode;
+    const group = groups.get(teamCode);
+
+    if (group) {
+      group.entries.push(entry);
+    } else {
+      groups.set(teamCode, {
+        teamCode,
+        teamName,
+        entries: [entry],
+      });
+    }
+  }
+
+  return Array.from(groups.values()).sort((first, second) =>
+    first.teamName.localeCompare(second.teamName, "de", {
+      sensitivity: "base",
+    }),
   );
 }
