@@ -32,3 +32,27 @@ export function stickerLabel(sticker: KatalogSticker) {
 export function findSticker(code: string) {
   return katalog.find((sticker) => sticker.code === code);
 }
+
+export function compareStickerCodes(firstCode: string, secondCode: string) {
+  const firstSticker = findSticker(firstCode);
+  const secondSticker = findSticker(secondCode);
+
+  const firstTeam = firstSticker?.team_name ?? "";
+  const secondTeam = secondSticker?.team_name ?? "";
+  const teamCompare = firstTeam.localeCompare(secondTeam, "de", {
+    sensitivity: "base",
+  });
+
+  if (teamCompare !== 0) {
+    return teamCompare;
+  }
+
+  const firstNumber = firstSticker?.nummer ?? Number.MAX_SAFE_INTEGER;
+  const secondNumber = secondSticker?.nummer ?? Number.MAX_SAFE_INTEGER;
+
+  if (firstNumber !== secondNumber) {
+    return firstNumber - secondNumber;
+  }
+
+  return firstCode.localeCompare(secondCode, "de", { sensitivity: "base" });
+}
