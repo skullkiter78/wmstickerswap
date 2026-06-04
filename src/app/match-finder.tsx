@@ -1,8 +1,8 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { supabase } from "@/lib/supabase";
 import { compareStickerCodes, findSticker, stickerLabel } from "@/lib/katalog";
+import { supabase } from "@/lib/supabase";
 
 type StickerListe = "habe" | "suche";
 type AbgabeArt = "tausch" | "verschenken" | "verkauf";
@@ -75,7 +75,7 @@ export function MatchFinder({ userId, refreshKey }: MatchFinderProps) {
 
     if (profileError) {
       setMessage(
-        "Treffer können noch nicht angezeigt werden. Bitte führe die SQL-Datei für öffentliche Profile in Supabase aus.",
+        "Treffer koennen noch nicht angezeigt werden. Bitte fuehre die SQL-Datei fuer oeffentliche Profile in Supabase aus.",
       );
       setIsLoading(false);
       return;
@@ -132,18 +132,20 @@ export function MatchFinder({ userId, refreshKey }: MatchFinderProps) {
         };
       })
       .filter((match) => match.givesMe.length > 0 || match.wantsMine.length > 0)
-      .sort((a, b) => {
-        const aPerfect = a.givesMe.length > 0 && a.wantsMine.length > 0 ? 1 : 0;
-        const bPerfect = b.givesMe.length > 0 && b.wantsMine.length > 0 ? 1 : 0;
+      .sort((first, second) => {
+        const firstPerfect =
+          first.givesMe.length > 0 && first.wantsMine.length > 0 ? 1 : 0;
+        const secondPerfect =
+          second.givesMe.length > 0 && second.wantsMine.length > 0 ? 1 : 0;
 
-        if (aPerfect !== bPerfect) {
-          return bPerfect - aPerfect;
+        if (firstPerfect !== secondPerfect) {
+          return secondPerfect - firstPerfect;
         }
 
         return (
-          b.givesMe.length +
-          b.wantsMine.length -
-          (a.givesMe.length + a.wantsMine.length)
+          second.givesMe.length +
+          second.wantsMine.length -
+          (first.givesMe.length + first.wantsMine.length)
         );
       });
   }, [profiles, stickers, userId]);
@@ -178,8 +180,8 @@ export function MatchFinder({ userId, refreshKey }: MatchFinderProps) {
         </p>
       ) : matches.length === 0 ? (
         <p className="mt-4 rounded-lg bg-[#f7fbff] p-4 text-sm leading-6 text-[#5d6b86]">
-          Noch keine Treffer. Trag am besten erst ein paar Sticker in „Habe
-          doppelt“ und „Suche noch“ ein.
+          Noch keine Treffer. Trag am besten erst ein paar Sticker in Habe
+          doppelt und Suche noch ein.
         </p>
       ) : (
         <div className="mt-4 grid gap-3">
@@ -196,14 +198,14 @@ function MatchCard({ match }: { match: Match }) {
   const isPerfect = match.givesMe.length > 0 && match.wantsMine.length > 0;
   const [contact, setContact] = useState<MatchContact | null>(null);
   const [contactMessage, setContactMessage] = useState(
-    "Wähle konkrete Sticker aus. Kontaktwege werden erst bei Treffer angezeigt.",
+    "Waehle konkrete Sticker aus. Kontaktwege werden erst bei Treffer angezeigt.",
   );
   const [isLoadingContact, setIsLoadingContact] = useState(false);
   const [selectedReceiveIds, setSelectedReceiveIds] = useState<string[]>(() =>
-    match.givesMe.map((entry) => entry.id).slice(0, 5),
+    match.givesMe.map((entry) => entry.id),
   );
   const [selectedOfferIds, setSelectedOfferIds] = useState<string[]>(() =>
-    match.wantsMine.map((entry) => entry.id).slice(0, 5),
+    match.wantsMine.map((entry) => entry.id),
   );
 
   const selectedReceive = match.givesMe.filter((entry) =>
@@ -224,7 +226,7 @@ function MatchCard({ match }: { match: Match }) {
 
     if (error) {
       setContactMessage(
-        "Kontakt kann noch nicht angezeigt werden. Bitte führe die SQL-Datei für Match-Kontakte in Supabase aus.",
+        "Kontakt kann noch nicht angezeigt werden. Bitte fuehre die SQL-Datei fuer Match-Kontakte in Supabase aus.",
       );
       setIsLoadingContact(false);
       return;
@@ -274,7 +276,7 @@ function MatchCard({ match }: { match: Match }) {
 
       <div className="mt-4 grid gap-3 md:grid-cols-2">
         <SelectableStickerList
-          title={`Möchte ich bekommen (${match.givesMe.length})`}
+          title={`Moechte ich bekommen (${match.givesMe.length})`}
           entries={match.givesMe}
           selectedIds={selectedReceiveIds}
           isPerfect={isPerfect}
@@ -386,8 +388,8 @@ function SelectableStickerList({
           Kein direkter Gegenwert.
         </p>
       ) : (
-        <div className="mt-2 grid gap-2">
-          {entries.slice(0, 8).map((entry) => {
+        <div className="mt-2 grid max-h-96 gap-2 overflow-y-auto pr-1">
+          {entries.map((entry) => {
             const sticker = findSticker(entry.sticker_code);
 
             return (
@@ -412,11 +414,6 @@ function SelectableStickerList({
               </label>
             );
           })}
-          {entries.length > 8 ? (
-            <p className="text-sm font-semibold">
-              + {entries.length - 8} weitere
-            </p>
-          ) : null}
         </div>
       )}
     </div>
@@ -448,16 +445,16 @@ function entryLabels(entries: UserSticker[]) {
     .join(", ");
 }
 
-function sortStickerEntries(entries: UserSticker[]) {
-  return [...entries].sort((first, second) =>
-    compareStickerCodes(first.sticker_code, second.sticker_code),
-  );
-}
-
 function createProposalText(
   match: Match,
   selectedReceive: UserSticker[],
   selectedOffer: UserSticker[],
 ) {
-  return `Hi ${match.nickname}, ich habe dich in der Sticker-Tauschbörse gefunden.\n\nDu gibst mir: ${entryLabels(selectedReceive) || "passende Sticker"}\nIch gebe dir: ${entryLabels(selectedOffer) || "passende Sticker"}\n\nPasst das für dich?`;
+  return `Hi ${match.nickname}, ich habe dich in der Sticker-Tauschboerse gefunden.\n\nDu gibst mir: ${entryLabels(selectedReceive) || "passende Sticker"}\nIch gebe dir: ${entryLabels(selectedOffer) || "passende Sticker"}\n\nPasst das fuer dich?`;
+}
+
+function sortStickerEntries(entries: UserSticker[]) {
+  return [...entries].sort((first, second) =>
+    compareStickerCodes(first.sticker_code, second.sticker_code),
+  );
 }
