@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { supabase } from "@/lib/supabase";
 import {
   compareStickerCodes,
   findSticker,
@@ -9,6 +8,7 @@ import {
   type KatalogSticker,
   stickerLabel,
 } from "@/lib/katalog";
+import { supabase } from "@/lib/supabase";
 
 type StickerListe = "habe" | "suche";
 type AbgabeArt = "tausch" | "verschenken" | "verkauf";
@@ -27,77 +27,89 @@ type StickerManagerProps = {
   onChanged?: () => void;
 };
 
+type UserStickerListsProps = {
+  userId: string;
+  refreshKey: number;
+  onChanged?: () => void;
+};
+
+const teamCodes = Array.from(
+  new Set(katalog.map((sticker) => sticker.team_code)),
+).sort((first, second) => {
+  const firstSticker = katalog.find((sticker) => sticker.team_code === first);
+  const secondSticker = katalog.find((sticker) => sticker.team_code === second);
+
+  return (firstSticker?.team_name ?? first).localeCompare(
+    secondSticker?.team_name ?? second,
+    "de",
+    { sensitivity: "base" },
+  );
+});
+
 export function StickerManager({ userId, onChanged }: StickerManagerProps) {
   const [liste, setListe] = useState<StickerListe>("habe");
-  const [query, setQuery] = useState("");
+  const [teamQuery, setTeamQuery] = useState("");
   const [selectedSticker, setSelectedSticker] = useState<KatalogSticker | null>(
     null,
   );
   const [anzahl, setAnzahl] = useState(1);
   const [abgabeArt, setAbgabeArt] = useState<AbgabeArt>("tausch");
   const [preisVorschlag, setPreisVorschlag] = useState("");
-  const [lastTeamCode, setLastTeamCode] = useState("");
-  const [entries, setEntries] = useState<UserSticker[]>([]);
   const [message, setMessage] = useState(
-    "Trag ein, was du suchst - wir sagen dir später automatisch per E-Mail Bescheid, sobald jemand eine deiner Karten anbietet.",
+    "Kurz eintragen: Team-Code tippen, Nummer antippen, speichern.",
   );
   const [isSaving, setIsSaving] = useState(false);
 
-  useEffect(() => {
-    loadEntries();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [userId]);
+  const normalizedTeamQuery = teamQuery.trim().toUpperCase();
+  const matchingTeamCodes = useMemo(() => {
+    if (!normalizedTeamQuery) {
+      return [];
+    }
 
-  const suggestions = useMemo(() => {
-    const search = query.trim().toLowerCase();
-    const effectiveSearch = search || lastTeamCode.toLowerCase();
+    return teamCodes.filter((code) => code.startsWith(normalizedTeamQuery));
+  }, [normalizedTeamQuery]);
 
-    if (!effectiveSearch) {
-      return katalog.slice(0, 8);
+  const selectedTeamCode = useMemo(() => {
+    if (matchingTeamCodes.length === 1) {
+      return matchingTeamCodes[0];
+    }
+
+    if (normalizedTeamQuery.length >= 3) {
+      return (
+        teamCodes.find((code) => code === normalizedTeamQuery) ??
+        matchingTeamCodes[0] ??
+        ""
+      );
+    }
+
+    return "";
+  }, [matchingTeamCodes, normalizedTeamQuery]);
+
+  const selectedTeamStickers = useMemo(() => {
+    if (!selectedTeamCode) {
+      return [];
     }
 
     return katalog
-      .filter((sticker) => {
-        const haystack = [
-          sticker.code,
-          sticker.team_code,
-          sticker.team_name,
-          sticker.nummer.toString(),
-          sticker.name,
-          stickerLabel(sticker),
-        ]
-          .join(" ")
-          .toLowerCase();
+      .filter((sticker) => sticker.team_code === selectedTeamCode)
+      .sort((first, second) => first.nummer - second.nummer);
+  }, [selectedTeamCode]);
 
-        return haystack.includes(effectiveSearch);
-      })
-      .slice(0, 8);
-  }, [query, lastTeamCode]);
+  const selectedTeamName = selectedTeamStickers[0]?.team_name ?? "";
 
-  async function loadEntries() {
-    const { data, error } = await supabase
-      .from("user_stickers")
-      .select("id, sticker_code, anzahl, liste, abgabe_art, preis_vorschlag")
-      .eq("user_id", userId)
-      .order("created_at", { ascending: false });
-
-    if (error) {
-      setMessage(error.message);
-      return;
-    }
-
-    setEntries((data ?? []) as UserSticker[]);
+  function selectTeam(code: string) {
+    setTeamQuery(code);
+    setSelectedSticker(null);
   }
 
   function selectSticker(sticker: KatalogSticker) {
     setSelectedSticker(sticker);
-    setQuery(stickerLabel(sticker));
-    setLastTeamCode(sticker.team_code);
+    setTeamQuery(sticker.team_code);
   }
 
   async function addSticker() {
     if (!selectedSticker) {
-      setMessage("Bitte wähle zuerst einen Sticker aus der Vorschlagsliste aus.");
+      setMessage("Bitte waehle zuerst eine Nummer aus.");
       return;
     }
 
@@ -125,41 +137,20 @@ export function StickerManager({ userId, onChanged }: StickerManagerProps) {
     }
 
     setMessage(`${selectedSticker.code} wurde gespeichert.`);
-    setQuery("");
     setSelectedSticker(null);
     setAnzahl(1);
     setPreisVorschlag("");
     setIsSaving(false);
-    loadEntries();
     onChanged?.();
   }
-
-  async function removeSticker(id: string) {
-    const { error } = await supabase.from("user_stickers").delete().eq("id", id);
-
-    if (error) {
-      setMessage(error.message);
-      return;
-    }
-
-    setMessage("Eintrag gelöscht.");
-    loadEntries();
-    onChanged?.();
-  }
-
-  const habeEntries = sortStickerEntries(
-    entries.filter((entry) => entry.liste === "habe"),
-  );
-  const sucheEntries = sortStickerEntries(
-    entries.filter((entry) => entry.liste === "suche"),
-  );
 
   return (
     <section className="rounded-lg bg-white p-5 shadow-sm ring-1 ring-[#dbe7ff]">
-      <div className="flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
+      <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
         <div>
           <p className="text-sm font-bold text-[#e44533]">Stickerlisten</p>
           <h2 className="mt-1 text-2xl font-black">Sticker eintragen</h2>
+          <p className="mt-2 text-sm leading-6 text-[#5d6b86]">{message}</p>
         </div>
         <div className="grid grid-cols-2 gap-2 rounded-lg bg-[#eef5ff] p-1">
           <button
@@ -187,118 +178,203 @@ export function StickerManager({ userId, onChanged }: StickerManagerProps) {
         </div>
       </div>
 
-      <p className="mt-3 text-sm leading-6 text-[#5d6b86]">{message}</p>
-
-      <div className="mt-5 grid gap-4 lg:grid-cols-[1.1fr_0.9fr]">
-        <div>
-          <label className="block text-sm font-bold" htmlFor="sticker-search">
-            Sticker suchen
-          </label>
+      <div className="mt-4 grid gap-4 lg:grid-cols-[0.9fr_1.1fr_auto] lg:items-end">
+        <label className="block text-sm font-bold" htmlFor="team-code">
+          Mannschaft
           <input
-            id="sticker-search"
+            id="team-code"
             type="text"
-            value={query}
+            value={teamQuery}
             onChange={(event) => {
-              setQuery(event.target.value);
+              setTeamQuery(event.target.value.toUpperCase());
               setSelectedSticker(null);
             }}
-            placeholder="z. B. MEX11, MEX oder Orbelin"
-            className="mt-2 h-14 w-full rounded-lg border border-[#c9d8f5] bg-[#f7fbff] px-4 text-base outline-none focus:border-[#132a74]"
+            placeholder="z. B. MEX"
+            maxLength={3}
+            className="mt-2 h-14 w-full rounded-lg border border-[#c9d8f5] bg-[#f7fbff] px-4 text-base uppercase outline-none focus:border-[#132a74]"
           />
+        </label>
 
-          <div className="mt-2 grid gap-2">
-            {suggestions.map((sticker) => (
-              <button
-                key={sticker.code}
-                type="button"
-                onClick={() => selectSticker(sticker)}
-                className={`min-h-14 rounded-lg border px-4 py-3 text-left shadow-sm ${
-                  selectedSticker?.code === sticker.code
-                    ? "border-[#e44533] bg-[#fff3f1] ring-2 ring-[#f7c948]"
-                    : "border-[#dbe7ff] bg-white"
-                }`}
-              >
-                <span className="block text-sm font-black text-[#132a74]">
-                  {stickerLabel(sticker)}
-                </span>
-                <span className="block text-xs font-semibold text-[#5d6b86]">
-                  {sticker.team_name} · Code {sticker.code}
-                </span>
-              </button>
-            ))}
-          </div>
+        <div>
+          <p className="text-sm font-bold">
+            {selectedTeamCode
+              ? `${selectedTeamName} (${selectedTeamCode})`
+              : "Nummer"}
+          </p>
+          {selectedTeamStickers.length > 0 ? (
+            <div className="mt-2 grid max-h-40 grid-cols-5 gap-2 overflow-y-auto pr-1 sm:grid-cols-8 lg:max-h-28">
+              {selectedTeamStickers.map((sticker) => (
+                <button
+                  key={sticker.code}
+                  type="button"
+                  onClick={() => selectSticker(sticker)}
+                  className={`h-11 rounded-lg border text-sm font-black ${
+                    selectedSticker?.code === sticker.code
+                      ? "border-[#e44533] bg-[#fff3f1] text-[#132a74] ring-2 ring-[#f7c948]"
+                      : "border-[#dbe7ff] bg-[#f7fbff] text-[#132a74]"
+                  }`}
+                  title={stickerLabel(sticker)}
+                >
+                  {sticker.nummer}
+                </button>
+              ))}
+            </div>
+          ) : normalizedTeamQuery ? (
+            <div className="mt-2 rounded-lg bg-[#f7fbff] p-3 text-sm leading-6 text-[#5d6b86]">
+              {matchingTeamCodes.length > 0 ? (
+                <>
+                  <span>Noch nicht eindeutig:</span>
+                  <div className="mt-2 flex flex-wrap gap-2">
+                    {matchingTeamCodes.slice(0, 8).map((code) => (
+                      <button
+                        key={code}
+                        type="button"
+                        onClick={() => selectTeam(code)}
+                        className="h-9 rounded-lg bg-white px-3 text-xs font-black text-[#132a74] ring-1 ring-[#dbe7ff]"
+                      >
+                        {code}
+                      </button>
+                    ))}
+                  </div>
+                </>
+              ) : (
+                "Kein Team gefunden. Bitte den dreistelligen Team-Code eingeben."
+              )}
+            </div>
+          ) : (
+            <p className="mt-2 rounded-lg bg-[#f7fbff] p-3 text-sm leading-6 text-[#5d6b86]">
+              Gib den Team-Code ein. Sobald die Mannschaft eindeutig ist,
+              erscheinen die Nummern.
+            </p>
+          )}
         </div>
 
-        <div className="rounded-lg bg-[#f7fbff] p-4 ring-1 ring-[#dbe7ff]">
-          <p className="text-sm font-black text-[#132a74]">
-            {liste === "habe" ? "Doppelten Sticker anbieten" : "Sticker suchen"}
-          </p>
-
-          <label className="mt-4 block text-sm font-bold" htmlFor="anzahl">
+        <div className="grid gap-2 sm:grid-cols-[7rem_1fr] lg:block">
+          <label className="block text-sm font-bold" htmlFor="anzahl">
             Anzahl
+            <input
+              id="anzahl"
+              type="number"
+              min="1"
+              value={anzahl}
+              onChange={(event) => setAnzahl(Number(event.target.value))}
+              className="mt-2 h-14 w-full rounded-lg border border-[#c9d8f5] bg-[#f7fbff] px-4 text-base outline-none focus:border-[#132a74]"
+            />
           </label>
-          <input
-            id="anzahl"
-            type="number"
-            min="1"
-            value={anzahl}
-            onChange={(event) => setAnzahl(Number(event.target.value))}
-            className="mt-2 h-14 w-full rounded-lg border border-[#c9d8f5] bg-white px-4 text-base outline-none focus:border-[#132a74]"
-          />
+          <button
+            type="button"
+            onClick={addSticker}
+            disabled={isSaving}
+            className="h-14 rounded-lg bg-[#e44533] px-5 text-base font-black text-white shadow-sm disabled:opacity-70 sm:self-end lg:mt-7 lg:w-full"
+          >
+            {isSaving ? "Speichern..." : "Speichern"}
+          </button>
+        </div>
+      </div>
 
-          {liste === "habe" ? (
-            <>
-              <label
-                className="mt-4 block text-sm font-bold"
-                htmlFor="abgabe-art"
-              >
-                Abgabe-Art
-              </label>
+      <div className="mt-4 grid gap-3 lg:grid-cols-[1fr_1fr]">
+        {selectedSticker ? (
+          <div className="rounded-lg bg-[#fff8df] p-3 text-sm leading-6 text-[#6d5214] ring-1 ring-[#f1d982]">
+            Ausgewaehlt:{" "}
+            <span className="font-black">{stickerLabel(selectedSticker)}</span>
+          </div>
+        ) : null}
+
+        {liste === "habe" ? (
+          <div className="grid gap-3 sm:grid-cols-2">
+            <label className="block text-sm font-bold" htmlFor="abgabe-art">
+              Abgabe-Art
               <select
                 id="abgabe-art"
                 value={abgabeArt}
                 onChange={(event) => setAbgabeArt(event.target.value as AbgabeArt)}
-                className="mt-2 h-14 w-full rounded-lg border border-[#c9d8f5] bg-white px-4 text-base outline-none focus:border-[#132a74]"
+                className="mt-2 h-12 w-full rounded-lg border border-[#c9d8f5] bg-[#f7fbff] px-4 text-base outline-none focus:border-[#132a74]"
               >
                 <option value="tausch">Tauschen</option>
                 <option value="verschenken">Verschenken</option>
                 <option value="verkauf">Verkaufen</option>
               </select>
+            </label>
 
-              {abgabeArt === "verkauf" ? (
-                <>
-                  <label
-                    className="mt-4 block text-sm font-bold"
-                    htmlFor="preis"
-                  >
-                    Preisvorschlag
-                  </label>
-                  <input
-                    id="preis"
-                    type="text"
-                    inputMode="decimal"
-                    value={preisVorschlag}
-                    onChange={(event) => setPreisVorschlag(event.target.value)}
-                    placeholder="z. B. 0,50"
-                    className="mt-2 h-14 w-full rounded-lg border border-[#c9d8f5] bg-white px-4 text-base outline-none focus:border-[#132a74]"
-                  />
-                </>
-              ) : null}
-            </>
-          ) : null}
+            {abgabeArt === "verkauf" ? (
+              <label className="block text-sm font-bold" htmlFor="preis">
+                Preisvorschlag
+                <input
+                  id="preis"
+                  type="text"
+                  inputMode="decimal"
+                  value={preisVorschlag}
+                  onChange={(event) => setPreisVorschlag(event.target.value)}
+                  placeholder="z. B. 0,50"
+                  className="mt-2 h-12 w-full rounded-lg border border-[#c9d8f5] bg-[#f7fbff] px-4 text-base outline-none focus:border-[#132a74]"
+                />
+              </label>
+            ) : null}
+          </div>
+        ) : null}
+      </div>
+    </section>
+  );
+}
 
-          <button
-            type="button"
-            onClick={addSticker}
-            disabled={isSaving}
-            className="mt-5 h-14 w-full rounded-lg bg-[#e44533] px-5 text-base font-black text-white shadow-sm disabled:opacity-70"
-          >
-            {isSaving ? "Speichern..." : "Sticker speichern"}
-          </button>
-        </div>
+export function UserStickerLists({
+  userId,
+  refreshKey,
+  onChanged,
+}: UserStickerListsProps) {
+  const [entries, setEntries] = useState<UserSticker[]>([]);
+  const [message, setMessage] = useState("Stickerlisten werden geladen...");
+
+  useEffect(() => {
+    loadEntries();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [userId, refreshKey]);
+
+  async function loadEntries() {
+    const { data, error } = await supabase
+      .from("user_stickers")
+      .select("id, sticker_code, anzahl, liste, abgabe_art, preis_vorschlag")
+      .eq("user_id", userId)
+      .order("created_at", { ascending: false });
+
+    if (error) {
+      setMessage(error.message);
+      return;
+    }
+
+    setEntries((data ?? []) as UserSticker[]);
+    setMessage("Deine Listen sind aktuell.");
+  }
+
+  async function removeSticker(id: string) {
+    const { error } = await supabase.from("user_stickers").delete().eq("id", id);
+
+    if (error) {
+      setMessage(error.message);
+      return;
+    }
+
+    setMessage("Eintrag geloescht.");
+    loadEntries();
+    onChanged?.();
+  }
+
+  const habeEntries = sortStickerEntries(
+    entries.filter((entry) => entry.liste === "habe"),
+  );
+  const sucheEntries = sortStickerEntries(
+    entries.filter((entry) => entry.liste === "suche"),
+  );
+
+  return (
+    <section className="rounded-lg bg-white p-5 shadow-sm ring-1 ring-[#dbe7ff]">
+      <div>
+        <p className="text-sm font-bold text-[#e44533]">Deine Eintragungen</p>
+        <h2 className="mt-1 text-2xl font-black">Doppelt & gesucht</h2>
+        <p className="mt-2 text-sm leading-6 text-[#5d6b86]">{message}</p>
       </div>
 
-      <div className="mt-6 grid gap-4 md:grid-cols-2">
+      <div className="mt-5 grid gap-4 md:grid-cols-2">
         <StickerList
           title="Habe doppelt"
           emptyText="Noch keine doppelten Sticker eingetragen."
@@ -333,7 +409,7 @@ function StickerList({
       {entries.length === 0 ? (
         <p className="mt-3 text-sm leading-6 text-[#5d6b86]">{emptyText}</p>
       ) : (
-        <div className="mt-3 grid gap-2">
+        <div className="mt-3 grid max-h-96 gap-2 overflow-y-auto pr-1">
           {entries.map((entry) => {
             const sticker = findSticker(entry.sticker_code);
 
@@ -359,7 +435,7 @@ function StickerList({
                   onClick={() => onRemove(entry.id)}
                   className="h-10 rounded-lg border border-[#c9d8f5] px-3 text-sm font-black text-[#132a74]"
                 >
-                  Löschen
+                  Loeschen
                 </button>
               </div>
             );

@@ -10,7 +10,7 @@ import { NotificationBanner } from "./notification-banner";
 import { Onboarding } from "./onboarding";
 import { ProfileSettings } from "./profile-settings";
 import { AppFooter, VoucherBanner } from "./sponsor";
-import { StickerManager } from "./sticker-manager";
+import { StickerManager, UserStickerLists } from "./sticker-manager";
 
 type DashboardProps = {
   session: Session;
@@ -215,6 +215,12 @@ export function Dashboard({ session, onLogout }: DashboardProps) {
         />
 
         <MatchFinder userId={session.user.id} refreshKey={refreshKey} />
+
+        <UserStickerLists
+          userId={session.user.id}
+          refreshKey={refreshKey}
+          onChanged={() => setRefreshKey((current) => current + 1)}
+        />
 
         <BrowseOffers userId={session.user.id} refreshKey={refreshKey} />
 
