@@ -202,6 +202,7 @@ export function MatchFinder({ userId, refreshKey }: MatchFinderProps) {
 
 function MatchCard({ match }: { match: Match }) {
   const isPerfect = match.givesMe.length > 0 && match.wantsMine.length > 0;
+  const [isOpen, setIsOpen] = useState(false);
   const [contact, setContact] = useState<MatchContact | null>(null);
   const [contactMessage, setContactMessage] = useState(
     "Waehle konkrete Sticker aus. Kontaktwege werden erst bei Treffer angezeigt.",
@@ -256,7 +257,11 @@ function MatchCard({ match }: { match: Match }) {
           : "bg-[#f7fbff] text-[#172033] ring-[#dbe7ff]"
       }`}
     >
-      <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
+      <button
+        type="button"
+        onClick={() => setIsOpen((current) => !current)}
+        className="flex w-full flex-col gap-2 text-left sm:flex-row sm:items-start sm:justify-between"
+      >
         <div>
           <p
             className={
@@ -270,6 +275,13 @@ function MatchCard({ match }: { match: Match }) {
           <h3 className="mt-1 text-xl font-black">
             {match.nickname} aus {match.ort}
           </h3>
+          <p
+            className={
+              isPerfect ? "mt-1 text-sm text-white/80" : "mt-1 text-sm text-[#5d6b86]"
+            }
+          >
+            {match.givesMe.length} bekomme ich · {match.wantsMine.length} biete ich
+          </p>
         </div>
         <p
           className={`rounded-full px-3 py-2 text-sm font-black ${
@@ -278,91 +290,99 @@ function MatchCard({ match }: { match: Match }) {
         >
           Score {match.givesMe.length + match.wantsMine.length}
         </p>
-      </div>
+      </button>
 
-      <div className="mt-4 grid gap-3 md:grid-cols-2">
-        <SelectableStickerList
-          title={`Moechte ich bekommen (${match.givesMe.length})`}
-          entries={match.givesMe}
-          selectedIds={selectedReceiveIds}
-          isPerfect={isPerfect}
-          onToggle={(id) => setSelectedReceiveIds(toggleId(selectedReceiveIds, id))}
-        />
-        <SelectableStickerList
-          title={`Biete ich an (${match.wantsMine.length})`}
-          entries={match.wantsMine}
-          selectedIds={selectedOfferIds}
-          isPerfect={isPerfect}
-          onToggle={(id) => setSelectedOfferIds(toggleId(selectedOfferIds, id))}
-        />
-      </div>
-
-      <div
-        className={`mt-4 rounded-lg p-3 ${
-          isPerfect ? "bg-white/10" : "bg-white"
-        }`}
-      >
-        <p
-          className={
-            isPerfect ? "text-sm text-white/80" : "text-sm text-[#5d6b86]"
-          }
-        >
-          {contactMessage}
-        </p>
-
-        <div
-          className={`mt-3 rounded-lg p-3 text-sm ${
-            isPerfect ? "bg-white/10 text-white/85" : "bg-[#f7fbff] text-[#5d6b86]"
-          }`}
-        >
-          <p className="font-black">Vorschau</p>
-          <p className="mt-1 whitespace-pre-line">{proposalText}</p>
-        </div>
-
-        {contact ? (
-          <div className="mt-3 grid gap-2 sm:grid-cols-3">
-            {contact.kontakt_whatsapp ? (
-              <a
-                href={`https://wa.me/${cleanPhone(contact.kontakt_whatsapp)}?text=${encodeURIComponent(proposalText)}`}
-                className="grid h-12 place-items-center rounded-lg bg-[#25d366] px-4 text-sm font-black text-[#102217]"
-                target="_blank"
-                rel="noreferrer"
-              >
-                WhatsApp
-              </a>
-            ) : null}
-            {contact.kontakt_email ? (
-              <a
-                href={`mailto:${contact.kontakt_email}?subject=${encodeURIComponent("Sticker-Tausch")}&body=${encodeURIComponent(proposalText)}`}
-                className="grid h-12 place-items-center rounded-lg bg-[#fed447] px-4 text-sm font-black text-[#172033]"
-              >
-                E-Mail
-              </a>
-            ) : null}
-            {contact.kontakt_telefon ? (
-              <a
-                href={`tel:${contact.kontakt_telefon}`}
-                className="grid h-12 place-items-center rounded-lg bg-white px-4 text-sm font-black text-[#132a74]"
-              >
-                Telefon
-              </a>
-            ) : null}
+      {isOpen ? (
+        <>
+          <div className="mt-4 grid gap-3 md:grid-cols-2">
+            <SelectableStickerList
+              title={`Moechte ich bekommen (${match.givesMe.length})`}
+              entries={match.givesMe}
+              selectedIds={selectedReceiveIds}
+              isPerfect={isPerfect}
+              onToggle={(id) =>
+                setSelectedReceiveIds(toggleId(selectedReceiveIds, id))
+              }
+            />
+            <SelectableStickerList
+              title={`Biete ich an (${match.wantsMine.length})`}
+              entries={match.wantsMine}
+              selectedIds={selectedOfferIds}
+              isPerfect={isPerfect}
+              onToggle={(id) => setSelectedOfferIds(toggleId(selectedOfferIds, id))}
+            />
           </div>
-        ) : (
-          <button
-            type="button"
-            onClick={loadContact}
-            disabled={isLoadingContact}
-            className={`mt-3 h-12 rounded-lg px-4 text-sm font-black ${
-              isPerfect
-                ? "bg-[#fed447] text-[#172033]"
-                : "bg-[#132a74] text-white"
+
+          <div
+            className={`mt-4 rounded-lg p-3 ${
+              isPerfect ? "bg-white/10" : "bg-white"
             }`}
           >
-            {isLoadingContact ? "Lade Kontakt..." : "Kontakt anzeigen"}
-          </button>
-        )}
-      </div>
+            <p
+              className={
+                isPerfect ? "text-sm text-white/80" : "text-sm text-[#5d6b86]"
+              }
+            >
+              {contactMessage}
+            </p>
+
+            <div
+              className={`mt-3 rounded-lg p-3 text-sm ${
+                isPerfect
+                  ? "bg-white/10 text-white/85"
+                  : "bg-[#f7fbff] text-[#5d6b86]"
+              }`}
+            >
+              <p className="font-black">Vorschau</p>
+              <p className="mt-1 whitespace-pre-line">{proposalText}</p>
+            </div>
+
+            {contact ? (
+              <div className="mt-3 grid gap-2 sm:grid-cols-3">
+                {contact.kontakt_whatsapp ? (
+                  <a
+                    href={`https://wa.me/${cleanPhone(contact.kontakt_whatsapp)}?text=${encodeURIComponent(proposalText)}`}
+                    className="grid h-12 place-items-center rounded-lg bg-[#25d366] px-4 text-sm font-black text-[#102217]"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    WhatsApp
+                  </a>
+                ) : null}
+                {contact.kontakt_email ? (
+                  <a
+                    href={`mailto:${contact.kontakt_email}?subject=${encodeURIComponent("Sticker-Tausch")}&body=${encodeURIComponent(proposalText)}`}
+                    className="grid h-12 place-items-center rounded-lg bg-[#fed447] px-4 text-sm font-black text-[#172033]"
+                  >
+                    E-Mail
+                  </a>
+                ) : null}
+                {contact.kontakt_telefon ? (
+                  <a
+                    href={`tel:${contact.kontakt_telefon}`}
+                    className="grid h-12 place-items-center rounded-lg bg-white px-4 text-sm font-black text-[#132a74]"
+                  >
+                    Telefon
+                  </a>
+                ) : null}
+              </div>
+            ) : (
+              <button
+                type="button"
+                onClick={loadContact}
+                disabled={isLoadingContact}
+                className={`mt-3 h-12 rounded-lg px-4 text-sm font-black ${
+                  isPerfect
+                    ? "bg-[#fed447] text-[#172033]"
+                    : "bg-[#132a74] text-white"
+                }`}
+              >
+                {isLoadingContact ? "Lade Kontakt..." : "Kontakt anzeigen"}
+              </button>
+            )}
+          </div>
+        </>
+      ) : null}
     </article>
   );
 }
