@@ -26,7 +26,13 @@ type Profile = {
 
 type CommunityStats = {
   userCount: number;
-  stickerCount: number;
+  availableStickerCount: number;
+  wantedStickerCount: number;
+};
+
+type StickerStatEntry = {
+  anzahl: number;
+  liste: "habe" | "suche";
 };
 
 export function Dashboard({ session, onLogout }: DashboardProps) {
@@ -43,21 +49,25 @@ export function Dashboard({ session, onLogout }: DashboardProps) {
       { data: stickerData, error: stickerError },
     ] = await Promise.all([
       supabase.rpc("get_public_profiles"),
-      supabase.from("user_stickers").select("anzahl"),
+      supabase.from("user_stickers").select("anzahl, liste"),
     ]);
 
     if (profileError || stickerError) {
       return;
     }
 
-    const stickerCount = ((stickerData ?? []) as { anzahl: number }[]).reduce(
-      (sum, entry) => sum + entry.anzahl,
-      0,
-    );
+    const stickerEntries = (stickerData ?? []) as StickerStatEntry[];
+    const availableStickerCount = stickerEntries
+      .filter((entry) => entry.liste === "habe")
+      .reduce((sum, entry) => sum + entry.anzahl, 0);
+    const wantedStickerCount = stickerEntries
+      .filter((entry) => entry.liste === "suche")
+      .reduce((sum, entry) => sum + entry.anzahl, 0);
 
     setCommunityStats({
       userCount: (profileData ?? []).length,
-      stickerCount,
+      availableStickerCount,
+      wantedStickerCount,
     });
   }, []);
 
@@ -235,7 +245,7 @@ export function Dashboard({ session, onLogout }: DashboardProps) {
 
 function CommunityStatsBar({ stats }: { stats: CommunityStats | null }) {
   return (
-    <div className="mt-5 grid gap-3 text-[#172033] sm:grid-cols-2">
+    <div className="mt-5 grid gap-3 text-[#172033] sm:grid-cols-3">
       <div className="rounded-lg bg-white/95 p-4 shadow-sm">
         <p className="text-xs font-black uppercase text-[#e44533]">
           Angemeldet
@@ -247,12 +257,23 @@ function CommunityStatsBar({ stats }: { stats: CommunityStats | null }) {
       </div>
       <div className="rounded-lg bg-[#fed447] p-4 shadow-sm">
         <p className="text-xs font-black uppercase text-[#132a74]">
-          Hinterlegt
+          Verf&uuml;gbar
         </p>
         <p className="mt-1 text-3xl font-black text-[#172033]">
-          {stats ? formatNumber(stats.stickerCount) : "..."}
+          {stats ? formatNumber(stats.availableStickerCount) : "..."}
         </p>
-        <p className="text-sm font-semibold text-[#5d4a12]">Karten insgesamt</p>
+        <p className="text-sm font-semibold text-[#5d4a12]">
+          Karten zum Tauschen, Verschenken oder Kaufen
+        </p>
+      </div>
+      <div className="rounded-lg bg-white/95 p-4 shadow-sm">
+        <p className="text-xs font-black uppercase text-[#132a74]">Gesucht</p>
+        <p className="mt-1 text-3xl font-black text-[#132a74]">
+          {stats ? formatNumber(stats.wantedStickerCount) : "..."}
+        </p>
+        <p className="text-sm font-semibold text-[#5d6b86]">
+          Karten auf Suchlisten
+        </p>
       </div>
     </div>
   );
